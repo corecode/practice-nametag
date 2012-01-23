@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 23 Jan 2012 02:31:57 PM CET
+EESchema Schematic File Version 2  date Mon 23 Jan 2012 02:36:53 PM CET
 LIBS:74hc595
 LIBS:power
 LIBS:device
@@ -47,6 +47,20 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 7850 5150 0    60   Italic 12
+NORMAL
+Text Notes 7900 5850 0    60   Italic 12
+INVERT
+Text Notes 1200 1050 2    60   Italic 12
+ON/OFF
+Text Notes 5050 2700 2    60   Italic 12
+BLINK
+Text Notes 4950 2250 2    60   Italic 12
+CLEAR
+Text Notes 5000 1800 2    60   Italic 12
+ROTATE
+Text Notes 4000 1400 2    60   Italic 12
+FILL
 Wire Wire Line
 	7700 2750 7850 2750
 Wire Notes Line
