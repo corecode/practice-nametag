@@ -56,6 +56,6 @@ ci-fab: ${GERBERS} ${PDFS} ${PNGS} ${PNG_PREVIEWS} ${LICENSE_FILES}
 	git update-ref refs/heads/${FAB_BRANCH} \
 		$$((printf "fab outputs from "; git log --pretty=oneline --abbrev-commit -n1) | \
 		$e git commit-tree $$($e git write-tree) \
-			$$(git show-ref ${FAB_BRANCH} && echo "-p ${FAB_BRANCH}") -p HEAD)
+			$$(git show-ref -q ${FAB_BRANCH} && echo "-p ${FAB_BRANCH}") -p HEAD)
 
 .PHONY: ci-fab
