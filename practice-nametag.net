@@ -1,0 +1,467 @@
+# EESchema Netlist Version 1.1 created  Mon 23 Jan 2012 10:59:25 PM CET
+(
+ ( /4F1DD55A $noname  C4 10u {Lib=CP1}
+  (    1 N-000034 )
+  (    2 GND )
+ )
+ ( /4F1DD552 $noname  C5 10u {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4F1DD214 $noname  C2 2.2u {Lib=CP1}
+  (    1 CLK )
+  (    2 N-000028 )
+ )
+ ( /4F1DD20A $noname  C1 2.2u {Lib=CP1}
+  (    1 N-000027 )
+  (    2 N-000026 )
+ )
+ ( /4F1DCEC2 $noname  R7 10k {Lib=R}
+  (    1 N-000030 )
+  (    2 FEEDBACK_IN )
+ )
+ ( /4F1DCB1E $noname  P3 FEEDBACK {Lib=CONN_9}
+  (    1 N-000025 )
+  (    2 N-000033 )
+  (    3 N-000003 )
+  (    4 N-000032 )
+  (    5 N-000006 )
+  (    6 N-000031 )
+  (    7 N-000004 )
+  (    8 N-000005 )
+  (    9 N-000017 )
+ )
+ ( /4F1DCB04 $noname  P1 LED_OUT {Lib=CONN_8}
+  (    1 N-000022 )
+  (    2 N-000015 )
+  (    3 N-000014 )
+  (    4 N-000013 )
+  (    5 N-000007 )
+  (    6 N-000012 )
+  (    7 N-000011 )
+  (    8 N-000010 )
+ )
+ ( /4F1DCA05 $noname  Q3 NPN {Lib=NPN}
+  (    1 GND )
+  (    2 N-000016 )
+  (    3 N-000029 )
+ )
+ ( /4F1C9966 $noname  SW1 DIPSW8 {Lib=DIPSW8}
+  (    1 N-000019 )
+  (    2 N-000029 )
+  (    3 N-000016 )
+  (    4 VCC )
+  (    5 FEEDBACK )
+  (    6 FEEDBACK )
+  (    7 CLK )
+  (   10 N-000021 )
+  (   11 N-000018 )
+  (   12 N-000020 )
+  (   13 FEEDBACK )
+  (   14 N-000030 )
+  (   15 N-000030 )
+  (   16 VCC )
+ )
+ ( /4F1C7793 $noname  P4 LEDMATRIX {Lib=LEDMATRIX}
+  (    ~ GND )
+ )
+ ( /4F1B5030 $noname  P2 POWER {Lib=CONN_2}
+  (    1 N-000034 )
+  (    2 GND )
+ )
+ ( /4F1B5018 $noname  P5 FB_IN {Lib=CONN_1}
+  (    1 FEEDBACK_IN )
+ )
+ ( /4F1B4F9D $noname  R5 47k {Lib=R}
+  (    1 FEEDBACK )
+  (    2 N-000029 )
+ )
+ ( /4F1B4ECE $noname  R6 47k {Lib=R}
+  (    1 VCC )
+  (    2 N-000029 )
+ )
+ ( /4F1B4BC7 $noname  R12 R {Lib=R}
+  (    1 N-000006 )
+  (    2 N-000007 )
+ )
+ ( /4F1B4BC6 $noname  R13 R {Lib=R}
+  (    1 N-000031 )
+  (    2 N-000012 )
+ )
+ ( /4F1B4BC5 $noname  R15 R {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000010 )
+ )
+ ( /4F1B4BC4 $noname  R14 R {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000011 )
+ )
+ ( /4F1B4BC1 $noname  R10 R {Lib=R}
+  (    1 N-000003 )
+  (    2 N-000014 )
+ )
+ ( /4F1B4BC0 $noname  R11 R {Lib=R}
+  (    1 N-000032 )
+  (    2 N-000013 )
+ )
+ ( /4F1B4BBC $noname  R9 R {Lib=R}
+  (    1 N-000033 )
+  (    2 N-000015 )
+ )
+ ( /4F1B4B8A $noname  R8 R {Lib=R}
+  (    1 N-000025 )
+  (    2 N-000022 )
+ )
+ ( /4F1B44E6 $noname  SW2 SPST {Lib=SPST}
+  (    1 VCC )
+  (    2 FEEDBACK )
+ )
+ ( /4F1B4470 $noname  C3 100n {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4F1B444B $noname  U2 7805 {Lib=7805}
+  (  GND GND )
+  (   VI N-000034 )
+  (   VO VCC )
+ )
+ ( /4F1B428B $noname  RV1 1M {Lib=POT}
+  (    1 N-000024 )
+  (    2 N-000024 )
+  (    3 VCC )
+ )
+ ( /4F1B41C3 $noname  RV2 1M {Lib=POT}
+  (    1 N-000023 )
+  (    2 N-000023 )
+  (    3 VCC )
+ )
+ ( /4F1B40F6 $noname  Q2 NPN {Lib=NPN}
+  (    1 GND )
+  (    2 N-000026 )
+  (    3 CLK )
+ )
+ ( /4F1B40F4 $noname  R4 47k {Lib=R}
+  (    1 VCC )
+  (    2 CLK )
+ )
+ ( /4F1B40F3 $noname  R3 47k {Lib=R}
+  (    1 N-000023 )
+  (    2 N-000028 )
+ )
+ ( /4F1B118A $noname  U1 74HC595 {Lib=74HC595}
+  (    1 N-000033 )
+  (    2 N-000003 )
+  (    3 N-000032 )
+  (    4 N-000006 )
+  (    5 N-000031 )
+  (    6 N-000004 )
+  (    7 N-000005 )
+  (    8 GND )
+  (    9 N-000017 )
+  (   10 N-000018 )
+  (   11 CLK )
+  (   12 CLK )
+  (   13 N-000021 )
+  (   14 N-000020 )
+  (   15 N-000025 )
+  (   16 VCC )
+ )
+ ( /4F1B04DF $noname  BT1 CR2032 {Lib=BATTERY}
+  (    1 N-000019 )
+  (    2 GND )
+ )
+ ( /4F1B04C2 $noname  R2 47k {Lib=R}
+  (    1 N-000024 )
+  (    2 N-000026 )
+ )
+ ( /4F1B04BB $noname  R1 47k {Lib=R}
+  (    1 VCC )
+  (    2 N-000027 )
+ )
+ ( /4F1B0498 $noname  Q1 NPN {Lib=NPN}
+  (    1 GND )
+  (    2 N-000028 )
+  (    3 N-000027 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C4
+ CP*
+ SM*
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "VCC" "VCC"
+ SW2 1
+ RV2 3
+ R4 1
+ SW1 4
+ SW1 16
+ R6 1
+ C5 1
+ R1 1
+ C3 1
+ U2 VO
+ U1 16
+ RV1 3
+Net 2 "FEEDBACK" "FEEDBACK"
+ SW2 2
+ SW1 13
+ SW1 5
+ SW1 6
+ R5 1
+Net 3 "" ""
+ P3 3
+ R10 1
+ U1 2
+Net 4 "" ""
+ R14 1
+ U1 6
+ P3 7
+Net 5 "" ""
+ U1 7
+ P3 8
+ R15 1
+Net 6 "" ""
+ P3 5
+ U1 4
+ R12 1
+Net 7 "" ""
+ R12 2
+ P1 5
+Net 8 "FEEDBACK_IN" "FEEDBACK_IN"
+ R7 2
+ P5 1
+Net 9 "GND" "GND"
+ C3 2
+ Q2 1
+ U2 GND
+ Q3 1
+ P4 ~
+ P2 2
+ BT1 2
+ C5 2
+ C4 2
+ Q1 1
+ U1 8
+Net 10 "" ""
+ R15 2
+ P1 8
+Net 11 "" ""
+ P1 7
+ R14 2
+Net 12 "" ""
+ P1 6
+ R13 2
+Net 13 "" ""
+ P1 4
+ R11 2
+Net 14 "" ""
+ R10 2
+ P1 3
+Net 15 "" ""
+ R9 2
+ P1 2
+Net 16 "" ""
+ SW1 3
+ Q3 2
+Net 17 "" ""
+ U1 9
+ P3 9
+Net 18 "" ""
+ SW1 11
+ U1 10
+Net 19 "" ""
+ BT1 1
+ SW1 1
+Net 20 "" ""
+ U1 14
+ SW1 12
+Net 21 "" ""
+ U1 13
+ SW1 10
+Net 22 "" ""
+ R8 2
+ P1 1
+Net 23 "" ""
+ RV2 1
+ R3 1
+ RV2 2
+Net 24 "" ""
+ R2 1
+ RV1 1
+ RV1 2
+Net 25 "" ""
+ U1 15
+ P3 1
+ R8 1
+Net 26 "" ""
+ R2 2
+ Q2 2
+ C1 2
+Net 27 "" ""
+ Q1 3
+ R1 2
+ C1 1
+Net 28 "" ""
+ R3 2
+ C2 2
+ Q1 2
+Net 29 "" ""
+ Q3 3
+ R6 2
+ SW1 2
+ R5 2
+Net 30 "" ""
+ R7 1
+ SW1 15
+ SW1 14
+Net 31 "" ""
+ P3 6
+ U1 5
+ R13 1
+Net 32 "" ""
+ R11 1
+ U1 3
+ P3 4
+Net 33 "" ""
+ P3 2
+ U1 1
+ R9 1
+Net 34 "" ""
+ C4 1
+ P2 1
+ U2 VI
+Net 35 "CLK" "CLK"
+ R4 2
+ Q2 3
+ U1 11
+ U1 12
+ C2 1
+ SW1 7
+}
+#End
