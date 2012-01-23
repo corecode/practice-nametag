@@ -1,4 +1,4 @@
-update=Sun 22 Jan 2012 09:53:47 PM CET
+update=Sun 22 Jan 2012 11:30:25 PM CET
 version=1
 last_client=eeschema
 [cvpcb]
@@ -102,3 +102,4 @@ LibName29=atmel
 LibName30=contrib
 LibName31=valves
 LibName32=ledmatrix
+LibName33=dipsw8
