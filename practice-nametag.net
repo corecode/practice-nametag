@@ -1,199 +1,975 @@
-# EESchema Netlist Version 1.1 created  Mon 23 Jan 2012 10:59:25 PM CET
+# EESchema Netlist Version 1.1 created  Thu 26 Jan 2012 05:09:52 PM CET
 (
- ( /4F1DD55A $noname  C4 10u {Lib=CP1}
-  (    1 N-000034 )
-  (    2 GND )
- )
- ( /4F1DD552 $noname  C5 10u {Lib=CP1}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /4F1DD214 $noname  C2 2.2u {Lib=CP1}
-  (    1 CLK )
-  (    2 N-000028 )
- )
- ( /4F1DD20A $noname  C1 2.2u {Lib=CP1}
-  (    1 N-000027 )
-  (    2 N-000026 )
- )
- ( /4F1DCEC2 $noname  R7 10k {Lib=R}
-  (    1 N-000030 )
-  (    2 FEEDBACK_IN )
- )
- ( /4F1DCB1E $noname  P3 FEEDBACK {Lib=CONN_9}
-  (    1 N-000025 )
-  (    2 N-000033 )
-  (    3 N-000003 )
-  (    4 N-000032 )
-  (    5 N-000006 )
-  (    6 N-000031 )
-  (    7 N-000004 )
-  (    8 N-000005 )
-  (    9 N-000017 )
- )
- ( /4F1DCB04 $noname  P1 LED_OUT {Lib=CONN_8}
-  (    1 N-000022 )
-  (    2 N-000015 )
-  (    3 N-000014 )
-  (    4 N-000013 )
-  (    5 N-000007 )
-  (    6 N-000012 )
-  (    7 N-000011 )
-  (    8 N-000010 )
- )
- ( /4F1DCA05 $noname  Q3 NPN {Lib=NPN}
-  (    1 GND )
-  (    2 N-000016 )
-  (    3 N-000029 )
- )
- ( /4F1C9966 $noname  SW1 DIPSW8 {Lib=DIPSW8}
-  (    1 N-000019 )
-  (    2 N-000029 )
-  (    3 N-000016 )
-  (    4 VCC )
-  (    5 FEEDBACK )
-  (    6 FEEDBACK )
-  (    7 CLK )
-  (   10 N-000021 )
-  (   11 N-000018 )
-  (   12 N-000020 )
-  (   13 FEEDBACK )
-  (   14 N-000030 )
-  (   15 N-000030 )
-  (   16 VCC )
- )
- ( /4F1C7793 $noname  P4 LEDMATRIX {Lib=LEDMATRIX}
-  (    ~ GND )
- )
- ( /4F1B5030 $noname  P2 POWER {Lib=CONN_2}
-  (    1 N-000034 )
-  (    2 GND )
- )
- ( /4F1B5018 $noname  P5 FB_IN {Lib=CONN_1}
-  (    1 FEEDBACK_IN )
- )
- ( /4F1B4F9D $noname  R5 47k {Lib=R}
-  (    1 FEEDBACK )
-  (    2 N-000029 )
- )
- ( /4F1B4ECE $noname  R6 47k {Lib=R}
-  (    1 VCC )
-  (    2 N-000029 )
- )
- ( /4F1B4BC7 $noname  R12 R {Lib=R}
-  (    1 N-000006 )
-  (    2 N-000007 )
- )
- ( /4F1B4BC6 $noname  R13 R {Lib=R}
-  (    1 N-000031 )
-  (    2 N-000012 )
- )
- ( /4F1B4BC5 $noname  R15 R {Lib=R}
-  (    1 N-000005 )
-  (    2 N-000010 )
- )
- ( /4F1B4BC4 $noname  R14 R {Lib=R}
-  (    1 N-000004 )
-  (    2 N-000011 )
- )
- ( /4F1B4BC1 $noname  R10 R {Lib=R}
-  (    1 N-000003 )
-  (    2 N-000014 )
- )
- ( /4F1B4BC0 $noname  R11 R {Lib=R}
+ ( /4F1ED5E7 PIN_ARRAY_3X1  JP2 JUMPER3 {Lib=JUMPER3}
   (    1 N-000032 )
-  (    2 N-000013 )
+  (    2 N-000017 )
+  (    3 N-000019 )
  )
- ( /4F1B4BBC $noname  R9 R {Lib=R}
-  (    1 N-000033 )
-  (    2 N-000015 )
+ ( /4F1ED5BE PIN_ARRAY_3X1  JP4 JUMPER3 {Lib=JUMPER3}
+  (    1 N-000021 )
+  (    2 FEEDBACK )
+  (    3 N-000028 )
  )
- ( /4F1B4B8A $noname  R8 R {Lib=R}
-  (    1 N-000025 )
-  (    2 N-000022 )
+ ( /4F1ED5A9 PIN_ARRAY_2X1  JP5 JUMPER {Lib=JUMPER}
+  (    1 CLK )
+  (    2 N-000027 )
  )
- ( /4F1B44E6 $noname  SW2 SPST {Lib=SPST}
+ ( /4F1ED571 PIN_ARRAY_2X1  JP3 JUMPER {Lib=JUMPER}
   (    1 VCC )
   (    2 FEEDBACK )
  )
- ( /4F1B4470 $noname  C3 100n {Lib=C}
+ ( /4F1ED51A PIN_ARRAY_2X1  JP1 JUMPER {Lib=JUMPER}
+  (    1 N-000034 )
+  (    2 VCC )
+ )
+ ( /4F1ECFAC PIN_ARRAY_1  P17 CONN_1 {Lib=CONN_1}
+  (    1 N-000025 )
+ )
+ ( /4F1ECFAB PIN_ARRAY_1  P13 CONN_1 {Lib=CONN_1}
+  (    1 N-000002 )
+ )
+ ( /4F1ECFAA PIN_ARRAY_1  P14 CONN_1 {Lib=CONN_1}
+  (    1 N-000030 )
+ )
+ ( /4F1ECFA9 PIN_ARRAY_1  P16 CONN_1 {Lib=CONN_1}
+  (    1 N-000029 )
+ )
+ ( /4F1ECFA8 PIN_ARRAY_1  P15 CONN_1 {Lib=CONN_1}
+  (    1 N-000004 )
+ )
+ ( /4F1ECFA4 PIN_ARRAY_1  P11 CONN_1 {Lib=CONN_1}
+  (    1 N-000005 )
+ )
+ ( /4F1ECFA3 PIN_ARRAY_1  P12 CONN_1 {Lib=CONN_1}
+  (    1 N-000031 )
+ )
+ ( /4F1ECF9F PIN_ARRAY_1  P10 CONN_1 {Lib=CONN_1}
+  (    1 N-000006 )
+ )
+ ( /4F1ECF9A PIN_ARRAY_1  P9 CONN_1 {Lib=CONN_1}
+  (    1 N-000007 )
+ )
+ ( /4F1EBEC1 PIN_ARRAY_1  P5 CONN_1 {Lib=CONN_1}
+  (    1 N-000009 )
+ )
+ ( /4F1EBEC0 PIN_ARRAY_1  P6 CONN_1 {Lib=CONN_1}
+  (    1 N-000010 )
+ )
+ ( /4F1EBEBF PIN_ARRAY_1  P8 CONN_1 {Lib=CONN_1}
+  (    1 N-000011 )
+ )
+ ( /4F1EBEBE PIN_ARRAY_1  P7 CONN_1 {Lib=CONN_1}
+  (    1 N-000012 )
+ )
+ ( /4F1EBEBC PIN_ARRAY_1  P3 CONN_1 {Lib=CONN_1}
+  (    1 N-000013 )
+ )
+ ( /4F1EBEBB PIN_ARRAY_1  P4 CONN_1 {Lib=CONN_1}
+  (    1 N-000014 )
+ )
+ ( /4F1EBEB7 PIN_ARRAY_1  P2 CONN_1 {Lib=CONN_1}
+  (    1 N-000008 )
+ )
+ ( /4F1EBEB0 PIN_ARRAY_1  P1 CONN_1 {Lib=CONN_1}
+  (    1 N-000015 )
+ )
+ ( /4F1DD214 C1V5  C2 2.2u {Lib=CP1}
+  (    1 CLK )
+  (    2 N-000023 )
+ )
+ ( /4F1DD20A C1V5  C1 2.2u {Lib=CP1}
+  (    1 N-000016 )
+  (    2 N-000022 )
+ )
+ ( /4F1DCEC2 R1  R7 10k {Lib=R}
+  (    1 N-000017 )
+  (    2 FEEDBACK_IN )
+ )
+ ( /4F1DCA05 TO92-123  Q3 NPN {Lib=NPN}
+  (    1 GND )
+  (    2 N-000019 )
+  (    3 N-000032 )
+ )
+ ( /4F1B5018 PIN_ARRAY_1  P18 FB_IN {Lib=CONN_1}
+  (    1 FEEDBACK_IN )
+ )
+ ( /4F1B4F9D R1  R5 47k {Lib=R}
+  (    1 FEEDBACK )
+  (    2 N-000032 )
+ )
+ ( /4F1B4ECE R1  R6 47k {Lib=R}
+  (    1 VCC )
+  (    2 N-000032 )
+ )
+ ( /4F1B4BC7 R1  R12 R {Lib=R}
+  (    1 N-000002 )
+  (    2 N-000009 )
+ )
+ ( /4F1B4BC6 R1  R13 R {Lib=R}
+  (    1 N-000030 )
+  (    2 N-000010 )
+ )
+ ( /4F1B4BC5 R1  R15 R {Lib=R}
+  (    1 N-000029 )
+  (    2 N-000011 )
+ )
+ ( /4F1B4BC4 R1  R14 R {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000012 )
+ )
+ ( /4F1B4BC1 R1  R10 R {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000013 )
+ )
+ ( /4F1B4BC0 R1  R11 R {Lib=R}
+  (    1 N-000031 )
+  (    2 N-000014 )
+ )
+ ( /4F1B4BBC R1  R9 R {Lib=R}
+  (    1 N-000006 )
+  (    2 N-000008 )
+ )
+ ( /4F1B4B8A R1  R8 R {Lib=R}
+  (    1 N-000007 )
+  (    2 N-000015 )
+ )
+ ( /4F1B44E6 FSM4JH  SW1 SPST {Lib=SPST}
+  (    1 VCC )
+  (    2 FEEDBACK )
+ )
+ ( /4F1B4470 C1  C3 100n {Lib=C}
   (    1 VCC )
   (    2 GND )
  )
- ( /4F1B444B $noname  U2 7805 {Lib=7805}
-  (  GND GND )
-  (   VI N-000034 )
-  (   VO VCC )
- )
- ( /4F1B428B $noname  RV1 1M {Lib=POT}
+ ( /4F1B428B TRIMPOT6P  RV1 1M {Lib=POT}
   (    1 N-000024 )
   (    2 N-000024 )
   (    3 VCC )
  )
- ( /4F1B41C3 $noname  RV2 1M {Lib=POT}
-  (    1 N-000023 )
-  (    2 N-000023 )
+ ( /4F1B41C3 TRIMPOT6P  RV2 1M {Lib=POT}
+  (    1 N-000026 )
+  (    2 N-000026 )
   (    3 VCC )
  )
- ( /4F1B40F6 $noname  Q2 NPN {Lib=NPN}
+ ( /4F1B40F6 TO92-123  Q2 NPN {Lib=NPN}
   (    1 GND )
-  (    2 N-000026 )
+  (    2 N-000022 )
   (    3 CLK )
  )
- ( /4F1B40F4 $noname  R4 47k {Lib=R}
+ ( /4F1B40F4 R1  R4 47k {Lib=R}
   (    1 VCC )
   (    2 CLK )
  )
- ( /4F1B40F3 $noname  R3 47k {Lib=R}
-  (    1 N-000023 )
-  (    2 N-000028 )
+ ( /4F1B40F3 R1  R3 47k {Lib=R}
+  (    1 N-000026 )
+  (    2 N-000023 )
  )
- ( /4F1B118A $noname  U1 74HC595 {Lib=74HC595}
-  (    1 N-000033 )
-  (    2 N-000003 )
-  (    3 N-000032 )
-  (    4 N-000006 )
-  (    5 N-000031 )
+ ( /4F1B118A DIP-16__300_ELL  U1 74HC595 {Lib=74HC595}
+  (    1 N-000006 )
+  (    2 N-000005 )
+  (    3 N-000031 )
+  (    4 N-000002 )
+  (    5 N-000030 )
   (    6 N-000004 )
-  (    7 N-000005 )
+  (    7 N-000029 )
   (    8 GND )
-  (    9 N-000017 )
-  (   10 N-000018 )
+  (    9 N-000025 )
+  (   10 N-000028 )
   (   11 CLK )
   (   12 CLK )
-  (   13 N-000021 )
-  (   14 N-000020 )
-  (   15 N-000025 )
+  (   13 N-000027 )
+  (   14 N-000021 )
+  (   15 N-000007 )
   (   16 VCC )
  )
- ( /4F1B04DF $noname  BT1 CR2032 {Lib=BATTERY}
-  (    1 N-000019 )
+ ( /4F1B04DF CR2032  BT1 CR2032 {Lib=BATTERY}
+  (    1 N-000034 )
   (    2 GND )
  )
- ( /4F1B04C2 $noname  R2 47k {Lib=R}
+ ( /4F1B04C2 R1  R2 47k {Lib=R}
   (    1 N-000024 )
-  (    2 N-000026 )
+  (    2 N-000022 )
  )
- ( /4F1B04BB $noname  R1 47k {Lib=R}
+ ( /4F1B04BB R1  R1 47k {Lib=R}
   (    1 VCC )
-  (    2 N-000027 )
+  (    2 N-000016 )
  )
- ( /4F1B0498 $noname  Q1 NPN {Lib=NPN}
+ ( /4F1B0498 TO92-123  Q1 NPN {Lib=NPN}
   (    1 GND )
-  (    2 N-000028 )
-  (    3 N-000027 )
+  (    2 N-000023 )
+  (    3 N-000016 )
+ )
+ ( /4F2170E9/4F21733F LEDLINK  P20 CONN_2 {Lib=CONN_2}
+  (    1 N-000057 )
+  (    2 N-000057 )
+ )
+ ( /4F2170E9/4F21733E LEDLINK  P22 CONN_2 {Lib=CONN_2}
+  (    1 N-000044 )
+  (    2 N-000044 )
+ )
+ ( /4F2170E9/4F21733D LEDLINK  P26 CONN_2 {Lib=CONN_2}
+  (    1 N-000045 )
+  (    2 N-000045 )
+ )
+ ( /4F2170E9/4F21733C LEDLINK  P24 CONN_2 {Lib=CONN_2}
+  (    1 N-000043 )
+  (    2 N-000043 )
+ )
+ ( /4F2170E9/4F21733B LEDLINK  P32 CONN_2 {Lib=CONN_2}
+  (    1 N-000036 )
+  (    2 N-000036 )
+ )
+ ( /4F2170E9/4F21733A LEDLINK  P34 CONN_2 {Lib=CONN_2}
+  (    1 N-000037 )
+  (    2 N-000037 )
+ )
+ ( /4F2170E9/4F217339 LEDLINK  P30 CONN_2 {Lib=CONN_2}
+  (    1 N-000035 )
+  (    2 N-000035 )
+ )
+ ( /4F2170E9/4F217338 LEDLINK  P28 CONN_2 {Lib=CONN_2}
+  (    1 N-000041 )
+  (    2 N-000041 )
+ )
+ ( /4F2170E9/4F217333 LEDLINK  P40 CONN_2 {Lib=CONN_2}
+  (    1 N-000042 )
+  (    2 N-000042 )
+ )
+ ( /4F2170E9/4F217332 LEDLINK  P42 CONN_2 {Lib=CONN_2}
+  (    1 N-000038 )
+  (    2 N-000038 )
+ )
+ ( /4F2170E9/4F217331 LEDLINK  P38 CONN_2 {Lib=CONN_2}
+  (    1 N-000040 )
+  (    2 N-000040 )
+ )
+ ( /4F2170E9/4F217330 LEDLINK  P36 CONN_2 {Lib=CONN_2}
+  (    1 N-000051 )
+  (    2 N-000051 )
+ )
+ ( /4F2170E9/4F21732A LEDLINK  P35 CONN_2 {Lib=CONN_2}
+  (    1 N-000052 )
+  (    2 N-000052 )
+ )
+ ( /4F2170E9/4F217329 LEDLINK  P37 CONN_2 {Lib=CONN_2}
+  (    1 N-000050 )
+  (    2 N-000050 )
+ )
+ ( /4F2170E9/4F217328 LEDLINK  P41 CONN_2 {Lib=CONN_2}
+  (    1 N-000054 )
+  (    2 N-000054 )
+ )
+ ( /4F2170E9/4F217327 LEDLINK  P39 CONN_2 {Lib=CONN_2}
+  (    1 N-000056 )
+  (    2 N-000056 )
+ )
+ ( /4F2170E9/4F21731D LEDLINK  P27 CONN_2 {Lib=CONN_2}
+  (    1 N-000053 )
+  (    2 N-000053 )
+ )
+ ( /4F2170E9/4F21731C LEDLINK  P29 CONN_2 {Lib=CONN_2}
+  (    1 N-000047 )
+  (    2 N-000047 )
+ )
+ ( /4F2170E9/4F21731B LEDLINK  P33 CONN_2 {Lib=CONN_2}
+  (    1 N-000060 )
+  (    2 N-000060 )
+ )
+ ( /4F2170E9/4F21731A LEDLINK  P31 CONN_2 {Lib=CONN_2}
+  (    1 N-000058 )
+  (    2 N-000058 )
+ )
+ ( /4F2170E9/4F217313 LEDLINK  P23 CONN_2 {Lib=CONN_2}
+  (    1 N-000059 )
+  (    2 N-000059 )
+ )
+ ( /4F2170E9/4F217312 LEDLINK  P25 CONN_2 {Lib=CONN_2}
+  (    1 N-000048 )
+  (    2 N-000048 )
+ )
+ ( /4F2170E9/4F21730A LEDLINK  P21 CONN_2 {Lib=CONN_2}
+  (    1 N-000049 )
+  (    2 N-000049 )
+ )
+ ( /4F2170E9/4F2172D6 LEDLINK  P19 CONN_2 {Lib=CONN_2}
+  (    1 N-000046 )
+  (    2 N-000046 )
+ )
+ ( /4F2170E9/4F2172A4 LED-3MM  D8 LED {Lib=LED}
+  (    1 N-000057 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2172A3 LED-3MM  D9 LED {Lib=LED}
+  (    1 N-000057 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2172A1 LED-3MM  D10 LED {Lib=LED}
+  (    1 N-000057 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2172A0 LED-3MM  D12 LED {Lib=LED}
+  (    1 N-000057 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21729F LED-3MM  D11 LED {Lib=LED}
+  (    1 N-000057 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21729E LED-3MM  D13 LED {Lib=LED}
+  (    1 N-000057 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21729D LED-3MM  D14 LED {Lib=LED}
+  (    1 N-000057 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21729A LED-3MM  D28 LED {Lib=LED}
+  (    1 N-000044 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217299 LED-3MM  D27 LED {Lib=LED}
+  (    1 N-000044 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217298 LED-3MM  D25 LED {Lib=LED}
+  (    1 N-000044 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217297 LED-3MM  D26 LED {Lib=LED}
+  (    1 N-000044 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217296 LED-3MM  D24 LED {Lib=LED}
+  (    1 N-000044 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217294 LED-3MM  D23 LED {Lib=LED}
+  (    1 N-000044 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217293 LED-3MM  D22 LED {Lib=LED}
+  (    1 N-000044 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217292 LED-3MM  D50 LED {Lib=LED}
+  (    1 N-000045 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217291 LED-3MM  D51 LED {Lib=LED}
+  (    1 N-000045 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21728F LED-3MM  D52 LED {Lib=LED}
+  (    1 N-000045 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21728E LED-3MM  D54 LED {Lib=LED}
+  (    1 N-000045 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21728D LED-3MM  D53 LED {Lib=LED}
+  (    1 N-000045 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21728C LED-3MM  D55 LED {Lib=LED}
+  (    1 N-000045 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21728B LED-3MM  D56 LED {Lib=LED}
+  (    1 N-000045 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217288 LED-3MM  D42 LED {Lib=LED}
+  (    1 N-000043 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217287 LED-3MM  D41 LED {Lib=LED}
+  (    1 N-000043 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217286 LED-3MM  D39 LED {Lib=LED}
+  (    1 N-000043 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217285 LED-3MM  D40 LED {Lib=LED}
+  (    1 N-000043 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217284 LED-3MM  D38 LED {Lib=LED}
+  (    1 N-000043 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217282 LED-3MM  D37 LED {Lib=LED}
+  (    1 N-000043 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217281 LED-3MM  D36 LED {Lib=LED}
+  (    1 N-000043 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217280 LED-3MM  D92 LED {Lib=LED}
+  (    1 N-000036 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21727F LED-3MM  D93 LED {Lib=LED}
+  (    1 N-000036 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21727D LED-3MM  D94 LED {Lib=LED}
+  (    1 N-000036 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21727C LED-3MM  D96 LED {Lib=LED}
+  (    1 N-000036 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21727B LED-3MM  D95 LED {Lib=LED}
+  (    1 N-000036 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21727A LED-3MM  D97 LED {Lib=LED}
+  (    1 N-000036 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217279 LED-3MM  D98 LED {Lib=LED}
+  (    1 N-000036 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217276 LED-3MM  D112 LED {Lib=LED}
+  (    1 N-000037 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217275 LED-3MM  D111 LED {Lib=LED}
+  (    1 N-000037 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217274 LED-3MM  D109 LED {Lib=LED}
+  (    1 N-000037 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217273 LED-3MM  D110 LED {Lib=LED}
+  (    1 N-000037 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217272 LED-3MM  D108 LED {Lib=LED}
+  (    1 N-000037 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217270 LED-3MM  D107 LED {Lib=LED}
+  (    1 N-000037 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21726F LED-3MM  D106 LED {Lib=LED}
+  (    1 N-000037 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21726E LED-3MM  D78 LED {Lib=LED}
+  (    1 N-000035 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21726D LED-3MM  D79 LED {Lib=LED}
+  (    1 N-000035 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21726B LED-3MM  D80 LED {Lib=LED}
+  (    1 N-000035 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21726A LED-3MM  D82 LED {Lib=LED}
+  (    1 N-000035 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217269 LED-3MM  D81 LED {Lib=LED}
+  (    1 N-000035 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217268 LED-3MM  D83 LED {Lib=LED}
+  (    1 N-000035 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217267 LED-3MM  D84 LED {Lib=LED}
+  (    1 N-000035 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217264 LED-3MM  D70 LED {Lib=LED}
+  (    1 N-000041 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217263 LED-3MM  D69 LED {Lib=LED}
+  (    1 N-000041 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217262 LED-3MM  D67 LED {Lib=LED}
+  (    1 N-000041 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217261 LED-3MM  D68 LED {Lib=LED}
+  (    1 N-000041 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217260 LED-3MM  D66 LED {Lib=LED}
+  (    1 N-000041 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21725E LED-3MM  D65 LED {Lib=LED}
+  (    1 N-000041 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21725D LED-3MM  D64 LED {Lib=LED}
+  (    1 N-000041 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217238 LED-3MM  D148 LED {Lib=LED}
+  (    1 N-000042 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217237 LED-3MM  D149 LED {Lib=LED}
+  (    1 N-000042 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217235 LED-3MM  D150 LED {Lib=LED}
+  (    1 N-000042 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217234 LED-3MM  D152 LED {Lib=LED}
+  (    1 N-000042 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217233 LED-3MM  D151 LED {Lib=LED}
+  (    1 N-000042 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217232 LED-3MM  D153 LED {Lib=LED}
+  (    1 N-000042 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217231 LED-3MM  D154 LED {Lib=LED}
+  (    1 N-000042 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21722E LED-3MM  D168 LED {Lib=LED}
+  (    1 N-000038 )
+  (    2 N-000039 )
+ )
+ ( /4F2170E9/4F21722D LED-3MM  D167 LED {Lib=LED}
+  (    1 N-000038 )
+  (    2 N-000039 )
+ )
+ ( /4F2170E9/4F21722C LED-3MM  D165 LED {Lib=LED}
+  (    1 N-000038 )
+  (    2 N-000039 )
+ )
+ ( /4F2170E9/4F21722B LED-3MM  D166 LED {Lib=LED}
+  (    1 N-000038 )
+  (    2 N-000039 )
+ )
+ ( /4F2170E9/4F21722A LED-3MM  D164 LED {Lib=LED}
+  (    1 N-000038 )
+  (    2 N-000039 )
+ )
+ ( /4F2170E9/4F217228 LED-3MM  D163 LED {Lib=LED}
+  (    1 N-000038 )
+  (    2 N-000039 )
+ )
+ ( /4F2170E9/4F217227 LED-3MM  D162 LED {Lib=LED}
+  (    1 N-000038 )
+  (    2 N-000039 )
+ )
+ ( /4F2170E9/4F217226 LED-3MM  D134 LED {Lib=LED}
+  (    1 N-000040 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217225 LED-3MM  D135 LED {Lib=LED}
+  (    1 N-000040 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217223 LED-3MM  D136 LED {Lib=LED}
+  (    1 N-000040 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217222 LED-3MM  D138 LED {Lib=LED}
+  (    1 N-000040 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217221 LED-3MM  D137 LED {Lib=LED}
+  (    1 N-000040 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217220 LED-3MM  D139 LED {Lib=LED}
+  (    1 N-000040 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21721F LED-3MM  D140 LED {Lib=LED}
+  (    1 N-000040 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21721C LED-3MM  D126 LED {Lib=LED}
+  (    1 N-000051 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21721B LED-3MM  D125 LED {Lib=LED}
+  (    1 N-000051 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21721A LED-3MM  D123 LED {Lib=LED}
+  (    1 N-000051 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217219 LED-3MM  D124 LED {Lib=LED}
+  (    1 N-000051 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217218 LED-3MM  D122 LED {Lib=LED}
+  (    1 N-000051 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217216 LED-3MM  D121 LED {Lib=LED}
+  (    1 N-000051 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217215 LED-3MM  D120 LED {Lib=LED}
+  (    1 N-000051 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217214 LED-3MM  D113 LED {Lib=LED}
+  (    1 N-000052 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217213 LED-3MM  D114 LED {Lib=LED}
+  (    1 N-000052 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217211 LED-3MM  D115 LED {Lib=LED}
+  (    1 N-000052 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217210 LED-3MM  D117 LED {Lib=LED}
+  (    1 N-000052 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21720F LED-3MM  D116 LED {Lib=LED}
+  (    1 N-000052 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21720E LED-3MM  D118 LED {Lib=LED}
+  (    1 N-000052 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21720D LED-3MM  D119 LED {Lib=LED}
+  (    1 N-000052 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21720A LED-3MM  D133 LED {Lib=LED}
+  (    1 N-000050 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217209 LED-3MM  D132 LED {Lib=LED}
+  (    1 N-000050 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217208 LED-3MM  D130 LED {Lib=LED}
+  (    1 N-000050 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217207 LED-3MM  D131 LED {Lib=LED}
+  (    1 N-000050 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217206 LED-3MM  D129 LED {Lib=LED}
+  (    1 N-000050 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217204 LED-3MM  D128 LED {Lib=LED}
+  (    1 N-000050 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217203 LED-3MM  D127 LED {Lib=LED}
+  (    1 N-000050 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217202 LED-3MM  D155 LED {Lib=LED}
+  (    1 N-000054 )
+  (    2 N-000055 )
+ )
+ ( /4F2170E9/4F217201 LED-3MM  D156 LED {Lib=LED}
+  (    1 N-000054 )
+  (    2 N-000055 )
+ )
+ ( /4F2170E9/4F2171FF LED-3MM  D157 LED {Lib=LED}
+  (    1 N-000054 )
+  (    2 N-000055 )
+ )
+ ( /4F2170E9/4F2171FE LED-3MM  D159 LED {Lib=LED}
+  (    1 N-000054 )
+  (    2 N-000055 )
+ )
+ ( /4F2170E9/4F2171FD LED-3MM  D158 LED {Lib=LED}
+  (    1 N-000054 )
+  (    2 N-000055 )
+ )
+ ( /4F2170E9/4F2171FC LED-3MM  D160 LED {Lib=LED}
+  (    1 N-000054 )
+  (    2 N-000055 )
+ )
+ ( /4F2170E9/4F2171FB LED-3MM  D161 LED {Lib=LED}
+  (    1 N-000054 )
+  (    2 N-000055 )
+ )
+ ( /4F2170E9/4F2171F8 LED-3MM  D147 LED {Lib=LED}
+  (    1 N-000056 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171F7 LED-3MM  D146 LED {Lib=LED}
+  (    1 N-000056 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171F6 LED-3MM  D144 LED {Lib=LED}
+  (    1 N-000056 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171F5 LED-3MM  D145 LED {Lib=LED}
+  (    1 N-000056 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171F4 LED-3MM  D143 LED {Lib=LED}
+  (    1 N-000056 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171F2 LED-3MM  D142 LED {Lib=LED}
+  (    1 N-000056 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171F1 LED-3MM  D141 LED {Lib=LED}
+  (    1 N-000056 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171CC LED-3MM  D57 LED {Lib=LED}
+  (    1 N-000053 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171CB LED-3MM  D58 LED {Lib=LED}
+  (    1 N-000053 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171C9 LED-3MM  D59 LED {Lib=LED}
+  (    1 N-000053 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171C8 LED-3MM  D61 LED {Lib=LED}
+  (    1 N-000053 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171C7 LED-3MM  D60 LED {Lib=LED}
+  (    1 N-000053 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171C6 LED-3MM  D62 LED {Lib=LED}
+  (    1 N-000053 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171C5 LED-3MM  D63 LED {Lib=LED}
+  (    1 N-000053 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171C2 LED-3MM  D77 LED {Lib=LED}
+  (    1 N-000047 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171C1 LED-3MM  D76 LED {Lib=LED}
+  (    1 N-000047 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171C0 LED-3MM  D74 LED {Lib=LED}
+  (    1 N-000047 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171BF LED-3MM  D75 LED {Lib=LED}
+  (    1 N-000047 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171BE LED-3MM  D73 LED {Lib=LED}
+  (    1 N-000047 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171BC LED-3MM  D72 LED {Lib=LED}
+  (    1 N-000047 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171BB LED-3MM  D71 LED {Lib=LED}
+  (    1 N-000047 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171BA LED-3MM  D99 LED {Lib=LED}
+  (    1 N-000060 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171B9 LED-3MM  D100 LED {Lib=LED}
+  (    1 N-000060 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171B7 LED-3MM  D101 LED {Lib=LED}
+  (    1 N-000060 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171B6 LED-3MM  D103 LED {Lib=LED}
+  (    1 N-000060 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171B5 LED-3MM  D102 LED {Lib=LED}
+  (    1 N-000060 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171B4 LED-3MM  D104 LED {Lib=LED}
+  (    1 N-000060 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171B3 LED-3MM  D105 LED {Lib=LED}
+  (    1 N-000060 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171B0 LED-3MM  D91 LED {Lib=LED}
+  (    1 N-000058 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171AF LED-3MM  D90 LED {Lib=LED}
+  (    1 N-000058 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171AE LED-3MM  D88 LED {Lib=LED}
+  (    1 N-000058 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171AD LED-3MM  D89 LED {Lib=LED}
+  (    1 N-000058 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171AC LED-3MM  D87 LED {Lib=LED}
+  (    1 N-000058 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171AA LED-3MM  D86 LED {Lib=LED}
+  (    1 N-000058 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171A9 LED-3MM  D85 LED {Lib=LED}
+  (    1 N-000058 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171A8 LED-3MM  D29 LED {Lib=LED}
+  (    1 N-000059 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171A7 LED-3MM  D30 LED {Lib=LED}
+  (    1 N-000059 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171A5 LED-3MM  D31 LED {Lib=LED}
+  (    1 N-000059 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171A4 LED-3MM  D33 LED {Lib=LED}
+  (    1 N-000059 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171A3 LED-3MM  D32 LED {Lib=LED}
+  (    1 N-000059 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171A2 LED-3MM  D34 LED {Lib=LED}
+  (    1 N-000059 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F2171A1 LED-3MM  D35 LED {Lib=LED}
+  (    1 N-000059 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21719E LED-3MM  D49 LED {Lib=LED}
+  (    1 N-000048 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21719D LED-3MM  D48 LED {Lib=LED}
+  (    1 N-000048 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21719C LED-3MM  D46 LED {Lib=LED}
+  (    1 N-000048 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21719B LED-3MM  D47 LED {Lib=LED}
+  (    1 N-000048 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21719A LED-3MM  D45 LED {Lib=LED}
+  (    1 N-000048 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217198 LED-3MM  D44 LED {Lib=LED}
+  (    1 N-000048 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217197 LED-3MM  D43 LED {Lib=LED}
+  (    1 N-000048 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217194 LED-3MM  D15 LED {Lib=LED}
+  (    1 N-000049 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217193 LED-3MM  D16 LED {Lib=LED}
+  (    1 N-000049 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217191 LED-3MM  D17 LED {Lib=LED}
+  (    1 N-000049 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217190 LED-3MM  D19 LED {Lib=LED}
+  (    1 N-000049 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21718F LED-3MM  D18 LED {Lib=LED}
+  (    1 N-000049 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21718E LED-3MM  D20 LED {Lib=LED}
+  (    1 N-000049 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21718D LED-3MM  D21 LED {Lib=LED}
+  (    1 N-000049 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21716F LED-3MM  D7 LED {Lib=LED}
+  (    1 N-000046 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21716E LED-3MM  D6 LED {Lib=LED}
+  (    1 N-000046 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217168 LED-3MM  D4 LED {Lib=LED}
+  (    1 N-000046 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217167 LED-3MM  D5 LED {Lib=LED}
+  (    1 N-000046 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217160 LED-3MM  D3 LED {Lib=LED}
+  (    1 N-000046 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F217112 LED-3MM  D2 LED {Lib=LED}
+  (    1 N-000046 )
+  (    2 GND )
+ )
+ ( /4F2170E9/4F21710B LED-3MM  D1 LED {Lib=LED}
+  (    1 N-000046 )
+  (    2 GND )
  )
 )
 *
 { Allowed footprints by component:
-$component C4
- CP*
- SM*
-$endlist
-$component C5
- CP*
- SM*
-$endlist
 $component C2
  CP*
  SM*
@@ -312,156 +1088,2065 @@ $component R1
  R?-*
  SM1206
 $endlist
+$component D8
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D9
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D10
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D12
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D11
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D13
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D14
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D28
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D27
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D25
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D26
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D24
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D23
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D22
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D50
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D51
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D52
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D54
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D53
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D55
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D56
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D42
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D41
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D39
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D40
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D38
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D37
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D36
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D92
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D93
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D94
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D96
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D95
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D97
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D98
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D112
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D111
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D109
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D110
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D108
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D107
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D106
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D78
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D79
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D80
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D82
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D81
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D83
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D84
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D70
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D69
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D67
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D68
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D66
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D65
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D64
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D148
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D149
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D150
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D152
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D151
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D153
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D154
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D168
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D167
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D165
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D166
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D164
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D163
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D162
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D134
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D135
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D136
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D138
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D137
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D139
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D140
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D126
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D125
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D123
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D124
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D122
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D121
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D120
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D113
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D114
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D115
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D117
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D116
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D118
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D119
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D133
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D132
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D130
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D131
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D129
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D128
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D127
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D155
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D156
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D157
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D159
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D158
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D160
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D161
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D147
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D146
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D144
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D145
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D143
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D142
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D141
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D57
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D58
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D59
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D61
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D60
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D62
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D63
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D77
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D76
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D74
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D75
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D73
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D72
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D71
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D99
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D100
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D101
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D103
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D102
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D104
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D105
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D91
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D90
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D88
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D89
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D87
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D86
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D85
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D29
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D30
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D31
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D33
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D32
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D34
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D35
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D49
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D48
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D46
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D47
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D45
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D44
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D43
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D15
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D16
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D17
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D19
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D18
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D20
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D21
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
 $endfootprintlist
 }
 { Pin List by Nets
 Net 1 "VCC" "VCC"
- SW2 1
- RV2 3
- R4 1
- SW1 4
- SW1 16
- R6 1
- C5 1
- R1 1
- C3 1
- U2 VO
+ JP1 2
+ SW1 1
  U1 16
+ R1 1
+ JP3 1
+ C3 1
+ R4 1
  RV1 3
-Net 2 "FEEDBACK" "FEEDBACK"
- SW2 2
- SW1 13
- SW1 5
- SW1 6
- R5 1
-Net 3 "" ""
- P3 3
- R10 1
- U1 2
-Net 4 "" ""
- R14 1
- U1 6
- P3 7
-Net 5 "" ""
- U1 7
- P3 8
- R15 1
-Net 6 "" ""
- P3 5
+ RV2 3
+ R6 1
+Net 2 "" ""
  U1 4
  R12 1
+ P13 1
+Net 3 "FEEDBACK" "FEEDBACK"
+ JP4 2
+ JP3 2
+ SW1 2
+ R5 1
+Net 4 "" ""
+ P15 1
+ R14 1
+ U1 6
+Net 5 "" ""
+ P11 1
+ R10 1
+ U1 2
+Net 6 "" ""
+ U1 1
+ R9 1
+ P10 1
 Net 7 "" ""
- R12 2
- P1 5
-Net 8 "FEEDBACK_IN" "FEEDBACK_IN"
- R7 2
- P5 1
-Net 9 "GND" "GND"
- C3 2
- Q2 1
- U2 GND
- Q3 1
- P4 ~
- P2 2
- BT1 2
- C5 2
- C4 2
- Q1 1
- U1 8
-Net 10 "" ""
- R15 2
- P1 8
-Net 11 "" ""
- P1 7
- R14 2
-Net 12 "" ""
- P1 6
- R13 2
-Net 13 "" ""
- P1 4
- R11 2
-Net 14 "" ""
- R10 2
- P1 3
-Net 15 "" ""
+ U1 15
+ R8 1
+ P9 1
+Net 8 "" ""
+ P2 1
  R9 2
- P1 2
-Net 16 "" ""
- SW1 3
- Q3 2
-Net 17 "" ""
- U1 9
- P3 9
-Net 18 "" ""
- SW1 11
- U1 10
-Net 19 "" ""
- BT1 1
- SW1 1
-Net 20 "" ""
- U1 14
- SW1 12
-Net 21 "" ""
- U1 13
- SW1 10
-Net 22 "" ""
+Net 9 "" ""
+ P5 1
+ R12 2
+Net 10 "" ""
+ R13 2
+ P6 1
+Net 11 "" ""
+ R15 2
+ P8 1
+Net 12 "" ""
+ R14 2
+ P7 1
+Net 13 "" ""
+ P3 1
+ R10 2
+Net 14 "" ""
+ P4 1
+ R11 2
+Net 15 "" ""
  R8 2
  P1 1
-Net 23 "" ""
- RV2 1
- R3 1
- RV2 2
-Net 24 "" ""
- R2 1
- RV1 1
- RV1 2
-Net 25 "" ""
- U1 15
- P3 1
- R8 1
-Net 26 "" ""
- R2 2
- Q2 2
- C1 2
-Net 27 "" ""
+Net 16 "" ""
  Q1 3
  R1 2
  C1 1
-Net 28 "" ""
- R3 2
- C2 2
- Q1 2
-Net 29 "" ""
- Q3 3
- R6 2
- SW1 2
- R5 2
-Net 30 "" ""
+Net 17 "" ""
  R7 1
- SW1 15
- SW1 14
-Net 31 "" ""
- P3 6
+ JP2 2
+Net 18 "GND" "GND"
+ D119 2
+ D59 2
+ D61 2
+ D62 2
+ D63 2
+ D77 2
+ D57 2
+ D76 2
+ D118 2
+ D116 2
+ D117 2
+ D133 2
+ D16 2
+ D15 2
+ D147 2
+ D20 2
+ D120 2
+ D124 2
+ D127 2
+ D128 2
+ D126 2
+ D125 2
+ D123 2
+ D122 2
+ D121 2
+ D58 2
+ D113 2
+ D114 2
+ D115 2
+ D129 2
+ D131 2
+ D60 2
+ D142 2
+ D130 2
+ D132 2
+ D141 2
+ D140 2
+ D52 2
+ D28 2
+ D27 2
+ D25 2
+ D26 2
+ D92 2
+ D24 2
+ D23 2
+ D22 2
+ D50 2
+ D51 2
+ D91 2
+ D90 2
+ D88 2
+ D89 2
+ D87 2
+ D86 2
+ D85 2
+ D29 2
+ D53 2
+ D55 2
+ D56 2
+ D30 2
+ D42 2
+ D54 2
+ D41 2
+ D39 2
+ D40 2
+ D38 2
+ D37 2
+ D36 2
+ D2 2
+ D21 2
+ D17 2
+ D7 2
+ D6 2
+ D4 2
+ D5 2
+ D3 2
+ D35 2
+ D49 2
+ D48 2
+ D46 2
+ D47 2
+ D45 2
+ D44 2
+ D34 2
+ D31 2
+ D33 2
+ D32 2
+ D100 2
+ D74 2
+ D75 2
+ D73 2
+ D72 2
+ D71 2
+ D99 2
+ D43 2
+ D101 2
+ D103 2
+ D102 2
+ D1 2
+ D104 2
+ D105 2
+ D19 2
+ D18 2
+ D144 2
+ D145 2
+ D143 2
+ D146 2
+ D154 2
+ BT1 2
+ D110 2
+ D109 2
+ D111 2
+ U1 8
+ Q2 1
+ D112 2
+ D98 2
+ D97 2
+ D95 2
+ D68 2
+ D66 2
+ D67 2
+ D149 2
+ D65 2
+ D137 2
+ D64 2
+ D148 2
+ D138 2
+ D108 2
+ D136 2
+ C3 2
+ D150 2
+ Q1 1
+ D135 2
+ D152 2
+ D134 2
+ D151 2
+ D153 2
+ D84 2
+ D70 2
+ Q3 1
+ D79 2
+ D80 2
+ D83 2
+ D81 2
+ D69 2
+ D14 2
+ D107 2
+ D82 2
+ D106 2
+ D78 2
+ D8 2
+ D96 2
+ D9 2
+ D10 2
+ D94 2
+ D12 2
+ D93 2
+ D139 2
+ D11 2
+ D13 2
+Net 19 "" ""
+ JP2 3
+ Q3 2
+Net 20 "FEEDBACK_IN" "FEEDBACK_IN"
+ P18 1
+ R7 2
+Net 21 "" ""
+ U1 14
+ JP4 1
+Net 22 "" ""
+ Q2 2
+ C1 2
+ R2 2
+Net 23 "" ""
+ R3 2
+ Q1 2
+ C2 2
+Net 24 "" ""
+ RV1 1
+ R2 1
+ RV1 2
+Net 25 "" ""
+ U1 9
+ P17 1
+Net 26 "" ""
+ RV2 2
+ RV2 1
+ R3 1
+Net 27 "" ""
+ JP5 2
+ U1 13
+Net 28 "" ""
+ U1 10
+ JP4 3
+Net 29 "" ""
+ U1 7
+ P16 1
+ R15 1
+Net 30 "" ""
  U1 5
  R13 1
-Net 32 "" ""
- R11 1
+ P14 1
+Net 31 "" ""
  U1 3
- P3 4
-Net 33 "" ""
- P3 2
- U1 1
- R9 1
-Net 34 "" ""
- C4 1
- P2 1
- U2 VI
-Net 35 "CLK" "CLK"
+ P12 1
+ R11 1
+Net 32 "" ""
+ R5 2
+ JP2 1
+ Q3 3
+ R6 2
+Net 33 "CLK" "CLK"
+ C2 1
  R4 2
  Q2 3
  U1 11
  U1 12
- C2 1
- SW1 7
+ JP5 1
+Net 34 "" ""
+ JP1 1
+ BT1 1
+Net 35 "" ""
+ D82 1
+ D80 1
+ D84 1
+ D83 1
+ D81 1
+ P30 1
+ D78 1
+ P30 2
+ D79 1
+Net 36 "" ""
+ D94 1
+ P32 1
+ P32 2
+ D98 1
+ D97 1
+ D93 1
+ D95 1
+ D92 1
+ D96 1
+Net 37 "" ""
+ D107 1
+ D106 1
+ P34 1
+ P34 2
+ D108 1
+ D110 1
+ D109 1
+ D111 1
+ D112 1
+Net 38 "" ""
+ P42 2
+ P42 1
+ D164 1
+ D163 1
+ D162 1
+ D168 1
+ D166 1
+ D165 1
+ D167 1
+Net 39 "" ""
+ D165 2
+ D168 2
+ D167 2
+ D166 2
+ D162 2
+ D164 2
+ D163 2
+Net 40 "" ""
+ D135 1
+ D136 1
+ P38 2
+ D138 1
+ D137 1
+ D139 1
+ D140 1
+ P38 1
+ D134 1
+Net 41 "" ""
+ P28 1
+ P28 2
+ D70 1
+ D69 1
+ D67 1
+ D66 1
+ D64 1
+ D65 1
+ D68 1
+Net 42 "" ""
+ D154 1
+ D153 1
+ D151 1
+ D152 1
+ D150 1
+ D149 1
+ D148 1
+ P40 2
+ P40 1
+Net 43 "" ""
+ D38 1
+ D40 1
+ D42 1
+ D39 1
+ D37 1
+ D36 1
+ P24 2
+ P24 1
+ D41 1
+Net 44 "" ""
+ P22 1
+ P22 2
+ D24 1
+ D28 1
+ D22 1
+ D23 1
+ D26 1
+ D25 1
+ D27 1
+Net 45 "" ""
+ D50 1
+ P26 1
+ P26 2
+ D56 1
+ D55 1
+ D53 1
+ D51 1
+ D52 1
+ D54 1
+Net 46 "" ""
+ D2 1
+ D1 1
+ D6 1
+ D3 1
+ D5 1
+ P19 2
+ P19 1
+ D4 1
+ D7 1
+Net 47 "" ""
+ D71 1
+ D72 1
+ D73 1
+ D75 1
+ D74 1
+ P29 1
+ P29 2
+ D77 1
+ D76 1
+Net 48 "" ""
+ D45 1
+ P25 1
+ D46 1
+ D49 1
+ D48 1
+ D44 1
+ D43 1
+ D47 1
+ P25 2
+Net 49 "" ""
+ D18 1
+ D20 1
+ D21 1
+ D17 1
+ D19 1
+ P21 1
+ P21 2
+ D16 1
+ D15 1
+Net 50 "" ""
+ D127 1
+ D133 1
+ D132 1
+ D130 1
+ D131 1
+ D129 1
+ D128 1
+ P37 1
+ P37 2
+Net 51 "" ""
+ D126 1
+ D123 1
+ D124 1
+ D122 1
+ D121 1
+ D125 1
+ D120 1
+ P36 1
+ P36 2
+Net 52 "" ""
+ D118 1
+ D119 1
+ D117 1
+ D116 1
+ P35 1
+ P35 2
+ D113 1
+ D114 1
+ D115 1
+Net 53 "" ""
+ P27 2
+ D58 1
+ D57 1
+ P27 1
+ D61 1
+ D60 1
+ D59 1
+ D63 1
+ D62 1
+Net 54 "" ""
+ P41 1
+ P41 2
+ D155 1
+ D161 1
+ D160 1
+ D156 1
+ D158 1
+ D157 1
+ D159 1
+Net 55 "" ""
+ D159 2
+ D161 2
+ D155 2
+ D156 2
+ D157 2
+ D158 2
+ D160 2
+Net 56 "" ""
+ D141 1
+ D142 1
+ D147 1
+ D146 1
+ D144 1
+ P39 1
+ P39 2
+ D145 1
+ D143 1
+Net 57 "" ""
+ D11 1
+ D8 1
+ D14 1
+ D13 1
+ P20 1
+ D9 1
+ D10 1
+ D12 1
+ P20 2
+Net 58 "" ""
+ P31 1
+ P31 2
+ D86 1
+ D90 1
+ D87 1
+ D91 1
+ D85 1
+ D88 1
+ D89 1
+Net 59 "" ""
+ D32 1
+ D35 1
+ D34 1
+ D33 1
+ D31 1
+ D30 1
+ D29 1
+ P23 1
+ P23 2
+Net 60 "" ""
+ D104 1
+ P33 2
+ P33 1
+ D105 1
+ D102 1
+ D103 1
+ D101 1
+ D100 1
+ D99 1
 }
 #End
