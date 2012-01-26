@@ -3,7 +3,7 @@ PDFS=		${SOURCES:.ps=-crop.pdf}
 PNGS=		${SOURCES:.ps=.png}
 PNG_PREVIEWS=	${PNGS:.png=-small.png}
 BOARD=		$(wildcard *.brd)
-GERBERS=	$(wildcard *.g[bt][ls] *.gbr *.drl)
+GERBERS=	$(wildcard *.g[bt][lso] *.gbr *.drl)
 LICENSE_FILES=	LICENSE LICENSE.HOWTO README.md
 
 all: clean png png_preview

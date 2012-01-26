@@ -19,3 +19,5 @@ $savepcb.*
 *.stf
 *.lst
 *.bck
+*.gbo
+*.gto
