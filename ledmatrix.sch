@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jan 2012 05:09:47 PM CET
+EESchema Schematic File Version 2  date Thu 26 Jan 2012 07:31:12 PM CET
 LIBS:74hc595
 LIBS:power
 LIBS:device
@@ -38,2611 +38,2629 @@ EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 2
-Title ""
+Title "Blinking name tag"
 Date "26 jan 2012"
 Rev ""
-Comp ""
-Comment1 ""
+Comp "(c) 2012 Simon Schubert <2@0x2c.org>"
+Comment1 "CERN OHL v.1.1 or later"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
+L GND #PWR015
+U 1 1 4F219A8C
+P 7750 6700
+F 0 "#PWR015" H 7750 6700 30  0001 C CNN
+F 1 "GND" H 7750 6630 30  0001 C CNN
+	1    7750 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 4F219A86
+P 7750 3450
+F 0 "#PWR016" H 7750 3450 30  0001 C CNN
+F 1 "GND" H 7750 3380 30  0001 C CNN
+	1    7750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
 L CONN_2 P20
 U 1 1 4F21733F
-P 1950 4400
-F 0 "P20" V 1900 4400 40  0000 C CNN
-F 1 "CONN_2" V 2000 4400 40  0000 C CNN
-F 2 "LEDLINK" V 2100 4400 40  0000 C CNN
-	1    1950 4400
+P 1950 4150
+F 0 "P20" V 1900 4150 40  0000 C CNN
+F 1 "CONN_2" V 2000 4150 40  0000 C CNN
+F 2 "LEDLINK" V 2100 4150 40  0000 C CNN
+	1    1950 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2050 4750 1850 4750
-Connection ~ 1850 4750
-Connection ~ 2350 4750
+	2050 4500 1850 4500
+Connection ~ 1850 4500
+Connection ~ 2350 4500
 Wire Wire Line
-	2550 4750 2350 4750
+	2550 4500 2350 4500
 $Comp
 L CONN_2 P22
 U 1 1 4F21733E
-P 2450 4400
-F 0 "P22" V 2400 4400 40  0000 C CNN
-F 1 "CONN_2" V 2500 4400 40  0000 C CNN
-F 2 "LEDLINK" V 2600 4400 40  0000 C CNN
-	1    2450 4400
+P 2450 4150
+F 0 "P22" V 2400 4150 40  0000 C CNN
+F 1 "CONN_2" V 2500 4150 40  0000 C CNN
+F 2 "LEDLINK" V 2600 4150 40  0000 C CNN
+	1    2450 4150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_2 P26
 U 1 1 4F21733D
-P 3450 4400
-F 0 "P26" V 3400 4400 40  0000 C CNN
-F 1 "CONN_2" V 3500 4400 40  0000 C CNN
-F 2 "LEDLINK" V 3600 4400 40  0000 C CNN
-	1    3450 4400
+P 3450 4150
+F 0 "P26" V 3400 4150 40  0000 C CNN
+F 1 "CONN_2" V 3500 4150 40  0000 C CNN
+F 2 "LEDLINK" V 3600 4150 40  0000 C CNN
+	1    3450 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3550 4750 3350 4750
-Connection ~ 3350 4750
-Connection ~ 2850 4750
+	3550 4500 3350 4500
+Connection ~ 3350 4500
+Connection ~ 2850 4500
 Wire Wire Line
-	3050 4750 2850 4750
+	3050 4500 2850 4500
 $Comp
 L CONN_2 P24
 U 1 1 4F21733C
-P 2950 4400
-F 0 "P24" V 2900 4400 40  0000 C CNN
-F 1 "CONN_2" V 3000 4400 40  0000 C CNN
-F 2 "LEDLINK" V 3100 4400 40  0000 C CNN
-	1    2950 4400
+P 2950 4150
+F 0 "P24" V 2900 4150 40  0000 C CNN
+F 1 "CONN_2" V 3000 4150 40  0000 C CNN
+F 2 "LEDLINK" V 3100 4150 40  0000 C CNN
+	1    2950 4150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_2 P32
 U 1 1 4F21733B
-P 4950 4400
-F 0 "P32" V 4900 4400 40  0000 C CNN
-F 1 "CONN_2" V 5000 4400 40  0000 C CNN
-F 2 "LEDLINK" V 5100 4400 40  0000 C CNN
-	1    4950 4400
+P 4950 4150
+F 0 "P32" V 4900 4150 40  0000 C CNN
+F 1 "CONN_2" V 5000 4150 40  0000 C CNN
+F 2 "LEDLINK" V 5100 4150 40  0000 C CNN
+	1    4950 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5050 4750 4850 4750
-Connection ~ 4850 4750
-Connection ~ 5350 4750
+	5050 4500 4850 4500
+Connection ~ 4850 4500
+Connection ~ 5350 4500
 Wire Wire Line
-	5550 4750 5350 4750
+	5550 4500 5350 4500
 $Comp
 L CONN_2 P34
 U 1 1 4F21733A
-P 5450 4400
-F 0 "P34" V 5400 4400 40  0000 C CNN
-F 1 "CONN_2" V 5500 4400 40  0000 C CNN
-F 2 "LEDLINK" V 5600 4400 40  0000 C CNN
-	1    5450 4400
+P 5450 4150
+F 0 "P34" V 5400 4150 40  0000 C CNN
+F 1 "CONN_2" V 5500 4150 40  0000 C CNN
+F 2 "LEDLINK" V 5600 4150 40  0000 C CNN
+	1    5450 4150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_2 P30
 U 1 1 4F217339
-P 4450 4400
-F 0 "P30" V 4400 4400 40  0000 C CNN
-F 1 "CONN_2" V 4500 4400 40  0000 C CNN
-F 2 "LEDLINK" V 4600 4400 40  0000 C CNN
-	1    4450 4400
+P 4450 4150
+F 0 "P30" V 4400 4150 40  0000 C CNN
+F 1 "CONN_2" V 4500 4150 40  0000 C CNN
+F 2 "LEDLINK" V 4600 4150 40  0000 C CNN
+	1    4450 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4550 4750 4350 4750
-Connection ~ 4350 4750
-Connection ~ 3850 4750
+	4550 4500 4350 4500
+Connection ~ 4350 4500
+Connection ~ 3850 4500
 Wire Wire Line
-	4050 4750 3850 4750
+	4050 4500 3850 4500
 $Comp
 L CONN_2 P28
 U 1 1 4F217338
-P 3950 4400
-F 0 "P28" V 3900 4400 40  0000 C CNN
-F 1 "CONN_2" V 4000 4400 40  0000 C CNN
-F 2 "LEDLINK" V 4100 4400 40  0000 C CNN
-	1    3950 4400
+P 3950 4150
+F 0 "P28" V 3900 4150 40  0000 C CNN
+F 1 "CONN_2" V 4000 4150 40  0000 C CNN
+F 2 "LEDLINK" V 4100 4150 40  0000 C CNN
+	1    3950 4150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_2 P40
 U 1 1 4F217333
-P 6950 4400
-F 0 "P40" V 6900 4400 40  0000 C CNN
-F 1 "CONN_2" V 7000 4400 40  0000 C CNN
-F 2 "LEDLINK" V 7100 4400 40  0000 C CNN
-	1    6950 4400
+P 6950 4150
+F 0 "P40" V 6900 4150 40  0000 C CNN
+F 1 "CONN_2" V 7000 4150 40  0000 C CNN
+F 2 "LEDLINK" V 7100 4150 40  0000 C CNN
+	1    6950 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7050 4750 6850 4750
-Connection ~ 6850 4750
-Connection ~ 7350 4750
+	7050 4500 6850 4500
+Connection ~ 6850 4500
+Connection ~ 7350 4500
 Wire Wire Line
-	7550 4750 7350 4750
+	7550 4500 7350 4500
 $Comp
 L CONN_2 P42
 U 1 1 4F217332
-P 7450 4400
-F 0 "P42" V 7400 4400 40  0000 C CNN
-F 1 "CONN_2" V 7500 4400 40  0000 C CNN
-F 2 "LEDLINK" V 7600 4400 40  0000 C CNN
-	1    7450 4400
+P 7450 4150
+F 0 "P42" V 7400 4150 40  0000 C CNN
+F 1 "CONN_2" V 7500 4150 40  0000 C CNN
+F 2 "LEDLINK" V 7600 4150 40  0000 C CNN
+	1    7450 4150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_2 P38
 U 1 1 4F217331
-P 6450 4400
-F 0 "P38" V 6400 4400 40  0000 C CNN
-F 1 "CONN_2" V 6500 4400 40  0000 C CNN
-F 2 "LEDLINK" V 6600 4400 40  0000 C CNN
-	1    6450 4400
+P 6450 4150
+F 0 "P38" V 6400 4150 40  0000 C CNN
+F 1 "CONN_2" V 6500 4150 40  0000 C CNN
+F 2 "LEDLINK" V 6600 4150 40  0000 C CNN
+	1    6450 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6550 4750 6350 4750
-Connection ~ 6350 4750
-Connection ~ 5850 4750
+	6550 4500 6350 4500
+Connection ~ 6350 4500
+Connection ~ 5850 4500
 Wire Wire Line
-	6050 4750 5850 4750
+	6050 4500 5850 4500
 $Comp
 L CONN_2 P36
 U 1 1 4F217330
-P 5950 4400
-F 0 "P36" V 5900 4400 40  0000 C CNN
-F 1 "CONN_2" V 6000 4400 40  0000 C CNN
-F 2 "LEDLINK" V 6100 4400 40  0000 C CNN
-	1    5950 4400
+P 5950 4150
+F 0 "P36" V 5900 4150 40  0000 C CNN
+F 1 "CONN_2" V 6000 4150 40  0000 C CNN
+F 2 "LEDLINK" V 6100 4150 40  0000 C CNN
+	1    5950 4150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_2 P35
 U 1 1 4F21732A
-P 5950 1150
-F 0 "P35" V 5900 1150 40  0000 C CNN
-F 1 "CONN_2" V 6000 1150 40  0000 C CNN
-F 2 "LEDLINK" V 6100 1150 40  0000 C CNN
-	1    5950 1150
+P 5950 900
+F 0 "P35" V 5900 900 40  0000 C CNN
+F 1 "CONN_2" V 6000 900 40  0000 C CNN
+F 2 "LEDLINK" V 6100 900 40  0000 C CNN
+	1    5950 900 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6050 1500 5850 1500
-Connection ~ 5850 1500
-Connection ~ 6350 1500
+	6050 1250 5850 1250
+Connection ~ 5850 1250
+Connection ~ 6350 1250
 Wire Wire Line
-	6550 1500 6350 1500
+	6550 1250 6350 1250
 $Comp
 L CONN_2 P37
 U 1 1 4F217329
-P 6450 1150
-F 0 "P37" V 6400 1150 40  0000 C CNN
-F 1 "CONN_2" V 6500 1150 40  0000 C CNN
-F 2 "LEDLINK" V 6600 1150 40  0000 C CNN
-	1    6450 1150
+P 6450 900
+F 0 "P37" V 6400 900 40  0000 C CNN
+F 1 "CONN_2" V 6500 900 40  0000 C CNN
+F 2 "LEDLINK" V 6600 900 40  0000 C CNN
+	1    6450 900 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_2 P41
 U 1 1 4F217328
-P 7450 1150
-F 0 "P41" V 7400 1150 40  0000 C CNN
-F 1 "CONN_2" V 7500 1150 40  0000 C CNN
-F 2 "LEDLINK" V 7600 1150 40  0000 C CNN
-	1    7450 1150
+P 7450 900
+F 0 "P41" V 7400 900 40  0000 C CNN
+F 1 "CONN_2" V 7500 900 40  0000 C CNN
+F 2 "LEDLINK" V 7600 900 40  0000 C CNN
+	1    7450 900 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7550 1500 7350 1500
-Connection ~ 7350 1500
-Connection ~ 6850 1500
+	7550 1250 7350 1250
+Connection ~ 7350 1250
+Connection ~ 6850 1250
 Wire Wire Line
-	7050 1500 6850 1500
+	7050 1250 6850 1250
 $Comp
 L CONN_2 P39
 U 1 1 4F217327
-P 6950 1150
-F 0 "P39" V 6900 1150 40  0000 C CNN
-F 1 "CONN_2" V 7000 1150 40  0000 C CNN
-F 2 "LEDLINK" V 7100 1150 40  0000 C CNN
-	1    6950 1150
+P 6950 900
+F 0 "P39" V 6900 900 40  0000 C CNN
+F 1 "CONN_2" V 7000 900 40  0000 C CNN
+F 2 "LEDLINK" V 7100 900 40  0000 C CNN
+	1    6950 900 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_2 P27
 U 1 1 4F21731D
-P 3950 1150
-F 0 "P27" V 3900 1150 40  0000 C CNN
-F 1 "CONN_2" V 4000 1150 40  0000 C CNN
-F 2 "LEDLINK" V 4100 1150 40  0000 C CNN
-	1    3950 1150
+P 3950 900
+F 0 "P27" V 3900 900 40  0000 C CNN
+F 1 "CONN_2" V 4000 900 40  0000 C CNN
+F 2 "LEDLINK" V 4100 900 40  0000 C CNN
+	1    3950 900 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4050 1500 3850 1500
-Connection ~ 3850 1500
-Connection ~ 4350 1500
+	4050 1250 3850 1250
+Connection ~ 3850 1250
+Connection ~ 4350 1250
 Wire Wire Line
-	4550 1500 4350 1500
+	4550 1250 4350 1250
 $Comp
 L CONN_2 P29
 U 1 1 4F21731C
-P 4450 1150
-F 0 "P29" V 4400 1150 40  0000 C CNN
-F 1 "CONN_2" V 4500 1150 40  0000 C CNN
-F 2 "LEDLINK" V 4600 1150 40  0000 C CNN
-	1    4450 1150
+P 4450 900
+F 0 "P29" V 4400 900 40  0000 C CNN
+F 1 "CONN_2" V 4500 900 40  0000 C CNN
+F 2 "LEDLINK" V 4600 900 40  0000 C CNN
+	1    4450 900 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_2 P33
 U 1 1 4F21731B
-P 5450 1150
-F 0 "P33" V 5400 1150 40  0000 C CNN
-F 1 "CONN_2" V 5500 1150 40  0000 C CNN
-F 2 "LEDLINK" V 5600 1150 40  0000 C CNN
-	1    5450 1150
+P 5450 900
+F 0 "P33" V 5400 900 40  0000 C CNN
+F 1 "CONN_2" V 5500 900 40  0000 C CNN
+F 2 "LEDLINK" V 5600 900 40  0000 C CNN
+	1    5450 900 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5550 1500 5350 1500
-Connection ~ 5350 1500
-Connection ~ 4850 1500
+	5550 1250 5350 1250
+Connection ~ 5350 1250
+Connection ~ 4850 1250
 Wire Wire Line
-	5050 1500 4850 1500
+	5050 1250 4850 1250
 $Comp
 L CONN_2 P31
 U 1 1 4F21731A
-P 4950 1150
-F 0 "P31" V 4900 1150 40  0000 C CNN
-F 1 "CONN_2" V 5000 1150 40  0000 C CNN
-F 2 "LEDLINK" V 5100 1150 40  0000 C CNN
-	1    4950 1150
+P 4950 900
+F 0 "P31" V 4900 900 40  0000 C CNN
+F 1 "CONN_2" V 5000 900 40  0000 C CNN
+F 2 "LEDLINK" V 5100 900 40  0000 C CNN
+	1    4950 900 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_2 P23
 U 1 1 4F217313
-P 2950 1150
-F 0 "P23" V 2900 1150 40  0000 C CNN
-F 1 "CONN_2" V 3000 1150 40  0000 C CNN
-F 2 "LEDLINK" V 3100 1150 40  0000 C CNN
-	1    2950 1150
+P 2950 900
+F 0 "P23" V 2900 900 40  0000 C CNN
+F 1 "CONN_2" V 3000 900 40  0000 C CNN
+F 2 "LEDLINK" V 3100 900 40  0000 C CNN
+	1    2950 900 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3050 1500 2850 1500
-Connection ~ 2850 1500
-Connection ~ 3350 1500
+	3050 1250 2850 1250
+Connection ~ 2850 1250
+Connection ~ 3350 1250
 Wire Wire Line
-	3550 1500 3350 1500
+	3550 1250 3350 1250
 $Comp
 L CONN_2 P25
 U 1 1 4F217312
-P 3450 1150
-F 0 "P25" V 3400 1150 40  0000 C CNN
-F 1 "CONN_2" V 3500 1150 40  0000 C CNN
-F 2 "LEDLINK" V 3600 1150 40  0000 C CNN
-	1    3450 1150
+P 3450 900
+F 0 "P25" V 3400 900 40  0000 C CNN
+F 1 "CONN_2" V 3500 900 40  0000 C CNN
+F 2 "LEDLINK" V 3600 900 40  0000 C CNN
+	1    3450 900 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_2 P21
 U 1 1 4F21730A
-P 2450 1150
-F 0 "P21" V 2400 1150 40  0000 C CNN
-F 1 "CONN_2" V 2500 1150 40  0000 C CNN
-F 2 "LEDLINK" V 2600 1150 40  0000 C CNN
-	1    2450 1150
+P 2450 900
+F 0 "P21" V 2400 900 40  0000 C CNN
+F 1 "CONN_2" V 2500 900 40  0000 C CNN
+F 2 "LEDLINK" V 2600 900 40  0000 C CNN
+	1    2450 900 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2550 1500 2350 1500
-Connection ~ 2350 1500
-Connection ~ 1850 1500
+	2550 1250 2350 1250
+Connection ~ 2350 1250
+Connection ~ 1850 1250
 Wire Wire Line
-	2050 1500 1850 1500
+	2050 1250 1850 1250
 Wire Wire Line
-	1850 1500 1850 3500
-Connection ~ 2250 2000
-Connection ~ 1850 1700
-Connection ~ 1850 2000
-Connection ~ 1850 2300
-Connection ~ 2250 2300
-Connection ~ 2250 2900
-Connection ~ 1850 2900
-Connection ~ 1850 2600
-Connection ~ 2250 2600
-Connection ~ 2250 3200
-Connection ~ 1850 3200
-Connection ~ 1850 3500
-Connection ~ 2250 3500
+	1850 1250 1850 3250
+Connection ~ 2250 1750
+Connection ~ 1850 1450
+Connection ~ 1850 1750
+Connection ~ 1850 2050
+Connection ~ 2250 2050
+Connection ~ 2250 2650
+Connection ~ 1850 2650
+Connection ~ 1850 2350
+Connection ~ 2250 2350
+Connection ~ 2250 2950
+Connection ~ 1850 2950
+Connection ~ 1850 3250
+Connection ~ 2250 3250
 Wire Wire Line
-	2250 3700 2250 1700
+	2250 3450 2250 1450
 Wire Wire Line
-	2750 3700 2750 1700
-Connection ~ 2750 3500
-Connection ~ 2350 3500
-Connection ~ 2350 3200
-Connection ~ 2750 3200
-Connection ~ 2750 2600
-Connection ~ 2350 2600
-Connection ~ 2350 2900
-Connection ~ 2750 2900
-Connection ~ 2750 2300
-Connection ~ 2350 2300
-Connection ~ 2350 2000
-Connection ~ 2350 1700
-Connection ~ 2750 2000
+	2750 3450 2750 1450
+Connection ~ 2750 3250
+Connection ~ 2350 3250
+Connection ~ 2350 2950
+Connection ~ 2750 2950
+Connection ~ 2750 2350
+Connection ~ 2350 2350
+Connection ~ 2350 2650
+Connection ~ 2750 2650
+Connection ~ 2750 2050
+Connection ~ 2350 2050
+Connection ~ 2350 1750
+Connection ~ 2350 1450
+Connection ~ 2750 1750
 Wire Wire Line
-	2350 1500 2350 3500
+	2350 1250 2350 3250
 Wire Wire Line
-	3350 1500 3350 3500
-Connection ~ 3750 2000
-Connection ~ 3350 1700
-Connection ~ 3350 2000
-Connection ~ 3350 2300
-Connection ~ 3750 2300
-Connection ~ 3750 2900
-Connection ~ 3350 2900
-Connection ~ 3350 2600
-Connection ~ 3750 2600
-Connection ~ 3750 3200
-Connection ~ 3350 3200
-Connection ~ 3350 3500
-Connection ~ 3750 3500
+	3350 1250 3350 3250
+Connection ~ 3750 1750
+Connection ~ 3350 1450
+Connection ~ 3350 1750
+Connection ~ 3350 2050
+Connection ~ 3750 2050
+Connection ~ 3750 2650
+Connection ~ 3350 2650
+Connection ~ 3350 2350
+Connection ~ 3750 2350
+Connection ~ 3750 2950
+Connection ~ 3350 2950
+Connection ~ 3350 3250
+Connection ~ 3750 3250
 Wire Wire Line
-	3750 3700 3750 1700
+	3750 3450 3750 1450
 Wire Wire Line
-	3250 3700 3250 1700
-Connection ~ 3250 3500
-Connection ~ 2850 3500
-Connection ~ 2850 3200
-Connection ~ 3250 3200
-Connection ~ 3250 2600
-Connection ~ 2850 2600
-Connection ~ 2850 2900
-Connection ~ 3250 2900
-Connection ~ 3250 2300
-Connection ~ 2850 2300
-Connection ~ 2850 2000
-Connection ~ 2850 1700
-Connection ~ 3250 2000
+	3250 3450 3250 1450
+Connection ~ 3250 3250
+Connection ~ 2850 3250
+Connection ~ 2850 2950
+Connection ~ 3250 2950
+Connection ~ 3250 2350
+Connection ~ 2850 2350
+Connection ~ 2850 2650
+Connection ~ 3250 2650
+Connection ~ 3250 2050
+Connection ~ 2850 2050
+Connection ~ 2850 1750
+Connection ~ 2850 1450
+Connection ~ 3250 1750
 Wire Wire Line
-	2850 1500 2850 3500
+	2850 1250 2850 3250
 Wire Wire Line
-	4850 1500 4850 3500
-Connection ~ 5250 2000
-Connection ~ 4850 1700
-Connection ~ 4850 2000
-Connection ~ 4850 2300
-Connection ~ 5250 2300
-Connection ~ 5250 2900
-Connection ~ 4850 2900
-Connection ~ 4850 2600
-Connection ~ 5250 2600
-Connection ~ 5250 3200
-Connection ~ 4850 3200
-Connection ~ 4850 3500
-Connection ~ 5250 3500
+	4850 1250 4850 3250
+Connection ~ 5250 1750
+Connection ~ 4850 1450
+Connection ~ 4850 1750
+Connection ~ 4850 2050
+Connection ~ 5250 2050
+Connection ~ 5250 2650
+Connection ~ 4850 2650
+Connection ~ 4850 2350
+Connection ~ 5250 2350
+Connection ~ 5250 2950
+Connection ~ 4850 2950
+Connection ~ 4850 3250
+Connection ~ 5250 3250
 Wire Wire Line
-	5250 3700 5250 1700
+	5250 3450 5250 1450
 Wire Wire Line
-	5750 3700 5750 1700
-Connection ~ 5750 3500
-Connection ~ 5350 3500
-Connection ~ 5350 3200
-Connection ~ 5750 3200
-Connection ~ 5750 2600
-Connection ~ 5350 2600
-Connection ~ 5350 2900
-Connection ~ 5750 2900
-Connection ~ 5750 2300
-Connection ~ 5350 2300
-Connection ~ 5350 2000
-Connection ~ 5350 1700
-Connection ~ 5750 2000
+	5750 3450 5750 1450
+Connection ~ 5750 3250
+Connection ~ 5350 3250
+Connection ~ 5350 2950
+Connection ~ 5750 2950
+Connection ~ 5750 2350
+Connection ~ 5350 2350
+Connection ~ 5350 2650
+Connection ~ 5750 2650
+Connection ~ 5750 2050
+Connection ~ 5350 2050
+Connection ~ 5350 1750
+Connection ~ 5350 1450
+Connection ~ 5750 1750
 Wire Wire Line
-	5350 1500 5350 3500
+	5350 1250 5350 3250
 Wire Wire Line
-	4350 1500 4350 3500
-Connection ~ 4750 2000
-Connection ~ 4350 1700
-Connection ~ 4350 2000
-Connection ~ 4350 2300
-Connection ~ 4750 2300
-Connection ~ 4750 2900
-Connection ~ 4350 2900
-Connection ~ 4350 2600
-Connection ~ 4750 2600
-Connection ~ 4750 3200
-Connection ~ 4350 3200
-Connection ~ 4350 3500
-Connection ~ 4750 3500
+	4350 1250 4350 3250
+Connection ~ 4750 1750
+Connection ~ 4350 1450
+Connection ~ 4350 1750
+Connection ~ 4350 2050
+Connection ~ 4750 2050
+Connection ~ 4750 2650
+Connection ~ 4350 2650
+Connection ~ 4350 2350
+Connection ~ 4750 2350
+Connection ~ 4750 2950
+Connection ~ 4350 2950
+Connection ~ 4350 3250
+Connection ~ 4750 3250
 Wire Wire Line
-	4750 3700 4750 1700
+	4750 3450 4750 1450
 Wire Wire Line
-	4250 3700 4250 1700
-Connection ~ 4250 3500
-Connection ~ 3850 3500
-Connection ~ 3850 3200
-Connection ~ 4250 3200
-Connection ~ 4250 2600
-Connection ~ 3850 2600
-Connection ~ 3850 2900
-Connection ~ 4250 2900
-Connection ~ 4250 2300
-Connection ~ 3850 2300
-Connection ~ 3850 2000
-Connection ~ 3850 1700
-Connection ~ 4250 2000
+	4250 3450 4250 1450
+Connection ~ 4250 3250
+Connection ~ 3850 3250
+Connection ~ 3850 2950
+Connection ~ 4250 2950
+Connection ~ 4250 2350
+Connection ~ 3850 2350
+Connection ~ 3850 2650
+Connection ~ 4250 2650
+Connection ~ 4250 2050
+Connection ~ 3850 2050
+Connection ~ 3850 1750
+Connection ~ 3850 1450
+Connection ~ 4250 1750
 Wire Wire Line
-	3850 1500 3850 3500
+	3850 1250 3850 3250
 Wire Wire Line
-	6850 1500 6850 3500
-Connection ~ 7250 2000
-Connection ~ 6850 1700
-Connection ~ 6850 2000
-Connection ~ 6850 2300
-Connection ~ 7250 2300
-Connection ~ 7250 2900
-Connection ~ 6850 2900
-Connection ~ 6850 2600
-Connection ~ 7250 2600
-Connection ~ 7250 3200
-Connection ~ 6850 3200
-Connection ~ 6850 3500
-Connection ~ 7250 3500
+	6850 1250 6850 3250
+Connection ~ 7250 1750
+Connection ~ 6850 1450
+Connection ~ 6850 1750
+Connection ~ 6850 2050
+Connection ~ 7250 2050
+Connection ~ 7250 2650
+Connection ~ 6850 2650
+Connection ~ 6850 2350
+Connection ~ 7250 2350
+Connection ~ 7250 2950
+Connection ~ 6850 2950
+Connection ~ 6850 3250
+Connection ~ 7250 3250
 Wire Wire Line
-	7250 3700 7250 1700
+	7250 3450 7250 1450
 Wire Wire Line
-	7750 3700 7750 1700
-Connection ~ 7750 3500
-Connection ~ 7350 3500
-Connection ~ 7350 3200
-Connection ~ 7750 3200
-Connection ~ 7750 2600
-Connection ~ 7350 2600
-Connection ~ 7350 2900
-Connection ~ 7750 2900
-Connection ~ 7750 2300
-Connection ~ 7350 2300
-Connection ~ 7350 2000
-Connection ~ 7350 1700
-Connection ~ 7750 2000
+	7750 3450 7750 1450
+Connection ~ 7750 3250
+Connection ~ 7350 3250
+Connection ~ 7350 2950
+Connection ~ 7750 2950
+Connection ~ 7750 2350
+Connection ~ 7350 2350
+Connection ~ 7350 2650
+Connection ~ 7750 2650
+Connection ~ 7750 2050
+Connection ~ 7350 2050
+Connection ~ 7350 1750
+Connection ~ 7350 1450
+Connection ~ 7750 1750
 Wire Wire Line
-	7350 1500 7350 3500
+	7350 1250 7350 3250
 Wire Wire Line
-	6350 1500 6350 3500
-Connection ~ 6750 2000
-Connection ~ 6350 1700
-Connection ~ 6350 2000
-Connection ~ 6350 2300
-Connection ~ 6750 2300
-Connection ~ 6750 2900
-Connection ~ 6350 2900
-Connection ~ 6350 2600
-Connection ~ 6750 2600
-Connection ~ 6750 3200
-Connection ~ 6350 3200
-Connection ~ 6350 3500
-Connection ~ 6750 3500
+	6350 1250 6350 3250
+Connection ~ 6750 1750
+Connection ~ 6350 1450
+Connection ~ 6350 1750
+Connection ~ 6350 2050
+Connection ~ 6750 2050
+Connection ~ 6750 2650
+Connection ~ 6350 2650
+Connection ~ 6350 2350
+Connection ~ 6750 2350
+Connection ~ 6750 2950
+Connection ~ 6350 2950
+Connection ~ 6350 3250
+Connection ~ 6750 3250
 Wire Wire Line
-	6750 3700 6750 1700
+	6750 3450 6750 1450
 Wire Wire Line
-	6250 3700 6250 1700
-Connection ~ 6250 3500
-Connection ~ 5850 3500
-Connection ~ 5850 3200
-Connection ~ 6250 3200
-Connection ~ 6250 2600
-Connection ~ 5850 2600
-Connection ~ 5850 2900
-Connection ~ 6250 2900
-Connection ~ 6250 2300
-Connection ~ 5850 2300
-Connection ~ 5850 2000
-Connection ~ 5850 1700
-Connection ~ 6250 2000
+	6250 3450 6250 1450
+Connection ~ 6250 3250
+Connection ~ 5850 3250
+Connection ~ 5850 2950
+Connection ~ 6250 2950
+Connection ~ 6250 2350
+Connection ~ 5850 2350
+Connection ~ 5850 2650
+Connection ~ 6250 2650
+Connection ~ 6250 2050
+Connection ~ 5850 2050
+Connection ~ 5850 1750
+Connection ~ 5850 1450
+Connection ~ 6250 1750
 Wire Wire Line
-	5850 1500 5850 3500
+	5850 1250 5850 3250
 Wire Wire Line
-	5850 4750 5850 6750
-Connection ~ 6250 5250
-Connection ~ 5850 4950
-Connection ~ 5850 5250
-Connection ~ 5850 5550
-Connection ~ 6250 5550
-Connection ~ 6250 6150
-Connection ~ 5850 6150
-Connection ~ 5850 5850
-Connection ~ 6250 5850
-Connection ~ 6250 6450
-Connection ~ 5850 6450
-Connection ~ 5850 6750
-Connection ~ 6250 6750
+	5850 4500 5850 6500
+Connection ~ 6250 5000
+Connection ~ 5850 4700
+Connection ~ 5850 5000
+Connection ~ 5850 5300
+Connection ~ 6250 5300
+Connection ~ 6250 5900
+Connection ~ 5850 5900
+Connection ~ 5850 5600
+Connection ~ 6250 5600
+Connection ~ 6250 6200
+Connection ~ 5850 6200
+Connection ~ 5850 6500
+Connection ~ 6250 6500
 Wire Wire Line
-	6250 6950 6250 4950
+	6250 6700 6250 4700
 Wire Wire Line
-	6750 6950 6750 4950
-Connection ~ 6750 6750
-Connection ~ 6350 6750
-Connection ~ 6350 6450
-Connection ~ 6750 6450
-Connection ~ 6750 5850
-Connection ~ 6350 5850
-Connection ~ 6350 6150
-Connection ~ 6750 6150
-Connection ~ 6750 5550
-Connection ~ 6350 5550
-Connection ~ 6350 5250
-Connection ~ 6350 4950
-Connection ~ 6750 5250
+	6750 6700 6750 4700
+Connection ~ 6750 6500
+Connection ~ 6350 6500
+Connection ~ 6350 6200
+Connection ~ 6750 6200
+Connection ~ 6750 5600
+Connection ~ 6350 5600
+Connection ~ 6350 5900
+Connection ~ 6750 5900
+Connection ~ 6750 5300
+Connection ~ 6350 5300
+Connection ~ 6350 5000
+Connection ~ 6350 4700
+Connection ~ 6750 5000
 Wire Wire Line
-	6350 4750 6350 6750
+	6350 4500 6350 6500
 Wire Wire Line
-	7350 4750 7350 6750
-Connection ~ 7750 5250
-Connection ~ 7350 4950
-Connection ~ 7350 5250
-Connection ~ 7350 5550
-Connection ~ 7750 5550
-Connection ~ 7750 6150
-Connection ~ 7350 6150
-Connection ~ 7350 5850
-Connection ~ 7750 5850
-Connection ~ 7750 6450
-Connection ~ 7350 6450
-Connection ~ 7350 6750
-Connection ~ 7750 6750
+	7350 4500 7350 6500
+Connection ~ 7750 5000
+Connection ~ 7350 4700
+Connection ~ 7350 5000
+Connection ~ 7350 5300
+Connection ~ 7750 5300
+Connection ~ 7750 5900
+Connection ~ 7350 5900
+Connection ~ 7350 5600
+Connection ~ 7750 5600
+Connection ~ 7750 6200
+Connection ~ 7350 6200
+Connection ~ 7350 6500
+Connection ~ 7750 6500
 Wire Wire Line
-	7750 6950 7750 4950
+	7750 6700 7750 4700
 Wire Wire Line
-	7250 6950 7250 4950
-Connection ~ 7250 6750
-Connection ~ 6850 6750
-Connection ~ 6850 6450
-Connection ~ 7250 6450
-Connection ~ 7250 5850
-Connection ~ 6850 5850
-Connection ~ 6850 6150
-Connection ~ 7250 6150
-Connection ~ 7250 5550
-Connection ~ 6850 5550
-Connection ~ 6850 5250
-Connection ~ 6850 4950
-Connection ~ 7250 5250
+	7250 6700 7250 4700
+Connection ~ 7250 6500
+Connection ~ 6850 6500
+Connection ~ 6850 6200
+Connection ~ 7250 6200
+Connection ~ 7250 5600
+Connection ~ 6850 5600
+Connection ~ 6850 5900
+Connection ~ 7250 5900
+Connection ~ 7250 5300
+Connection ~ 6850 5300
+Connection ~ 6850 5000
+Connection ~ 6850 4700
+Connection ~ 7250 5000
 Wire Wire Line
-	6850 4750 6850 6750
+	6850 4500 6850 6500
 Wire Wire Line
-	3850 4750 3850 6750
-Connection ~ 4250 5250
-Connection ~ 3850 4950
-Connection ~ 3850 5250
-Connection ~ 3850 5550
-Connection ~ 4250 5550
-Connection ~ 4250 6150
-Connection ~ 3850 6150
-Connection ~ 3850 5850
-Connection ~ 4250 5850
-Connection ~ 4250 6450
-Connection ~ 3850 6450
-Connection ~ 3850 6750
-Connection ~ 4250 6750
+	3850 4500 3850 6500
+Connection ~ 4250 5000
+Connection ~ 3850 4700
+Connection ~ 3850 5000
+Connection ~ 3850 5300
+Connection ~ 4250 5300
+Connection ~ 4250 5900
+Connection ~ 3850 5900
+Connection ~ 3850 5600
+Connection ~ 4250 5600
+Connection ~ 4250 6200
+Connection ~ 3850 6200
+Connection ~ 3850 6500
+Connection ~ 4250 6500
 Wire Wire Line
-	4250 6950 4250 4950
+	4250 6700 4250 4700
 Wire Wire Line
-	4750 6950 4750 4950
-Connection ~ 4750 6750
-Connection ~ 4350 6750
-Connection ~ 4350 6450
-Connection ~ 4750 6450
-Connection ~ 4750 5850
-Connection ~ 4350 5850
-Connection ~ 4350 6150
-Connection ~ 4750 6150
-Connection ~ 4750 5550
-Connection ~ 4350 5550
-Connection ~ 4350 5250
-Connection ~ 4350 4950
-Connection ~ 4750 5250
+	4750 6700 4750 4700
+Connection ~ 4750 6500
+Connection ~ 4350 6500
+Connection ~ 4350 6200
+Connection ~ 4750 6200
+Connection ~ 4750 5600
+Connection ~ 4350 5600
+Connection ~ 4350 5900
+Connection ~ 4750 5900
+Connection ~ 4750 5300
+Connection ~ 4350 5300
+Connection ~ 4350 5000
+Connection ~ 4350 4700
+Connection ~ 4750 5000
 Wire Wire Line
-	4350 4750 4350 6750
+	4350 4500 4350 6500
 Wire Wire Line
-	5350 4750 5350 6750
-Connection ~ 5750 5250
-Connection ~ 5350 4950
-Connection ~ 5350 5250
-Connection ~ 5350 5550
-Connection ~ 5750 5550
-Connection ~ 5750 6150
-Connection ~ 5350 6150
-Connection ~ 5350 5850
-Connection ~ 5750 5850
-Connection ~ 5750 6450
-Connection ~ 5350 6450
-Connection ~ 5350 6750
-Connection ~ 5750 6750
+	5350 4500 5350 6500
+Connection ~ 5750 5000
+Connection ~ 5350 4700
+Connection ~ 5350 5000
+Connection ~ 5350 5300
+Connection ~ 5750 5300
+Connection ~ 5750 5900
+Connection ~ 5350 5900
+Connection ~ 5350 5600
+Connection ~ 5750 5600
+Connection ~ 5750 6200
+Connection ~ 5350 6200
+Connection ~ 5350 6500
+Connection ~ 5750 6500
 Wire Wire Line
-	5750 6950 5750 4950
+	5750 6700 5750 4700
 Wire Wire Line
-	5250 6950 5250 4950
-Connection ~ 5250 6750
-Connection ~ 4850 6750
-Connection ~ 4850 6450
-Connection ~ 5250 6450
-Connection ~ 5250 5850
-Connection ~ 4850 5850
-Connection ~ 4850 6150
-Connection ~ 5250 6150
-Connection ~ 5250 5550
-Connection ~ 4850 5550
-Connection ~ 4850 5250
-Connection ~ 4850 4950
-Connection ~ 5250 5250
+	5250 6700 5250 4700
+Connection ~ 5250 6500
+Connection ~ 4850 6500
+Connection ~ 4850 6200
+Connection ~ 5250 6200
+Connection ~ 5250 5600
+Connection ~ 4850 5600
+Connection ~ 4850 5900
+Connection ~ 5250 5900
+Connection ~ 5250 5300
+Connection ~ 4850 5300
+Connection ~ 4850 5000
+Connection ~ 4850 4700
+Connection ~ 5250 5000
 Wire Wire Line
-	4850 4750 4850 6750
+	4850 4500 4850 6500
 Wire Wire Line
-	2850 4750 2850 6750
-Connection ~ 3250 5250
-Connection ~ 2850 4950
-Connection ~ 2850 5250
-Connection ~ 2850 5550
-Connection ~ 3250 5550
-Connection ~ 3250 6150
-Connection ~ 2850 6150
-Connection ~ 2850 5850
-Connection ~ 3250 5850
-Connection ~ 3250 6450
-Connection ~ 2850 6450
-Connection ~ 2850 6750
-Connection ~ 3250 6750
+	2850 4500 2850 6500
+Connection ~ 3250 5000
+Connection ~ 2850 4700
+Connection ~ 2850 5000
+Connection ~ 2850 5300
+Connection ~ 3250 5300
+Connection ~ 3250 5900
+Connection ~ 2850 5900
+Connection ~ 2850 5600
+Connection ~ 3250 5600
+Connection ~ 3250 6200
+Connection ~ 2850 6200
+Connection ~ 2850 6500
+Connection ~ 3250 6500
 Wire Wire Line
-	3250 6950 3250 4950
+	3250 6700 3250 4700
 Wire Wire Line
-	3750 6950 3750 4950
-Connection ~ 3750 6750
-Connection ~ 3350 6750
-Connection ~ 3350 6450
-Connection ~ 3750 6450
-Connection ~ 3750 5850
-Connection ~ 3350 5850
-Connection ~ 3350 6150
-Connection ~ 3750 6150
-Connection ~ 3750 5550
-Connection ~ 3350 5550
-Connection ~ 3350 5250
-Connection ~ 3350 4950
-Connection ~ 3750 5250
+	3750 6700 3750 4700
+Connection ~ 3750 6500
+Connection ~ 3350 6500
+Connection ~ 3350 6200
+Connection ~ 3750 6200
+Connection ~ 3750 5600
+Connection ~ 3350 5600
+Connection ~ 3350 5900
+Connection ~ 3750 5900
+Connection ~ 3750 5300
+Connection ~ 3350 5300
+Connection ~ 3350 5000
+Connection ~ 3350 4700
+Connection ~ 3750 5000
 Wire Wire Line
-	3350 4750 3350 6750
+	3350 4500 3350 6500
 Wire Wire Line
-	2350 4750 2350 6750
-Connection ~ 2750 5250
-Connection ~ 2350 4950
-Connection ~ 2350 5250
-Connection ~ 2350 5550
-Connection ~ 2750 5550
-Connection ~ 2750 6150
-Connection ~ 2350 6150
-Connection ~ 2350 5850
-Connection ~ 2750 5850
-Connection ~ 2750 6450
-Connection ~ 2350 6450
-Connection ~ 2350 6750
-Connection ~ 2750 6750
+	2350 4500 2350 6500
+Connection ~ 2750 5000
+Connection ~ 2350 4700
+Connection ~ 2350 5000
+Connection ~ 2350 5300
+Connection ~ 2750 5300
+Connection ~ 2750 5900
+Connection ~ 2350 5900
+Connection ~ 2350 5600
+Connection ~ 2750 5600
+Connection ~ 2750 6200
+Connection ~ 2350 6200
+Connection ~ 2350 6500
+Connection ~ 2750 6500
 Wire Wire Line
-	2750 6950 2750 4950
+	2750 6700 2750 4700
 Wire Wire Line
-	2250 6950 2250 4950
-Connection ~ 2250 6750
-Connection ~ 1850 6750
-Connection ~ 1850 6450
-Connection ~ 2250 6450
-Connection ~ 2250 5850
-Connection ~ 1850 5850
-Connection ~ 1850 6150
-Connection ~ 2250 6150
-Connection ~ 2250 5550
-Connection ~ 1850 5550
-Connection ~ 1850 5250
-Connection ~ 1850 4950
-Connection ~ 2250 5250
+	2250 6700 2250 4700
+Connection ~ 2250 6500
+Connection ~ 1850 6500
+Connection ~ 1850 6200
+Connection ~ 2250 6200
+Connection ~ 2250 5600
+Connection ~ 1850 5600
+Connection ~ 1850 5900
+Connection ~ 2250 5900
+Connection ~ 2250 5300
+Connection ~ 1850 5300
+Connection ~ 1850 5000
+Connection ~ 1850 4700
+Connection ~ 2250 5000
 Wire Wire Line
-	1850 4750 1850 6750
+	1850 4500 1850 6500
 $Comp
 L CONN_2 P19
 U 1 1 4F2172D6
-P 1950 1150
-F 0 "P19" V 1900 1150 40  0000 C CNN
-F 1 "CONN_2" V 2000 1150 40  0000 C CNN
-F 2 "LEDLINK" V 2100 1150 40  0000 C CNN
-	1    1950 1150
+P 1950 900
+F 0 "P19" V 1900 900 40  0000 C CNN
+F 1 "CONN_2" V 2000 900 40  0000 C CNN
+F 2 "LEDLINK" V 2100 900 40  0000 C CNN
+	1    1950 900 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L LED D8
 U 1 1 4F2172A4
-P 2050 4950
-F 0 "D8" H 2050 5050 50  0000 C CNN
-F 1 "LED" H 2050 4850 50  0000 C CNN
-F 2 "LED-3MM" H 2050 4950 50  0000 C CNN
-	1    2050 4950
+P 2050 4700
+F 0 "D8" H 2050 4800 50  0000 C CNN
+F 1 "LED" H 2050 4600 50  0000 C CNN
+F 2 "LED-3MM" H 2050 4700 50  0000 C CNN
+	1    2050 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D9
 U 1 1 4F2172A3
-P 2050 5250
-F 0 "D9" H 2050 5350 50  0000 C CNN
-F 1 "LED" H 2050 5150 50  0000 C CNN
-F 2 "LED-3MM" H 2050 5250 50  0000 C CNN
-	1    2050 5250
+P 2050 5000
+F 0 "D9" H 2050 5100 50  0000 C CNN
+F 1 "LED" H 2050 4900 50  0000 C CNN
+F 2 "LED-3MM" H 2050 5000 50  0000 C CNN
+	1    2050 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D10
 U 1 1 4F2172A1
-P 2050 5550
-F 0 "D10" H 2050 5650 50  0000 C CNN
-F 1 "LED" H 2050 5450 50  0000 C CNN
-F 2 "LED-3MM" H 2050 5550 50  0000 C CNN
-	1    2050 5550
+P 2050 5300
+F 0 "D10" H 2050 5400 50  0000 C CNN
+F 1 "LED" H 2050 5200 50  0000 C CNN
+F 2 "LED-3MM" H 2050 5300 50  0000 C CNN
+	1    2050 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D12
 U 1 1 4F2172A0
-P 2050 6150
-F 0 "D12" H 2050 6250 50  0000 C CNN
-F 1 "LED" H 2050 6050 50  0000 C CNN
-F 2 "LED-3MM" H 2050 6150 50  0000 C CNN
-	1    2050 6150
+P 2050 5900
+F 0 "D12" H 2050 6000 50  0000 C CNN
+F 1 "LED" H 2050 5800 50  0000 C CNN
+F 2 "LED-3MM" H 2050 5900 50  0000 C CNN
+	1    2050 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D11
 U 1 1 4F21729F
-P 2050 5850
-F 0 "D11" H 2050 5950 50  0000 C CNN
-F 1 "LED" H 2050 5750 50  0000 C CNN
-F 2 "LED-3MM" H 2050 5850 50  0000 C CNN
-	1    2050 5850
+P 2050 5600
+F 0 "D11" H 2050 5700 50  0000 C CNN
+F 1 "LED" H 2050 5500 50  0000 C CNN
+F 2 "LED-3MM" H 2050 5600 50  0000 C CNN
+	1    2050 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D13
 U 1 1 4F21729E
-P 2050 6450
-F 0 "D13" H 2050 6550 50  0000 C CNN
-F 1 "LED" H 2050 6350 50  0000 C CNN
-F 2 "LED-3MM" H 2050 6450 50  0000 C CNN
-	1    2050 6450
+P 2050 6200
+F 0 "D13" H 2050 6300 50  0000 C CNN
+F 1 "LED" H 2050 6100 50  0000 C CNN
+F 2 "LED-3MM" H 2050 6200 50  0000 C CNN
+	1    2050 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D14
 U 1 1 4F21729D
-P 2050 6750
-F 0 "D14" H 2050 6850 50  0000 C CNN
-F 1 "LED" H 2050 6650 50  0000 C CNN
-F 2 "LED-3MM" H 2050 6750 50  0000 C CNN
-	1    2050 6750
+P 2050 6500
+F 0 "D14" H 2050 6600 50  0000 C CNN
+F 1 "LED" H 2050 6400 50  0000 C CNN
+F 2 "LED-3MM" H 2050 6500 50  0000 C CNN
+	1    2050 6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L GND #PWR017
 U 1 1 4F21729C
-P 2250 6950
-F 0 "#PWR015" H 2250 6950 30  0001 C CNN
-F 1 "GND" H 2250 6880 30  0001 C CNN
-	1    2250 6950
+P 2250 6700
+F 0 "#PWR017" H 2250 6700 30  0001 C CNN
+F 1 "GND" H 2250 6630 30  0001 C CNN
+	1    2250 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L GND #PWR018
 U 1 1 4F21729B
-P 2750 6950
-F 0 "#PWR016" H 2750 6950 30  0001 C CNN
-F 1 "GND" H 2750 6880 30  0001 C CNN
-	1    2750 6950
+P 2750 6700
+F 0 "#PWR018" H 2750 6700 30  0001 C CNN
+F 1 "GND" H 2750 6630 30  0001 C CNN
+	1    2750 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D28
 U 1 1 4F21729A
-P 2550 6750
-F 0 "D28" H 2550 6850 50  0000 C CNN
-F 1 "LED" H 2550 6650 50  0000 C CNN
-F 2 "LED-3MM" H 2550 6750 50  0000 C CNN
-	1    2550 6750
+P 2550 6500
+F 0 "D28" H 2550 6600 50  0000 C CNN
+F 1 "LED" H 2550 6400 50  0000 C CNN
+F 2 "LED-3MM" H 2550 6500 50  0000 C CNN
+	1    2550 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D27
 U 1 1 4F217299
-P 2550 6450
-F 0 "D27" H 2550 6550 50  0000 C CNN
-F 1 "LED" H 2550 6350 50  0000 C CNN
-F 2 "LED-3MM" H 2550 6450 50  0000 C CNN
-	1    2550 6450
+P 2550 6200
+F 0 "D27" H 2550 6300 50  0000 C CNN
+F 1 "LED" H 2550 6100 50  0000 C CNN
+F 2 "LED-3MM" H 2550 6200 50  0000 C CNN
+	1    2550 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D25
 U 1 1 4F217298
-P 2550 5850
-F 0 "D25" H 2550 5950 50  0000 C CNN
-F 1 "LED" H 2550 5750 50  0000 C CNN
-F 2 "LED-3MM" H 2550 5850 50  0000 C CNN
-	1    2550 5850
+P 2550 5600
+F 0 "D25" H 2550 5700 50  0000 C CNN
+F 1 "LED" H 2550 5500 50  0000 C CNN
+F 2 "LED-3MM" H 2550 5600 50  0000 C CNN
+	1    2550 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D26
 U 1 1 4F217297
-P 2550 6150
-F 0 "D26" H 2550 6250 50  0000 C CNN
-F 1 "LED" H 2550 6050 50  0000 C CNN
-F 2 "LED-3MM" H 2550 6150 50  0000 C CNN
-	1    2550 6150
+P 2550 5900
+F 0 "D26" H 2550 6000 50  0000 C CNN
+F 1 "LED" H 2550 5800 50  0000 C CNN
+F 2 "LED-3MM" H 2550 5900 50  0000 C CNN
+	1    2550 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D24
 U 1 1 4F217296
-P 2550 5550
-F 0 "D24" H 2550 5650 50  0000 C CNN
-F 1 "LED" H 2550 5450 50  0000 C CNN
-F 2 "LED-3MM" H 2550 5550 50  0000 C CNN
-	1    2550 5550
+P 2550 5300
+F 0 "D24" H 2550 5400 50  0000 C CNN
+F 1 "LED" H 2550 5200 50  0000 C CNN
+F 2 "LED-3MM" H 2550 5300 50  0000 C CNN
+	1    2550 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D23
 U 1 1 4F217294
-P 2550 5250
-F 0 "D23" H 2550 5350 50  0000 C CNN
-F 1 "LED" H 2550 5150 50  0000 C CNN
-F 2 "LED-3MM" H 2550 5250 50  0000 C CNN
-	1    2550 5250
+P 2550 5000
+F 0 "D23" H 2550 5100 50  0000 C CNN
+F 1 "LED" H 2550 4900 50  0000 C CNN
+F 2 "LED-3MM" H 2550 5000 50  0000 C CNN
+	1    2550 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D22
 U 1 1 4F217293
-P 2550 4950
-F 0 "D22" H 2550 5050 50  0000 C CNN
-F 1 "LED" H 2550 4850 50  0000 C CNN
-F 2 "LED-3MM" H 2550 4950 50  0000 C CNN
-	1    2550 4950
+P 2550 4700
+F 0 "D22" H 2550 4800 50  0000 C CNN
+F 1 "LED" H 2550 4600 50  0000 C CNN
+F 2 "LED-3MM" H 2550 4700 50  0000 C CNN
+	1    2550 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D50
 U 1 1 4F217292
-P 3550 4950
-F 0 "D50" H 3550 5050 50  0000 C CNN
-F 1 "LED" H 3550 4850 50  0000 C CNN
-F 2 "LED-3MM" H 3550 4950 50  0000 C CNN
-	1    3550 4950
+P 3550 4700
+F 0 "D50" H 3550 4800 50  0000 C CNN
+F 1 "LED" H 3550 4600 50  0000 C CNN
+F 2 "LED-3MM" H 3550 4700 50  0000 C CNN
+	1    3550 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D51
 U 1 1 4F217291
-P 3550 5250
-F 0 "D51" H 3550 5350 50  0000 C CNN
-F 1 "LED" H 3550 5150 50  0000 C CNN
-F 2 "LED-3MM" H 3550 5250 50  0000 C CNN
-	1    3550 5250
+P 3550 5000
+F 0 "D51" H 3550 5100 50  0000 C CNN
+F 1 "LED" H 3550 4900 50  0000 C CNN
+F 2 "LED-3MM" H 3550 5000 50  0000 C CNN
+	1    3550 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D52
 U 1 1 4F21728F
-P 3550 5550
-F 0 "D52" H 3550 5650 50  0000 C CNN
-F 1 "LED" H 3550 5450 50  0000 C CNN
-F 2 "LED-3MM" H 3550 5550 50  0000 C CNN
-	1    3550 5550
+P 3550 5300
+F 0 "D52" H 3550 5400 50  0000 C CNN
+F 1 "LED" H 3550 5200 50  0000 C CNN
+F 2 "LED-3MM" H 3550 5300 50  0000 C CNN
+	1    3550 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D54
 U 1 1 4F21728E
-P 3550 6150
-F 0 "D54" H 3550 6250 50  0000 C CNN
-F 1 "LED" H 3550 6050 50  0000 C CNN
-F 2 "LED-3MM" H 3550 6150 50  0000 C CNN
-	1    3550 6150
+P 3550 5900
+F 0 "D54" H 3550 6000 50  0000 C CNN
+F 1 "LED" H 3550 5800 50  0000 C CNN
+F 2 "LED-3MM" H 3550 5900 50  0000 C CNN
+	1    3550 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D53
 U 1 1 4F21728D
-P 3550 5850
-F 0 "D53" H 3550 5950 50  0000 C CNN
-F 1 "LED" H 3550 5750 50  0000 C CNN
-F 2 "LED-3MM" H 3550 5850 50  0000 C CNN
-	1    3550 5850
+P 3550 5600
+F 0 "D53" H 3550 5700 50  0000 C CNN
+F 1 "LED" H 3550 5500 50  0000 C CNN
+F 2 "LED-3MM" H 3550 5600 50  0000 C CNN
+	1    3550 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D55
 U 1 1 4F21728C
-P 3550 6450
-F 0 "D55" H 3550 6550 50  0000 C CNN
-F 1 "LED" H 3550 6350 50  0000 C CNN
-F 2 "LED-3MM" H 3550 6450 50  0000 C CNN
-	1    3550 6450
+P 3550 6200
+F 0 "D55" H 3550 6300 50  0000 C CNN
+F 1 "LED" H 3550 6100 50  0000 C CNN
+F 2 "LED-3MM" H 3550 6200 50  0000 C CNN
+	1    3550 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D56
 U 1 1 4F21728B
-P 3550 6750
-F 0 "D56" H 3550 6850 50  0000 C CNN
-F 1 "LED" H 3550 6650 50  0000 C CNN
-F 2 "LED-3MM" H 3550 6750 50  0000 C CNN
-	1    3550 6750
+P 3550 6500
+F 0 "D56" H 3550 6600 50  0000 C CNN
+F 1 "LED" H 3550 6400 50  0000 C CNN
+F 2 "LED-3MM" H 3550 6500 50  0000 C CNN
+	1    3550 6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L GND #PWR019
 U 1 1 4F21728A
-P 3750 6950
-F 0 "#PWR017" H 3750 6950 30  0001 C CNN
-F 1 "GND" H 3750 6880 30  0001 C CNN
-	1    3750 6950
+P 3750 6700
+F 0 "#PWR019" H 3750 6700 30  0001 C CNN
+F 1 "GND" H 3750 6630 30  0001 C CNN
+	1    3750 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L GND #PWR020
 U 1 1 4F217289
-P 3250 6950
-F 0 "#PWR018" H 3250 6950 30  0001 C CNN
-F 1 "GND" H 3250 6880 30  0001 C CNN
-	1    3250 6950
+P 3250 6700
+F 0 "#PWR020" H 3250 6700 30  0001 C CNN
+F 1 "GND" H 3250 6630 30  0001 C CNN
+	1    3250 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D42
 U 1 1 4F217288
-P 3050 6750
-F 0 "D42" H 3050 6850 50  0000 C CNN
-F 1 "LED" H 3050 6650 50  0000 C CNN
-F 2 "LED-3MM" H 3050 6750 50  0000 C CNN
-	1    3050 6750
+P 3050 6500
+F 0 "D42" H 3050 6600 50  0000 C CNN
+F 1 "LED" H 3050 6400 50  0000 C CNN
+F 2 "LED-3MM" H 3050 6500 50  0000 C CNN
+	1    3050 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D41
 U 1 1 4F217287
-P 3050 6450
-F 0 "D41" H 3050 6550 50  0000 C CNN
-F 1 "LED" H 3050 6350 50  0000 C CNN
-F 2 "LED-3MM" H 3050 6450 50  0000 C CNN
-	1    3050 6450
+P 3050 6200
+F 0 "D41" H 3050 6300 50  0000 C CNN
+F 1 "LED" H 3050 6100 50  0000 C CNN
+F 2 "LED-3MM" H 3050 6200 50  0000 C CNN
+	1    3050 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D39
 U 1 1 4F217286
-P 3050 5850
-F 0 "D39" H 3050 5950 50  0000 C CNN
-F 1 "LED" H 3050 5750 50  0000 C CNN
-F 2 "LED-3MM" H 3050 5850 50  0000 C CNN
-	1    3050 5850
+P 3050 5600
+F 0 "D39" H 3050 5700 50  0000 C CNN
+F 1 "LED" H 3050 5500 50  0000 C CNN
+F 2 "LED-3MM" H 3050 5600 50  0000 C CNN
+	1    3050 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D40
 U 1 1 4F217285
-P 3050 6150
-F 0 "D40" H 3050 6250 50  0000 C CNN
-F 1 "LED" H 3050 6050 50  0000 C CNN
-F 2 "LED-3MM" H 3050 6150 50  0000 C CNN
-	1    3050 6150
+P 3050 5900
+F 0 "D40" H 3050 6000 50  0000 C CNN
+F 1 "LED" H 3050 5800 50  0000 C CNN
+F 2 "LED-3MM" H 3050 5900 50  0000 C CNN
+	1    3050 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D38
 U 1 1 4F217284
-P 3050 5550
-F 0 "D38" H 3050 5650 50  0000 C CNN
-F 1 "LED" H 3050 5450 50  0000 C CNN
-F 2 "LED-3MM" H 3050 5550 50  0000 C CNN
-	1    3050 5550
+P 3050 5300
+F 0 "D38" H 3050 5400 50  0000 C CNN
+F 1 "LED" H 3050 5200 50  0000 C CNN
+F 2 "LED-3MM" H 3050 5300 50  0000 C CNN
+	1    3050 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D37
 U 1 1 4F217282
-P 3050 5250
-F 0 "D37" H 3050 5350 50  0000 C CNN
-F 1 "LED" H 3050 5150 50  0000 C CNN
-F 2 "LED-3MM" H 3050 5250 50  0000 C CNN
-	1    3050 5250
+P 3050 5000
+F 0 "D37" H 3050 5100 50  0000 C CNN
+F 1 "LED" H 3050 4900 50  0000 C CNN
+F 2 "LED-3MM" H 3050 5000 50  0000 C CNN
+	1    3050 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D36
 U 1 1 4F217281
-P 3050 4950
-F 0 "D36" H 3050 5050 50  0000 C CNN
-F 1 "LED" H 3050 4850 50  0000 C CNN
-F 2 "LED-3MM" H 3050 4950 50  0000 C CNN
-	1    3050 4950
+P 3050 4700
+F 0 "D36" H 3050 4800 50  0000 C CNN
+F 1 "LED" H 3050 4600 50  0000 C CNN
+F 2 "LED-3MM" H 3050 4700 50  0000 C CNN
+	1    3050 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D92
 U 1 1 4F217280
-P 5050 4950
-F 0 "D92" H 5050 5050 50  0000 C CNN
-F 1 "LED" H 5050 4850 50  0000 C CNN
-F 2 "LED-3MM" H 5050 4950 50  0000 C CNN
-	1    5050 4950
+P 5050 4700
+F 0 "D92" H 5050 4800 50  0000 C CNN
+F 1 "LED" H 5050 4600 50  0000 C CNN
+F 2 "LED-3MM" H 5050 4700 50  0000 C CNN
+	1    5050 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D93
 U 1 1 4F21727F
-P 5050 5250
-F 0 "D93" H 5050 5350 50  0000 C CNN
-F 1 "LED" H 5050 5150 50  0000 C CNN
-F 2 "LED-3MM" H 5050 5250 50  0000 C CNN
-	1    5050 5250
+P 5050 5000
+F 0 "D93" H 5050 5100 50  0000 C CNN
+F 1 "LED" H 5050 4900 50  0000 C CNN
+F 2 "LED-3MM" H 5050 5000 50  0000 C CNN
+	1    5050 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D94
 U 1 1 4F21727D
-P 5050 5550
-F 0 "D94" H 5050 5650 50  0000 C CNN
-F 1 "LED" H 5050 5450 50  0000 C CNN
-F 2 "LED-3MM" H 5050 5550 50  0000 C CNN
-	1    5050 5550
+P 5050 5300
+F 0 "D94" H 5050 5400 50  0000 C CNN
+F 1 "LED" H 5050 5200 50  0000 C CNN
+F 2 "LED-3MM" H 5050 5300 50  0000 C CNN
+	1    5050 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D96
 U 1 1 4F21727C
-P 5050 6150
-F 0 "D96" H 5050 6250 50  0000 C CNN
-F 1 "LED" H 5050 6050 50  0000 C CNN
-F 2 "LED-3MM" H 5050 6150 50  0000 C CNN
-	1    5050 6150
+P 5050 5900
+F 0 "D96" H 5050 6000 50  0000 C CNN
+F 1 "LED" H 5050 5800 50  0000 C CNN
+F 2 "LED-3MM" H 5050 5900 50  0000 C CNN
+	1    5050 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D95
 U 1 1 4F21727B
-P 5050 5850
-F 0 "D95" H 5050 5950 50  0000 C CNN
-F 1 "LED" H 5050 5750 50  0000 C CNN
-F 2 "LED-3MM" H 5050 5850 50  0000 C CNN
-	1    5050 5850
+P 5050 5600
+F 0 "D95" H 5050 5700 50  0000 C CNN
+F 1 "LED" H 5050 5500 50  0000 C CNN
+F 2 "LED-3MM" H 5050 5600 50  0000 C CNN
+	1    5050 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D97
 U 1 1 4F21727A
-P 5050 6450
-F 0 "D97" H 5050 6550 50  0000 C CNN
-F 1 "LED" H 5050 6350 50  0000 C CNN
-F 2 "LED-3MM" H 5050 6450 50  0000 C CNN
-	1    5050 6450
+P 5050 6200
+F 0 "D97" H 5050 6300 50  0000 C CNN
+F 1 "LED" H 5050 6100 50  0000 C CNN
+F 2 "LED-3MM" H 5050 6200 50  0000 C CNN
+	1    5050 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D98
 U 1 1 4F217279
-P 5050 6750
-F 0 "D98" H 5050 6850 50  0000 C CNN
-F 1 "LED" H 5050 6650 50  0000 C CNN
-F 2 "LED-3MM" H 5050 6750 50  0000 C CNN
-	1    5050 6750
+P 5050 6500
+F 0 "D98" H 5050 6600 50  0000 C CNN
+F 1 "LED" H 5050 6400 50  0000 C CNN
+F 2 "LED-3MM" H 5050 6500 50  0000 C CNN
+	1    5050 6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L GND #PWR021
 U 1 1 4F217278
-P 5250 6950
-F 0 "#PWR019" H 5250 6950 30  0001 C CNN
-F 1 "GND" H 5250 6880 30  0001 C CNN
-	1    5250 6950
+P 5250 6700
+F 0 "#PWR021" H 5250 6700 30  0001 C CNN
+F 1 "GND" H 5250 6630 30  0001 C CNN
+	1    5250 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L GND #PWR022
 U 1 1 4F217277
-P 5750 6950
-F 0 "#PWR020" H 5750 6950 30  0001 C CNN
-F 1 "GND" H 5750 6880 30  0001 C CNN
-	1    5750 6950
+P 5750 6700
+F 0 "#PWR022" H 5750 6700 30  0001 C CNN
+F 1 "GND" H 5750 6630 30  0001 C CNN
+	1    5750 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D112
 U 1 1 4F217276
-P 5550 6750
-F 0 "D112" H 5550 6850 50  0000 C CNN
-F 1 "LED" H 5550 6650 50  0000 C CNN
-F 2 "LED-3MM" H 5550 6750 50  0000 C CNN
-	1    5550 6750
+P 5550 6500
+F 0 "D112" H 5550 6600 50  0000 C CNN
+F 1 "LED" H 5550 6400 50  0000 C CNN
+F 2 "LED-3MM" H 5550 6500 50  0000 C CNN
+	1    5550 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D111
 U 1 1 4F217275
-P 5550 6450
-F 0 "D111" H 5550 6550 50  0000 C CNN
-F 1 "LED" H 5550 6350 50  0000 C CNN
-F 2 "LED-3MM" H 5550 6450 50  0000 C CNN
-	1    5550 6450
+P 5550 6200
+F 0 "D111" H 5550 6300 50  0000 C CNN
+F 1 "LED" H 5550 6100 50  0000 C CNN
+F 2 "LED-3MM" H 5550 6200 50  0000 C CNN
+	1    5550 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D109
 U 1 1 4F217274
-P 5550 5850
-F 0 "D109" H 5550 5950 50  0000 C CNN
-F 1 "LED" H 5550 5750 50  0000 C CNN
-F 2 "LED-3MM" H 5550 5850 50  0000 C CNN
-	1    5550 5850
+P 5550 5600
+F 0 "D109" H 5550 5700 50  0000 C CNN
+F 1 "LED" H 5550 5500 50  0000 C CNN
+F 2 "LED-3MM" H 5550 5600 50  0000 C CNN
+	1    5550 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D110
 U 1 1 4F217273
-P 5550 6150
-F 0 "D110" H 5550 6250 50  0000 C CNN
-F 1 "LED" H 5550 6050 50  0000 C CNN
-F 2 "LED-3MM" H 5550 6150 50  0000 C CNN
-	1    5550 6150
+P 5550 5900
+F 0 "D110" H 5550 6000 50  0000 C CNN
+F 1 "LED" H 5550 5800 50  0000 C CNN
+F 2 "LED-3MM" H 5550 5900 50  0000 C CNN
+	1    5550 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D108
 U 1 1 4F217272
-P 5550 5550
-F 0 "D108" H 5550 5650 50  0000 C CNN
-F 1 "LED" H 5550 5450 50  0000 C CNN
-F 2 "LED-3MM" H 5550 5550 50  0000 C CNN
-	1    5550 5550
+P 5550 5300
+F 0 "D108" H 5550 5400 50  0000 C CNN
+F 1 "LED" H 5550 5200 50  0000 C CNN
+F 2 "LED-3MM" H 5550 5300 50  0000 C CNN
+	1    5550 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D107
 U 1 1 4F217270
-P 5550 5250
-F 0 "D107" H 5550 5350 50  0000 C CNN
-F 1 "LED" H 5550 5150 50  0000 C CNN
-F 2 "LED-3MM" H 5550 5250 50  0000 C CNN
-	1    5550 5250
+P 5550 5000
+F 0 "D107" H 5550 5100 50  0000 C CNN
+F 1 "LED" H 5550 4900 50  0000 C CNN
+F 2 "LED-3MM" H 5550 5000 50  0000 C CNN
+	1    5550 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D106
 U 1 1 4F21726F
-P 5550 4950
-F 0 "D106" H 5550 5050 50  0000 C CNN
-F 1 "LED" H 5550 4850 50  0000 C CNN
-F 2 "LED-3MM" H 5550 4950 50  0000 C CNN
-	1    5550 4950
+P 5550 4700
+F 0 "D106" H 5550 4800 50  0000 C CNN
+F 1 "LED" H 5550 4600 50  0000 C CNN
+F 2 "LED-3MM" H 5550 4700 50  0000 C CNN
+	1    5550 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D78
 U 1 1 4F21726E
-P 4550 4950
-F 0 "D78" H 4550 5050 50  0000 C CNN
-F 1 "LED" H 4550 4850 50  0000 C CNN
-F 2 "LED-3MM" H 4550 4950 50  0000 C CNN
-	1    4550 4950
+P 4550 4700
+F 0 "D78" H 4550 4800 50  0000 C CNN
+F 1 "LED" H 4550 4600 50  0000 C CNN
+F 2 "LED-3MM" H 4550 4700 50  0000 C CNN
+	1    4550 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D79
 U 1 1 4F21726D
-P 4550 5250
-F 0 "D79" H 4550 5350 50  0000 C CNN
-F 1 "LED" H 4550 5150 50  0000 C CNN
-F 2 "LED-3MM" H 4550 5250 50  0000 C CNN
-	1    4550 5250
+P 4550 5000
+F 0 "D79" H 4550 5100 50  0000 C CNN
+F 1 "LED" H 4550 4900 50  0000 C CNN
+F 2 "LED-3MM" H 4550 5000 50  0000 C CNN
+	1    4550 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D80
 U 1 1 4F21726B
-P 4550 5550
-F 0 "D80" H 4550 5650 50  0000 C CNN
-F 1 "LED" H 4550 5450 50  0000 C CNN
-F 2 "LED-3MM" H 4550 5550 50  0000 C CNN
-	1    4550 5550
+P 4550 5300
+F 0 "D80" H 4550 5400 50  0000 C CNN
+F 1 "LED" H 4550 5200 50  0000 C CNN
+F 2 "LED-3MM" H 4550 5300 50  0000 C CNN
+	1    4550 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D82
 U 1 1 4F21726A
-P 4550 6150
-F 0 "D82" H 4550 6250 50  0000 C CNN
-F 1 "LED" H 4550 6050 50  0000 C CNN
-F 2 "LED-3MM" H 4550 6150 50  0000 C CNN
-	1    4550 6150
+P 4550 5900
+F 0 "D82" H 4550 6000 50  0000 C CNN
+F 1 "LED" H 4550 5800 50  0000 C CNN
+F 2 "LED-3MM" H 4550 5900 50  0000 C CNN
+	1    4550 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D81
 U 1 1 4F217269
-P 4550 5850
-F 0 "D81" H 4550 5950 50  0000 C CNN
-F 1 "LED" H 4550 5750 50  0000 C CNN
-F 2 "LED-3MM" H 4550 5850 50  0000 C CNN
-	1    4550 5850
+P 4550 5600
+F 0 "D81" H 4550 5700 50  0000 C CNN
+F 1 "LED" H 4550 5500 50  0000 C CNN
+F 2 "LED-3MM" H 4550 5600 50  0000 C CNN
+	1    4550 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D83
 U 1 1 4F217268
-P 4550 6450
-F 0 "D83" H 4550 6550 50  0000 C CNN
-F 1 "LED" H 4550 6350 50  0000 C CNN
-F 2 "LED-3MM" H 4550 6450 50  0000 C CNN
-	1    4550 6450
+P 4550 6200
+F 0 "D83" H 4550 6300 50  0000 C CNN
+F 1 "LED" H 4550 6100 50  0000 C CNN
+F 2 "LED-3MM" H 4550 6200 50  0000 C CNN
+	1    4550 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D84
 U 1 1 4F217267
-P 4550 6750
-F 0 "D84" H 4550 6850 50  0000 C CNN
-F 1 "LED" H 4550 6650 50  0000 C CNN
-F 2 "LED-3MM" H 4550 6750 50  0000 C CNN
-	1    4550 6750
+P 4550 6500
+F 0 "D84" H 4550 6600 50  0000 C CNN
+F 1 "LED" H 4550 6400 50  0000 C CNN
+F 2 "LED-3MM" H 4550 6500 50  0000 C CNN
+	1    4550 6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L GND #PWR023
 U 1 1 4F217266
-P 4750 6950
-F 0 "#PWR021" H 4750 6950 30  0001 C CNN
-F 1 "GND" H 4750 6880 30  0001 C CNN
-	1    4750 6950
+P 4750 6700
+F 0 "#PWR023" H 4750 6700 30  0001 C CNN
+F 1 "GND" H 4750 6630 30  0001 C CNN
+	1    4750 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L GND #PWR024
 U 1 1 4F217265
-P 4250 6950
-F 0 "#PWR022" H 4250 6950 30  0001 C CNN
-F 1 "GND" H 4250 6880 30  0001 C CNN
-	1    4250 6950
+P 4250 6700
+F 0 "#PWR024" H 4250 6700 30  0001 C CNN
+F 1 "GND" H 4250 6630 30  0001 C CNN
+	1    4250 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D70
 U 1 1 4F217264
-P 4050 6750
-F 0 "D70" H 4050 6850 50  0000 C CNN
-F 1 "LED" H 4050 6650 50  0000 C CNN
-F 2 "LED-3MM" H 4050 6750 50  0000 C CNN
-	1    4050 6750
+P 4050 6500
+F 0 "D70" H 4050 6600 50  0000 C CNN
+F 1 "LED" H 4050 6400 50  0000 C CNN
+F 2 "LED-3MM" H 4050 6500 50  0000 C CNN
+	1    4050 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D69
 U 1 1 4F217263
-P 4050 6450
-F 0 "D69" H 4050 6550 50  0000 C CNN
-F 1 "LED" H 4050 6350 50  0000 C CNN
-F 2 "LED-3MM" H 4050 6450 50  0000 C CNN
-	1    4050 6450
+P 4050 6200
+F 0 "D69" H 4050 6300 50  0000 C CNN
+F 1 "LED" H 4050 6100 50  0000 C CNN
+F 2 "LED-3MM" H 4050 6200 50  0000 C CNN
+	1    4050 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D67
 U 1 1 4F217262
-P 4050 5850
-F 0 "D67" H 4050 5950 50  0000 C CNN
-F 1 "LED" H 4050 5750 50  0000 C CNN
-F 2 "LED-3MM" H 4050 5850 50  0000 C CNN
-	1    4050 5850
+P 4050 5600
+F 0 "D67" H 4050 5700 50  0000 C CNN
+F 1 "LED" H 4050 5500 50  0000 C CNN
+F 2 "LED-3MM" H 4050 5600 50  0000 C CNN
+	1    4050 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D68
 U 1 1 4F217261
-P 4050 6150
-F 0 "D68" H 4050 6250 50  0000 C CNN
-F 1 "LED" H 4050 6050 50  0000 C CNN
-F 2 "LED-3MM" H 4050 6150 50  0000 C CNN
-	1    4050 6150
+P 4050 5900
+F 0 "D68" H 4050 6000 50  0000 C CNN
+F 1 "LED" H 4050 5800 50  0000 C CNN
+F 2 "LED-3MM" H 4050 5900 50  0000 C CNN
+	1    4050 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D66
 U 1 1 4F217260
-P 4050 5550
-F 0 "D66" H 4050 5650 50  0000 C CNN
-F 1 "LED" H 4050 5450 50  0000 C CNN
-F 2 "LED-3MM" H 4050 5550 50  0000 C CNN
-	1    4050 5550
+P 4050 5300
+F 0 "D66" H 4050 5400 50  0000 C CNN
+F 1 "LED" H 4050 5200 50  0000 C CNN
+F 2 "LED-3MM" H 4050 5300 50  0000 C CNN
+	1    4050 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D65
 U 1 1 4F21725E
-P 4050 5250
-F 0 "D65" H 4050 5350 50  0000 C CNN
-F 1 "LED" H 4050 5150 50  0000 C CNN
-F 2 "LED-3MM" H 4050 5250 50  0000 C CNN
-	1    4050 5250
+P 4050 5000
+F 0 "D65" H 4050 5100 50  0000 C CNN
+F 1 "LED" H 4050 4900 50  0000 C CNN
+F 2 "LED-3MM" H 4050 5000 50  0000 C CNN
+	1    4050 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D64
 U 1 1 4F21725D
-P 4050 4950
-F 0 "D64" H 4050 5050 50  0000 C CNN
-F 1 "LED" H 4050 4850 50  0000 C CNN
-F 2 "LED-3MM" H 4050 4950 50  0000 C CNN
-	1    4050 4950
+P 4050 4700
+F 0 "D64" H 4050 4800 50  0000 C CNN
+F 1 "LED" H 4050 4600 50  0000 C CNN
+F 2 "LED-3MM" H 4050 4700 50  0000 C CNN
+	1    4050 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D148
 U 1 1 4F217238
-P 7050 4950
-F 0 "D148" H 7050 5050 50  0000 C CNN
-F 1 "LED" H 7050 4850 50  0000 C CNN
-F 2 "LED-3MM" H 7050 4950 50  0000 C CNN
-	1    7050 4950
+P 7050 4700
+F 0 "D148" H 7050 4800 50  0000 C CNN
+F 1 "LED" H 7050 4600 50  0000 C CNN
+F 2 "LED-3MM" H 7050 4700 50  0000 C CNN
+	1    7050 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D149
 U 1 1 4F217237
-P 7050 5250
-F 0 "D149" H 7050 5350 50  0000 C CNN
-F 1 "LED" H 7050 5150 50  0000 C CNN
-F 2 "LED-3MM" H 7050 5250 50  0000 C CNN
-	1    7050 5250
+P 7050 5000
+F 0 "D149" H 7050 5100 50  0000 C CNN
+F 1 "LED" H 7050 4900 50  0000 C CNN
+F 2 "LED-3MM" H 7050 5000 50  0000 C CNN
+	1    7050 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D150
 U 1 1 4F217235
-P 7050 5550
-F 0 "D150" H 7050 5650 50  0000 C CNN
-F 1 "LED" H 7050 5450 50  0000 C CNN
-F 2 "LED-3MM" H 7050 5550 50  0000 C CNN
-	1    7050 5550
+P 7050 5300
+F 0 "D150" H 7050 5400 50  0000 C CNN
+F 1 "LED" H 7050 5200 50  0000 C CNN
+F 2 "LED-3MM" H 7050 5300 50  0000 C CNN
+	1    7050 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D152
 U 1 1 4F217234
-P 7050 6150
-F 0 "D152" H 7050 6250 50  0000 C CNN
-F 1 "LED" H 7050 6050 50  0000 C CNN
-F 2 "LED-3MM" H 7050 6150 50  0000 C CNN
-	1    7050 6150
+P 7050 5900
+F 0 "D152" H 7050 6000 50  0000 C CNN
+F 1 "LED" H 7050 5800 50  0000 C CNN
+F 2 "LED-3MM" H 7050 5900 50  0000 C CNN
+	1    7050 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D151
 U 1 1 4F217233
-P 7050 5850
-F 0 "D151" H 7050 5950 50  0000 C CNN
-F 1 "LED" H 7050 5750 50  0000 C CNN
-F 2 "LED-3MM" H 7050 5850 50  0000 C CNN
-	1    7050 5850
+P 7050 5600
+F 0 "D151" H 7050 5700 50  0000 C CNN
+F 1 "LED" H 7050 5500 50  0000 C CNN
+F 2 "LED-3MM" H 7050 5600 50  0000 C CNN
+	1    7050 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D153
 U 1 1 4F217232
-P 7050 6450
-F 0 "D153" H 7050 6550 50  0000 C CNN
-F 1 "LED" H 7050 6350 50  0000 C CNN
-F 2 "LED-3MM" H 7050 6450 50  0000 C CNN
-	1    7050 6450
+P 7050 6200
+F 0 "D153" H 7050 6300 50  0000 C CNN
+F 1 "LED" H 7050 6100 50  0000 C CNN
+F 2 "LED-3MM" H 7050 6200 50  0000 C CNN
+	1    7050 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D154
 U 1 1 4F217231
-P 7050 6750
-F 0 "D154" H 7050 6850 50  0000 C CNN
-F 1 "LED" H 7050 6650 50  0000 C CNN
-F 2 "LED-3MM" H 7050 6750 50  0000 C CNN
-	1    7050 6750
+P 7050 6500
+F 0 "D154" H 7050 6600 50  0000 C CNN
+F 1 "LED" H 7050 6400 50  0000 C CNN
+F 2 "LED-3MM" H 7050 6500 50  0000 C CNN
+	1    7050 6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L GND #PWR025
 U 1 1 4F217230
-P 7250 6950
-F 0 "#PWR027" H 7250 6950 30  0001 C CNN
-F 1 "GND" H 7250 6880 30  0001 C CNN
-	1    7250 6950
+P 7250 6700
+F 0 "#PWR025" H 7250 6700 30  0001 C CNN
+F 1 "GND" H 7250 6630 30  0001 C CNN
+	1    7250 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D168
 U 1 1 4F21722E
-P 7550 6750
-F 0 "D168" H 7550 6850 50  0000 C CNN
-F 1 "LED" H 7550 6650 50  0000 C CNN
-F 2 "LED-3MM" H 7550 6750 50  0000 C CNN
-	1    7550 6750
+P 7550 6500
+F 0 "D168" H 7550 6600 50  0000 C CNN
+F 1 "LED" H 7550 6400 50  0000 C CNN
+F 2 "LED-3MM" H 7550 6500 50  0000 C CNN
+	1    7550 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D167
 U 1 1 4F21722D
-P 7550 6450
-F 0 "D167" H 7550 6550 50  0000 C CNN
-F 1 "LED" H 7550 6350 50  0000 C CNN
-F 2 "LED-3MM" H 7550 6450 50  0000 C CNN
-	1    7550 6450
+P 7550 6200
+F 0 "D167" H 7550 6300 50  0000 C CNN
+F 1 "LED" H 7550 6100 50  0000 C CNN
+F 2 "LED-3MM" H 7550 6200 50  0000 C CNN
+	1    7550 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D165
 U 1 1 4F21722C
-P 7550 5850
-F 0 "D165" H 7550 5950 50  0000 C CNN
-F 1 "LED" H 7550 5750 50  0000 C CNN
-F 2 "LED-3MM" H 7550 5850 50  0000 C CNN
-	1    7550 5850
+P 7550 5600
+F 0 "D165" H 7550 5700 50  0000 C CNN
+F 1 "LED" H 7550 5500 50  0000 C CNN
+F 2 "LED-3MM" H 7550 5600 50  0000 C CNN
+	1    7550 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D166
 U 1 1 4F21722B
-P 7550 6150
-F 0 "D166" H 7550 6250 50  0000 C CNN
-F 1 "LED" H 7550 6050 50  0000 C CNN
-F 2 "LED-3MM" H 7550 6150 50  0000 C CNN
-	1    7550 6150
+P 7550 5900
+F 0 "D166" H 7550 6000 50  0000 C CNN
+F 1 "LED" H 7550 5800 50  0000 C CNN
+F 2 "LED-3MM" H 7550 5900 50  0000 C CNN
+	1    7550 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D164
 U 1 1 4F21722A
-P 7550 5550
-F 0 "D164" H 7550 5650 50  0000 C CNN
-F 1 "LED" H 7550 5450 50  0000 C CNN
-F 2 "LED-3MM" H 7550 5550 50  0000 C CNN
-	1    7550 5550
+P 7550 5300
+F 0 "D164" H 7550 5400 50  0000 C CNN
+F 1 "LED" H 7550 5200 50  0000 C CNN
+F 2 "LED-3MM" H 7550 5300 50  0000 C CNN
+	1    7550 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D163
 U 1 1 4F217228
-P 7550 5250
-F 0 "D163" H 7550 5350 50  0000 C CNN
-F 1 "LED" H 7550 5150 50  0000 C CNN
-F 2 "LED-3MM" H 7550 5250 50  0000 C CNN
-	1    7550 5250
+P 7550 5000
+F 0 "D163" H 7550 5100 50  0000 C CNN
+F 1 "LED" H 7550 4900 50  0000 C CNN
+F 2 "LED-3MM" H 7550 5000 50  0000 C CNN
+	1    7550 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D162
 U 1 1 4F217227
-P 7550 4950
-F 0 "D162" H 7550 5050 50  0000 C CNN
-F 1 "LED" H 7550 4850 50  0000 C CNN
-F 2 "LED-3MM" H 7550 4950 50  0000 C CNN
-	1    7550 4950
+P 7550 4700
+F 0 "D162" H 7550 4800 50  0000 C CNN
+F 1 "LED" H 7550 4600 50  0000 C CNN
+F 2 "LED-3MM" H 7550 4700 50  0000 C CNN
+	1    7550 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D134
 U 1 1 4F217226
-P 6550 4950
-F 0 "D134" H 6550 5050 50  0000 C CNN
-F 1 "LED" H 6550 4850 50  0000 C CNN
-F 2 "LED-3MM" H 6550 4950 50  0000 C CNN
-	1    6550 4950
+P 6550 4700
+F 0 "D134" H 6550 4800 50  0000 C CNN
+F 1 "LED" H 6550 4600 50  0000 C CNN
+F 2 "LED-3MM" H 6550 4700 50  0000 C CNN
+	1    6550 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D135
 U 1 1 4F217225
-P 6550 5250
-F 0 "D135" H 6550 5350 50  0000 C CNN
-F 1 "LED" H 6550 5150 50  0000 C CNN
-F 2 "LED-3MM" H 6550 5250 50  0000 C CNN
-	1    6550 5250
+P 6550 5000
+F 0 "D135" H 6550 5100 50  0000 C CNN
+F 1 "LED" H 6550 4900 50  0000 C CNN
+F 2 "LED-3MM" H 6550 5000 50  0000 C CNN
+	1    6550 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D136
 U 1 1 4F217223
-P 6550 5550
-F 0 "D136" H 6550 5650 50  0000 C CNN
-F 1 "LED" H 6550 5450 50  0000 C CNN
-F 2 "LED-3MM" H 6550 5550 50  0000 C CNN
-	1    6550 5550
+P 6550 5300
+F 0 "D136" H 6550 5400 50  0000 C CNN
+F 1 "LED" H 6550 5200 50  0000 C CNN
+F 2 "LED-3MM" H 6550 5300 50  0000 C CNN
+	1    6550 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D138
 U 1 1 4F217222
-P 6550 6150
-F 0 "D138" H 6550 6250 50  0000 C CNN
-F 1 "LED" H 6550 6050 50  0000 C CNN
-F 2 "LED-3MM" H 6550 6150 50  0000 C CNN
-	1    6550 6150
+P 6550 5900
+F 0 "D138" H 6550 6000 50  0000 C CNN
+F 1 "LED" H 6550 5800 50  0000 C CNN
+F 2 "LED-3MM" H 6550 5900 50  0000 C CNN
+	1    6550 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D137
 U 1 1 4F217221
-P 6550 5850
-F 0 "D137" H 6550 5950 50  0000 C CNN
-F 1 "LED" H 6550 5750 50  0000 C CNN
-F 2 "LED-3MM" H 6550 5850 50  0000 C CNN
-	1    6550 5850
+P 6550 5600
+F 0 "D137" H 6550 5700 50  0000 C CNN
+F 1 "LED" H 6550 5500 50  0000 C CNN
+F 2 "LED-3MM" H 6550 5600 50  0000 C CNN
+	1    6550 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D139
 U 1 1 4F217220
-P 6550 6450
-F 0 "D139" H 6550 6550 50  0000 C CNN
-F 1 "LED" H 6550 6350 50  0000 C CNN
-F 2 "LED-3MM" H 6550 6450 50  0000 C CNN
-	1    6550 6450
+P 6550 6200
+F 0 "D139" H 6550 6300 50  0000 C CNN
+F 1 "LED" H 6550 6100 50  0000 C CNN
+F 2 "LED-3MM" H 6550 6200 50  0000 C CNN
+	1    6550 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D140
 U 1 1 4F21721F
-P 6550 6750
-F 0 "D140" H 6550 6850 50  0000 C CNN
-F 1 "LED" H 6550 6650 50  0000 C CNN
-F 2 "LED-3MM" H 6550 6750 50  0000 C CNN
-	1    6550 6750
+P 6550 6500
+F 0 "D140" H 6550 6600 50  0000 C CNN
+F 1 "LED" H 6550 6400 50  0000 C CNN
+F 2 "LED-3MM" H 6550 6500 50  0000 C CNN
+	1    6550 6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L GND #PWR026
 U 1 1 4F21721E
-P 6750 6950
-F 0 "#PWR029" H 6750 6950 30  0001 C CNN
-F 1 "GND" H 6750 6880 30  0001 C CNN
-	1    6750 6950
+P 6750 6700
+F 0 "#PWR026" H 6750 6700 30  0001 C CNN
+F 1 "GND" H 6750 6630 30  0001 C CNN
+	1    6750 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L GND #PWR027
 U 1 1 4F21721D
-P 6250 6950
-F 0 "#PWR030" H 6250 6950 30  0001 C CNN
-F 1 "GND" H 6250 6880 30  0001 C CNN
-	1    6250 6950
+P 6250 6700
+F 0 "#PWR027" H 6250 6700 30  0001 C CNN
+F 1 "GND" H 6250 6630 30  0001 C CNN
+	1    6250 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D126
 U 1 1 4F21721C
-P 6050 6750
-F 0 "D126" H 6050 6850 50  0000 C CNN
-F 1 "LED" H 6050 6650 50  0000 C CNN
-F 2 "LED-3MM" H 6050 6750 50  0000 C CNN
-	1    6050 6750
+P 6050 6500
+F 0 "D126" H 6050 6600 50  0000 C CNN
+F 1 "LED" H 6050 6400 50  0000 C CNN
+F 2 "LED-3MM" H 6050 6500 50  0000 C CNN
+	1    6050 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D125
 U 1 1 4F21721B
-P 6050 6450
-F 0 "D125" H 6050 6550 50  0000 C CNN
-F 1 "LED" H 6050 6350 50  0000 C CNN
-F 2 "LED-3MM" H 6050 6450 50  0000 C CNN
-	1    6050 6450
+P 6050 6200
+F 0 "D125" H 6050 6300 50  0000 C CNN
+F 1 "LED" H 6050 6100 50  0000 C CNN
+F 2 "LED-3MM" H 6050 6200 50  0000 C CNN
+	1    6050 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D123
 U 1 1 4F21721A
-P 6050 5850
-F 0 "D123" H 6050 5950 50  0000 C CNN
-F 1 "LED" H 6050 5750 50  0000 C CNN
-F 2 "LED-3MM" H 6050 5850 50  0000 C CNN
-	1    6050 5850
+P 6050 5600
+F 0 "D123" H 6050 5700 50  0000 C CNN
+F 1 "LED" H 6050 5500 50  0000 C CNN
+F 2 "LED-3MM" H 6050 5600 50  0000 C CNN
+	1    6050 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D124
 U 1 1 4F217219
-P 6050 6150
-F 0 "D124" H 6050 6250 50  0000 C CNN
-F 1 "LED" H 6050 6050 50  0000 C CNN
-F 2 "LED-3MM" H 6050 6150 50  0000 C CNN
-	1    6050 6150
+P 6050 5900
+F 0 "D124" H 6050 6000 50  0000 C CNN
+F 1 "LED" H 6050 5800 50  0000 C CNN
+F 2 "LED-3MM" H 6050 5900 50  0000 C CNN
+	1    6050 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D122
 U 1 1 4F217218
-P 6050 5550
-F 0 "D122" H 6050 5650 50  0000 C CNN
-F 1 "LED" H 6050 5450 50  0000 C CNN
-F 2 "LED-3MM" H 6050 5550 50  0000 C CNN
-	1    6050 5550
+P 6050 5300
+F 0 "D122" H 6050 5400 50  0000 C CNN
+F 1 "LED" H 6050 5200 50  0000 C CNN
+F 2 "LED-3MM" H 6050 5300 50  0000 C CNN
+	1    6050 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D121
 U 1 1 4F217216
-P 6050 5250
-F 0 "D121" H 6050 5350 50  0000 C CNN
-F 1 "LED" H 6050 5150 50  0000 C CNN
-F 2 "LED-3MM" H 6050 5250 50  0000 C CNN
-	1    6050 5250
+P 6050 5000
+F 0 "D121" H 6050 5100 50  0000 C CNN
+F 1 "LED" H 6050 4900 50  0000 C CNN
+F 2 "LED-3MM" H 6050 5000 50  0000 C CNN
+	1    6050 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D120
 U 1 1 4F217215
-P 6050 4950
-F 0 "D120" H 6050 5050 50  0000 C CNN
-F 1 "LED" H 6050 4850 50  0000 C CNN
-F 2 "LED-3MM" H 6050 4950 50  0000 C CNN
-	1    6050 4950
+P 6050 4700
+F 0 "D120" H 6050 4800 50  0000 C CNN
+F 1 "LED" H 6050 4600 50  0000 C CNN
+F 2 "LED-3MM" H 6050 4700 50  0000 C CNN
+	1    6050 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D113
 U 1 1 4F217214
-P 6050 1700
-F 0 "D113" H 6050 1800 50  0000 C CNN
-F 1 "LED" H 6050 1600 50  0000 C CNN
-F 2 "LED-3MM" H 6050 1700 50  0000 C CNN
-	1    6050 1700
+P 6050 1450
+F 0 "D113" H 6050 1550 50  0000 C CNN
+F 1 "LED" H 6050 1350 50  0000 C CNN
+F 2 "LED-3MM" H 6050 1450 50  0000 C CNN
+	1    6050 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D114
 U 1 1 4F217213
-P 6050 2000
-F 0 "D114" H 6050 2100 50  0000 C CNN
-F 1 "LED" H 6050 1900 50  0000 C CNN
-F 2 "LED-3MM" H 6050 2000 50  0000 C CNN
-	1    6050 2000
+P 6050 1750
+F 0 "D114" H 6050 1850 50  0000 C CNN
+F 1 "LED" H 6050 1650 50  0000 C CNN
+F 2 "LED-3MM" H 6050 1750 50  0000 C CNN
+	1    6050 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D115
 U 1 1 4F217211
-P 6050 2300
-F 0 "D115" H 6050 2400 50  0000 C CNN
-F 1 "LED" H 6050 2200 50  0000 C CNN
-F 2 "LED-3MM" H 6050 2300 50  0000 C CNN
-	1    6050 2300
+P 6050 2050
+F 0 "D115" H 6050 2150 50  0000 C CNN
+F 1 "LED" H 6050 1950 50  0000 C CNN
+F 2 "LED-3MM" H 6050 2050 50  0000 C CNN
+	1    6050 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D117
 U 1 1 4F217210
-P 6050 2900
-F 0 "D117" H 6050 3000 50  0000 C CNN
-F 1 "LED" H 6050 2800 50  0000 C CNN
-F 2 "LED-3MM" H 6050 2900 50  0000 C CNN
-	1    6050 2900
+P 6050 2650
+F 0 "D117" H 6050 2750 50  0000 C CNN
+F 1 "LED" H 6050 2550 50  0000 C CNN
+F 2 "LED-3MM" H 6050 2650 50  0000 C CNN
+	1    6050 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D116
 U 1 1 4F21720F
-P 6050 2600
-F 0 "D116" H 6050 2700 50  0000 C CNN
-F 1 "LED" H 6050 2500 50  0000 C CNN
-F 2 "LED-3MM" H 6050 2600 50  0000 C CNN
-	1    6050 2600
+P 6050 2350
+F 0 "D116" H 6050 2450 50  0000 C CNN
+F 1 "LED" H 6050 2250 50  0000 C CNN
+F 2 "LED-3MM" H 6050 2350 50  0000 C CNN
+	1    6050 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D118
 U 1 1 4F21720E
-P 6050 3200
-F 0 "D118" H 6050 3300 50  0000 C CNN
-F 1 "LED" H 6050 3100 50  0000 C CNN
-F 2 "LED-3MM" H 6050 3200 50  0000 C CNN
-	1    6050 3200
+P 6050 2950
+F 0 "D118" H 6050 3050 50  0000 C CNN
+F 1 "LED" H 6050 2850 50  0000 C CNN
+F 2 "LED-3MM" H 6050 2950 50  0000 C CNN
+	1    6050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D119
 U 1 1 4F21720D
-P 6050 3500
-F 0 "D119" H 6050 3600 50  0000 C CNN
-F 1 "LED" H 6050 3400 50  0000 C CNN
-F 2 "LED-3MM" H 6050 3500 50  0000 C CNN
-	1    6050 3500
+P 6050 3250
+F 0 "D119" H 6050 3350 50  0000 C CNN
+F 1 "LED" H 6050 3150 50  0000 C CNN
+F 2 "LED-3MM" H 6050 3250 50  0000 C CNN
+	1    6050 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L GND #PWR028
 U 1 1 4F21720C
-P 6250 3700
-F 0 "#PWR031" H 6250 3700 30  0001 C CNN
-F 1 "GND" H 6250 3630 30  0001 C CNN
-	1    6250 3700
+P 6250 3450
+F 0 "#PWR028" H 6250 3450 30  0001 C CNN
+F 1 "GND" H 6250 3380 30  0001 C CNN
+	1    6250 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR032
+L GND #PWR029
 U 1 1 4F21720B
-P 6750 3700
-F 0 "#PWR032" H 6750 3700 30  0001 C CNN
-F 1 "GND" H 6750 3630 30  0001 C CNN
-	1    6750 3700
+P 6750 3450
+F 0 "#PWR029" H 6750 3450 30  0001 C CNN
+F 1 "GND" H 6750 3380 30  0001 C CNN
+	1    6750 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D133
 U 1 1 4F21720A
-P 6550 3500
-F 0 "D133" H 6550 3600 50  0000 C CNN
-F 1 "LED" H 6550 3400 50  0000 C CNN
-F 2 "LED-3MM" H 6550 3500 50  0000 C CNN
-	1    6550 3500
+P 6550 3250
+F 0 "D133" H 6550 3350 50  0000 C CNN
+F 1 "LED" H 6550 3150 50  0000 C CNN
+F 2 "LED-3MM" H 6550 3250 50  0000 C CNN
+	1    6550 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D132
 U 1 1 4F217209
-P 6550 3200
-F 0 "D132" H 6550 3300 50  0000 C CNN
-F 1 "LED" H 6550 3100 50  0000 C CNN
-F 2 "LED-3MM" H 6550 3200 50  0000 C CNN
-	1    6550 3200
+P 6550 2950
+F 0 "D132" H 6550 3050 50  0000 C CNN
+F 1 "LED" H 6550 2850 50  0000 C CNN
+F 2 "LED-3MM" H 6550 2950 50  0000 C CNN
+	1    6550 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D130
 U 1 1 4F217208
-P 6550 2600
-F 0 "D130" H 6550 2700 50  0000 C CNN
-F 1 "LED" H 6550 2500 50  0000 C CNN
-F 2 "LED-3MM" H 6550 2600 50  0000 C CNN
-	1    6550 2600
+P 6550 2350
+F 0 "D130" H 6550 2450 50  0000 C CNN
+F 1 "LED" H 6550 2250 50  0000 C CNN
+F 2 "LED-3MM" H 6550 2350 50  0000 C CNN
+	1    6550 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D131
 U 1 1 4F217207
-P 6550 2900
-F 0 "D131" H 6550 3000 50  0000 C CNN
-F 1 "LED" H 6550 2800 50  0000 C CNN
-F 2 "LED-3MM" H 6550 2900 50  0000 C CNN
-	1    6550 2900
+P 6550 2650
+F 0 "D131" H 6550 2750 50  0000 C CNN
+F 1 "LED" H 6550 2550 50  0000 C CNN
+F 2 "LED-3MM" H 6550 2650 50  0000 C CNN
+	1    6550 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D129
 U 1 1 4F217206
-P 6550 2300
-F 0 "D129" H 6550 2400 50  0000 C CNN
-F 1 "LED" H 6550 2200 50  0000 C CNN
-F 2 "LED-3MM" H 6550 2300 50  0000 C CNN
-	1    6550 2300
+P 6550 2050
+F 0 "D129" H 6550 2150 50  0000 C CNN
+F 1 "LED" H 6550 1950 50  0000 C CNN
+F 2 "LED-3MM" H 6550 2050 50  0000 C CNN
+	1    6550 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D128
 U 1 1 4F217204
-P 6550 2000
-F 0 "D128" H 6550 2100 50  0000 C CNN
-F 1 "LED" H 6550 1900 50  0000 C CNN
-F 2 "LED-3MM" H 6550 2000 50  0000 C CNN
-	1    6550 2000
+P 6550 1750
+F 0 "D128" H 6550 1850 50  0000 C CNN
+F 1 "LED" H 6550 1650 50  0000 C CNN
+F 2 "LED-3MM" H 6550 1750 50  0000 C CNN
+	1    6550 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D127
 U 1 1 4F217203
-P 6550 1700
-F 0 "D127" H 6550 1800 50  0000 C CNN
-F 1 "LED" H 6550 1600 50  0000 C CNN
-F 2 "LED-3MM" H 6550 1700 50  0000 C CNN
-	1    6550 1700
+P 6550 1450
+F 0 "D127" H 6550 1550 50  0000 C CNN
+F 1 "LED" H 6550 1350 50  0000 C CNN
+F 2 "LED-3MM" H 6550 1450 50  0000 C CNN
+	1    6550 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D155
 U 1 1 4F217202
-P 7550 1700
-F 0 "D155" H 7550 1800 50  0000 C CNN
-F 1 "LED" H 7550 1600 50  0000 C CNN
-F 2 "LED-3MM" H 7550 1700 50  0000 C CNN
-	1    7550 1700
+P 7550 1450
+F 0 "D155" H 7550 1550 50  0000 C CNN
+F 1 "LED" H 7550 1350 50  0000 C CNN
+F 2 "LED-3MM" H 7550 1450 50  0000 C CNN
+	1    7550 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D156
 U 1 1 4F217201
-P 7550 2000
-F 0 "D156" H 7550 2100 50  0000 C CNN
-F 1 "LED" H 7550 1900 50  0000 C CNN
-F 2 "LED-3MM" H 7550 2000 50  0000 C CNN
-	1    7550 2000
+P 7550 1750
+F 0 "D156" H 7550 1850 50  0000 C CNN
+F 1 "LED" H 7550 1650 50  0000 C CNN
+F 2 "LED-3MM" H 7550 1750 50  0000 C CNN
+	1    7550 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D157
 U 1 1 4F2171FF
-P 7550 2300
-F 0 "D157" H 7550 2400 50  0000 C CNN
-F 1 "LED" H 7550 2200 50  0000 C CNN
-F 2 "LED-3MM" H 7550 2300 50  0000 C CNN
-	1    7550 2300
+P 7550 2050
+F 0 "D157" H 7550 2150 50  0000 C CNN
+F 1 "LED" H 7550 1950 50  0000 C CNN
+F 2 "LED-3MM" H 7550 2050 50  0000 C CNN
+	1    7550 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D159
 U 1 1 4F2171FE
-P 7550 2900
-F 0 "D159" H 7550 3000 50  0000 C CNN
-F 1 "LED" H 7550 2800 50  0000 C CNN
-F 2 "LED-3MM" H 7550 2900 50  0000 C CNN
-	1    7550 2900
+P 7550 2650
+F 0 "D159" H 7550 2750 50  0000 C CNN
+F 1 "LED" H 7550 2550 50  0000 C CNN
+F 2 "LED-3MM" H 7550 2650 50  0000 C CNN
+	1    7550 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D158
 U 1 1 4F2171FD
-P 7550 2600
-F 0 "D158" H 7550 2700 50  0000 C CNN
-F 1 "LED" H 7550 2500 50  0000 C CNN
-F 2 "LED-3MM" H 7550 2600 50  0000 C CNN
-	1    7550 2600
+P 7550 2350
+F 0 "D158" H 7550 2450 50  0000 C CNN
+F 1 "LED" H 7550 2250 50  0000 C CNN
+F 2 "LED-3MM" H 7550 2350 50  0000 C CNN
+	1    7550 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D160
 U 1 1 4F2171FC
-P 7550 3200
-F 0 "D160" H 7550 3300 50  0000 C CNN
-F 1 "LED" H 7550 3100 50  0000 C CNN
-F 2 "LED-3MM" H 7550 3200 50  0000 C CNN
-	1    7550 3200
+P 7550 2950
+F 0 "D160" H 7550 3050 50  0000 C CNN
+F 1 "LED" H 7550 2850 50  0000 C CNN
+F 2 "LED-3MM" H 7550 2950 50  0000 C CNN
+	1    7550 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D161
 U 1 1 4F2171FB
-P 7550 3500
-F 0 "D161" H 7550 3600 50  0000 C CNN
-F 1 "LED" H 7550 3400 50  0000 C CNN
-F 2 "LED-3MM" H 7550 3500 50  0000 C CNN
-	1    7550 3500
+P 7550 3250
+F 0 "D161" H 7550 3350 50  0000 C CNN
+F 1 "LED" H 7550 3150 50  0000 C CNN
+F 2 "LED-3MM" H 7550 3250 50  0000 C CNN
+	1    7550 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR034
+L GND #PWR030
 U 1 1 4F2171F9
-P 7250 3700
-F 0 "#PWR034" H 7250 3700 30  0001 C CNN
-F 1 "GND" H 7250 3630 30  0001 C CNN
-	1    7250 3700
+P 7250 3450
+F 0 "#PWR030" H 7250 3450 30  0001 C CNN
+F 1 "GND" H 7250 3380 30  0001 C CNN
+	1    7250 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D147
 U 1 1 4F2171F8
-P 7050 3500
-F 0 "D147" H 7050 3600 50  0000 C CNN
-F 1 "LED" H 7050 3400 50  0000 C CNN
-F 2 "LED-3MM" H 7050 3500 50  0000 C CNN
-	1    7050 3500
+P 7050 3250
+F 0 "D147" H 7050 3350 50  0000 C CNN
+F 1 "LED" H 7050 3150 50  0000 C CNN
+F 2 "LED-3MM" H 7050 3250 50  0000 C CNN
+	1    7050 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D146
 U 1 1 4F2171F7
-P 7050 3200
-F 0 "D146" H 7050 3300 50  0000 C CNN
-F 1 "LED" H 7050 3100 50  0000 C CNN
-F 2 "LED-3MM" H 7050 3200 50  0000 C CNN
-	1    7050 3200
+P 7050 2950
+F 0 "D146" H 7050 3050 50  0000 C CNN
+F 1 "LED" H 7050 2850 50  0000 C CNN
+F 2 "LED-3MM" H 7050 2950 50  0000 C CNN
+	1    7050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D144
 U 1 1 4F2171F6
-P 7050 2600
-F 0 "D144" H 7050 2700 50  0000 C CNN
-F 1 "LED" H 7050 2500 50  0000 C CNN
-F 2 "LED-3MM" H 7050 2600 50  0000 C CNN
-	1    7050 2600
+P 7050 2350
+F 0 "D144" H 7050 2450 50  0000 C CNN
+F 1 "LED" H 7050 2250 50  0000 C CNN
+F 2 "LED-3MM" H 7050 2350 50  0000 C CNN
+	1    7050 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D145
 U 1 1 4F2171F5
-P 7050 2900
-F 0 "D145" H 7050 3000 50  0000 C CNN
-F 1 "LED" H 7050 2800 50  0000 C CNN
-F 2 "LED-3MM" H 7050 2900 50  0000 C CNN
-	1    7050 2900
+P 7050 2650
+F 0 "D145" H 7050 2750 50  0000 C CNN
+F 1 "LED" H 7050 2550 50  0000 C CNN
+F 2 "LED-3MM" H 7050 2650 50  0000 C CNN
+	1    7050 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D143
 U 1 1 4F2171F4
-P 7050 2300
-F 0 "D143" H 7050 2400 50  0000 C CNN
-F 1 "LED" H 7050 2200 50  0000 C CNN
-F 2 "LED-3MM" H 7050 2300 50  0000 C CNN
-	1    7050 2300
+P 7050 2050
+F 0 "D143" H 7050 2150 50  0000 C CNN
+F 1 "LED" H 7050 1950 50  0000 C CNN
+F 2 "LED-3MM" H 7050 2050 50  0000 C CNN
+	1    7050 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D142
 U 1 1 4F2171F2
-P 7050 2000
-F 0 "D142" H 7050 2100 50  0000 C CNN
-F 1 "LED" H 7050 1900 50  0000 C CNN
-F 2 "LED-3MM" H 7050 2000 50  0000 C CNN
-	1    7050 2000
+P 7050 1750
+F 0 "D142" H 7050 1850 50  0000 C CNN
+F 1 "LED" H 7050 1650 50  0000 C CNN
+F 2 "LED-3MM" H 7050 1750 50  0000 C CNN
+	1    7050 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D141
 U 1 1 4F2171F1
-P 7050 1700
-F 0 "D141" H 7050 1800 50  0000 C CNN
-F 1 "LED" H 7050 1600 50  0000 C CNN
-F 2 "LED-3MM" H 7050 1700 50  0000 C CNN
-	1    7050 1700
+P 7050 1450
+F 0 "D141" H 7050 1550 50  0000 C CNN
+F 1 "LED" H 7050 1350 50  0000 C CNN
+F 2 "LED-3MM" H 7050 1450 50  0000 C CNN
+	1    7050 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D57
 U 1 1 4F2171CC
-P 4050 1700
-F 0 "D57" H 4050 1800 50  0000 C CNN
-F 1 "LED" H 4050 1600 50  0000 C CNN
-F 2 "LED-3MM" H 4050 1700 50  0000 C CNN
-	1    4050 1700
+P 4050 1450
+F 0 "D57" H 4050 1550 50  0000 C CNN
+F 1 "LED" H 4050 1350 50  0000 C CNN
+F 2 "LED-3MM" H 4050 1450 50  0000 C CNN
+	1    4050 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D58
 U 1 1 4F2171CB
-P 4050 2000
-F 0 "D58" H 4050 2100 50  0000 C CNN
-F 1 "LED" H 4050 1900 50  0000 C CNN
-F 2 "LED-3MM" H 4050 2000 50  0000 C CNN
-	1    4050 2000
+P 4050 1750
+F 0 "D58" H 4050 1850 50  0000 C CNN
+F 1 "LED" H 4050 1650 50  0000 C CNN
+F 2 "LED-3MM" H 4050 1750 50  0000 C CNN
+	1    4050 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D59
 U 1 1 4F2171C9
-P 4050 2300
-F 0 "D59" H 4050 2400 50  0000 C CNN
-F 1 "LED" H 4050 2200 50  0000 C CNN
-F 2 "LED-3MM" H 4050 2300 50  0000 C CNN
-	1    4050 2300
+P 4050 2050
+F 0 "D59" H 4050 2150 50  0000 C CNN
+F 1 "LED" H 4050 1950 50  0000 C CNN
+F 2 "LED-3MM" H 4050 2050 50  0000 C CNN
+	1    4050 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D61
 U 1 1 4F2171C8
-P 4050 2900
-F 0 "D61" H 4050 3000 50  0000 C CNN
-F 1 "LED" H 4050 2800 50  0000 C CNN
-F 2 "LED-3MM" H 4050 2900 50  0000 C CNN
-	1    4050 2900
+P 4050 2650
+F 0 "D61" H 4050 2750 50  0000 C CNN
+F 1 "LED" H 4050 2550 50  0000 C CNN
+F 2 "LED-3MM" H 4050 2650 50  0000 C CNN
+	1    4050 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D60
 U 1 1 4F2171C7
-P 4050 2600
-F 0 "D60" H 4050 2700 50  0000 C CNN
-F 1 "LED" H 4050 2500 50  0000 C CNN
-F 2 "LED-3MM" H 4050 2600 50  0000 C CNN
-	1    4050 2600
+P 4050 2350
+F 0 "D60" H 4050 2450 50  0000 C CNN
+F 1 "LED" H 4050 2250 50  0000 C CNN
+F 2 "LED-3MM" H 4050 2350 50  0000 C CNN
+	1    4050 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D62
 U 1 1 4F2171C6
-P 4050 3200
-F 0 "D62" H 4050 3300 50  0000 C CNN
-F 1 "LED" H 4050 3100 50  0000 C CNN
-F 2 "LED-3MM" H 4050 3200 50  0000 C CNN
-	1    4050 3200
+P 4050 2950
+F 0 "D62" H 4050 3050 50  0000 C CNN
+F 1 "LED" H 4050 2850 50  0000 C CNN
+F 2 "LED-3MM" H 4050 2950 50  0000 C CNN
+	1    4050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D63
 U 1 1 4F2171C5
-P 4050 3500
-F 0 "D63" H 4050 3600 50  0000 C CNN
-F 1 "LED" H 4050 3400 50  0000 C CNN
-F 2 "LED-3MM" H 4050 3500 50  0000 C CNN
-	1    4050 3500
+P 4050 3250
+F 0 "D63" H 4050 3350 50  0000 C CNN
+F 1 "LED" H 4050 3150 50  0000 C CNN
+F 2 "LED-3MM" H 4050 3250 50  0000 C CNN
+	1    4050 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L GND #PWR031
 U 1 1 4F2171C4
-P 4250 3700
-F 0 "#PWR039" H 4250 3700 30  0001 C CNN
-F 1 "GND" H 4250 3630 30  0001 C CNN
-	1    4250 3700
+P 4250 3450
+F 0 "#PWR031" H 4250 3450 30  0001 C CNN
+F 1 "GND" H 4250 3380 30  0001 C CNN
+	1    4250 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
+L GND #PWR032
 U 1 1 4F2171C3
-P 4750 3700
-F 0 "#PWR040" H 4750 3700 30  0001 C CNN
-F 1 "GND" H 4750 3630 30  0001 C CNN
-	1    4750 3700
+P 4750 3450
+F 0 "#PWR032" H 4750 3450 30  0001 C CNN
+F 1 "GND" H 4750 3380 30  0001 C CNN
+	1    4750 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D77
 U 1 1 4F2171C2
-P 4550 3500
-F 0 "D77" H 4550 3600 50  0000 C CNN
-F 1 "LED" H 4550 3400 50  0000 C CNN
-F 2 "LED-3MM" H 4550 3500 50  0000 C CNN
-	1    4550 3500
+P 4550 3250
+F 0 "D77" H 4550 3350 50  0000 C CNN
+F 1 "LED" H 4550 3150 50  0000 C CNN
+F 2 "LED-3MM" H 4550 3250 50  0000 C CNN
+	1    4550 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D76
 U 1 1 4F2171C1
-P 4550 3200
-F 0 "D76" H 4550 3300 50  0000 C CNN
-F 1 "LED" H 4550 3100 50  0000 C CNN
-F 2 "LED-3MM" H 4550 3200 50  0000 C CNN
-	1    4550 3200
+P 4550 2950
+F 0 "D76" H 4550 3050 50  0000 C CNN
+F 1 "LED" H 4550 2850 50  0000 C CNN
+F 2 "LED-3MM" H 4550 2950 50  0000 C CNN
+	1    4550 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D74
 U 1 1 4F2171C0
-P 4550 2600
-F 0 "D74" H 4550 2700 50  0000 C CNN
-F 1 "LED" H 4550 2500 50  0000 C CNN
-F 2 "LED-3MM" H 4550 2600 50  0000 C CNN
-	1    4550 2600
+P 4550 2350
+F 0 "D74" H 4550 2450 50  0000 C CNN
+F 1 "LED" H 4550 2250 50  0000 C CNN
+F 2 "LED-3MM" H 4550 2350 50  0000 C CNN
+	1    4550 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D75
 U 1 1 4F2171BF
-P 4550 2900
-F 0 "D75" H 4550 3000 50  0000 C CNN
-F 1 "LED" H 4550 2800 50  0000 C CNN
-F 2 "LED-3MM" H 4550 2900 50  0000 C CNN
-	1    4550 2900
+P 4550 2650
+F 0 "D75" H 4550 2750 50  0000 C CNN
+F 1 "LED" H 4550 2550 50  0000 C CNN
+F 2 "LED-3MM" H 4550 2650 50  0000 C CNN
+	1    4550 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D73
 U 1 1 4F2171BE
-P 4550 2300
-F 0 "D73" H 4550 2400 50  0000 C CNN
-F 1 "LED" H 4550 2200 50  0000 C CNN
-F 2 "LED-3MM" H 4550 2300 50  0000 C CNN
-	1    4550 2300
+P 4550 2050
+F 0 "D73" H 4550 2150 50  0000 C CNN
+F 1 "LED" H 4550 1950 50  0000 C CNN
+F 2 "LED-3MM" H 4550 2050 50  0000 C CNN
+	1    4550 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D72
 U 1 1 4F2171BC
-P 4550 2000
-F 0 "D72" H 4550 2100 50  0000 C CNN
-F 1 "LED" H 4550 1900 50  0000 C CNN
-F 2 "LED-3MM" H 4550 2000 50  0000 C CNN
-	1    4550 2000
+P 4550 1750
+F 0 "D72" H 4550 1850 50  0000 C CNN
+F 1 "LED" H 4550 1650 50  0000 C CNN
+F 2 "LED-3MM" H 4550 1750 50  0000 C CNN
+	1    4550 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D71
 U 1 1 4F2171BB
-P 4550 1700
-F 0 "D71" H 4550 1800 50  0000 C CNN
-F 1 "LED" H 4550 1600 50  0000 C CNN
-F 2 "LED-3MM" H 4550 1700 50  0000 C CNN
-	1    4550 1700
+P 4550 1450
+F 0 "D71" H 4550 1550 50  0000 C CNN
+F 1 "LED" H 4550 1350 50  0000 C CNN
+F 2 "LED-3MM" H 4550 1450 50  0000 C CNN
+	1    4550 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D99
 U 1 1 4F2171BA
-P 5550 1700
-F 0 "D99" H 5550 1800 50  0000 C CNN
-F 1 "LED" H 5550 1600 50  0000 C CNN
-F 2 "LED-3MM" H 5550 1700 50  0000 C CNN
-	1    5550 1700
+P 5550 1450
+F 0 "D99" H 5550 1550 50  0000 C CNN
+F 1 "LED" H 5550 1350 50  0000 C CNN
+F 2 "LED-3MM" H 5550 1450 50  0000 C CNN
+	1    5550 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D100
 U 1 1 4F2171B9
-P 5550 2000
-F 0 "D100" H 5550 2100 50  0000 C CNN
-F 1 "LED" H 5550 1900 50  0000 C CNN
-F 2 "LED-3MM" H 5550 2000 50  0000 C CNN
-	1    5550 2000
+P 5550 1750
+F 0 "D100" H 5550 1850 50  0000 C CNN
+F 1 "LED" H 5550 1650 50  0000 C CNN
+F 2 "LED-3MM" H 5550 1750 50  0000 C CNN
+	1    5550 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D101
 U 1 1 4F2171B7
-P 5550 2300
-F 0 "D101" H 5550 2400 50  0000 C CNN
-F 1 "LED" H 5550 2200 50  0000 C CNN
-F 2 "LED-3MM" H 5550 2300 50  0000 C CNN
-	1    5550 2300
+P 5550 2050
+F 0 "D101" H 5550 2150 50  0000 C CNN
+F 1 "LED" H 5550 1950 50  0000 C CNN
+F 2 "LED-3MM" H 5550 2050 50  0000 C CNN
+	1    5550 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D103
 U 1 1 4F2171B6
-P 5550 2900
-F 0 "D103" H 5550 3000 50  0000 C CNN
-F 1 "LED" H 5550 2800 50  0000 C CNN
-F 2 "LED-3MM" H 5550 2900 50  0000 C CNN
-	1    5550 2900
+P 5550 2650
+F 0 "D103" H 5550 2750 50  0000 C CNN
+F 1 "LED" H 5550 2550 50  0000 C CNN
+F 2 "LED-3MM" H 5550 2650 50  0000 C CNN
+	1    5550 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D102
 U 1 1 4F2171B5
-P 5550 2600
-F 0 "D102" H 5550 2700 50  0000 C CNN
-F 1 "LED" H 5550 2500 50  0000 C CNN
-F 2 "LED-3MM" H 5550 2600 50  0000 C CNN
-	1    5550 2600
+P 5550 2350
+F 0 "D102" H 5550 2450 50  0000 C CNN
+F 1 "LED" H 5550 2250 50  0000 C CNN
+F 2 "LED-3MM" H 5550 2350 50  0000 C CNN
+	1    5550 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D104
 U 1 1 4F2171B4
-P 5550 3200
-F 0 "D104" H 5550 3300 50  0000 C CNN
-F 1 "LED" H 5550 3100 50  0000 C CNN
-F 2 "LED-3MM" H 5550 3200 50  0000 C CNN
-	1    5550 3200
+P 5550 2950
+F 0 "D104" H 5550 3050 50  0000 C CNN
+F 1 "LED" H 5550 2850 50  0000 C CNN
+F 2 "LED-3MM" H 5550 2950 50  0000 C CNN
+	1    5550 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D105
 U 1 1 4F2171B3
-P 5550 3500
-F 0 "D105" H 5550 3600 50  0000 C CNN
-F 1 "LED" H 5550 3400 50  0000 C CNN
-F 2 "LED-3MM" H 5550 3500 50  0000 C CNN
-	1    5550 3500
+P 5550 3250
+F 0 "D105" H 5550 3350 50  0000 C CNN
+F 1 "LED" H 5550 3150 50  0000 C CNN
+F 2 "LED-3MM" H 5550 3250 50  0000 C CNN
+	1    5550 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L GND #PWR033
 U 1 1 4F2171B2
-P 5750 3700
-F 0 "#PWR041" H 5750 3700 30  0001 C CNN
-F 1 "GND" H 5750 3630 30  0001 C CNN
-	1    5750 3700
+P 5750 3450
+F 0 "#PWR033" H 5750 3450 30  0001 C CNN
+F 1 "GND" H 5750 3380 30  0001 C CNN
+	1    5750 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR042
+L GND #PWR034
 U 1 1 4F2171B1
-P 5250 3700
-F 0 "#PWR042" H 5250 3700 30  0001 C CNN
-F 1 "GND" H 5250 3630 30  0001 C CNN
-	1    5250 3700
+P 5250 3450
+F 0 "#PWR034" H 5250 3450 30  0001 C CNN
+F 1 "GND" H 5250 3380 30  0001 C CNN
+	1    5250 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D91
 U 1 1 4F2171B0
-P 5050 3500
-F 0 "D91" H 5050 3600 50  0000 C CNN
-F 1 "LED" H 5050 3400 50  0000 C CNN
-F 2 "LED-3MM" H 5050 3500 50  0000 C CNN
-	1    5050 3500
+P 5050 3250
+F 0 "D91" H 5050 3350 50  0000 C CNN
+F 1 "LED" H 5050 3150 50  0000 C CNN
+F 2 "LED-3MM" H 5050 3250 50  0000 C CNN
+	1    5050 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D90
 U 1 1 4F2171AF
-P 5050 3200
-F 0 "D90" H 5050 3300 50  0000 C CNN
-F 1 "LED" H 5050 3100 50  0000 C CNN
-F 2 "LED-3MM" H 5050 3200 50  0000 C CNN
-	1    5050 3200
+P 5050 2950
+F 0 "D90" H 5050 3050 50  0000 C CNN
+F 1 "LED" H 5050 2850 50  0000 C CNN
+F 2 "LED-3MM" H 5050 2950 50  0000 C CNN
+	1    5050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D88
 U 1 1 4F2171AE
-P 5050 2600
-F 0 "D88" H 5050 2700 50  0000 C CNN
-F 1 "LED" H 5050 2500 50  0000 C CNN
-F 2 "LED-3MM" H 5050 2600 50  0000 C CNN
-	1    5050 2600
+P 5050 2350
+F 0 "D88" H 5050 2450 50  0000 C CNN
+F 1 "LED" H 5050 2250 50  0000 C CNN
+F 2 "LED-3MM" H 5050 2350 50  0000 C CNN
+	1    5050 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D89
 U 1 1 4F2171AD
-P 5050 2900
-F 0 "D89" H 5050 3000 50  0000 C CNN
-F 1 "LED" H 5050 2800 50  0000 C CNN
-F 2 "LED-3MM" H 5050 2900 50  0000 C CNN
-	1    5050 2900
+P 5050 2650
+F 0 "D89" H 5050 2750 50  0000 C CNN
+F 1 "LED" H 5050 2550 50  0000 C CNN
+F 2 "LED-3MM" H 5050 2650 50  0000 C CNN
+	1    5050 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D87
 U 1 1 4F2171AC
-P 5050 2300
-F 0 "D87" H 5050 2400 50  0000 C CNN
-F 1 "LED" H 5050 2200 50  0000 C CNN
-F 2 "LED-3MM" H 5050 2300 50  0000 C CNN
-	1    5050 2300
+P 5050 2050
+F 0 "D87" H 5050 2150 50  0000 C CNN
+F 1 "LED" H 5050 1950 50  0000 C CNN
+F 2 "LED-3MM" H 5050 2050 50  0000 C CNN
+	1    5050 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D86
 U 1 1 4F2171AA
-P 5050 2000
-F 0 "D86" H 5050 2100 50  0000 C CNN
-F 1 "LED" H 5050 1900 50  0000 C CNN
-F 2 "LED-3MM" H 5050 2000 50  0000 C CNN
-	1    5050 2000
+P 5050 1750
+F 0 "D86" H 5050 1850 50  0000 C CNN
+F 1 "LED" H 5050 1650 50  0000 C CNN
+F 2 "LED-3MM" H 5050 1750 50  0000 C CNN
+	1    5050 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D85
 U 1 1 4F2171A9
-P 5050 1700
-F 0 "D85" H 5050 1800 50  0000 C CNN
-F 1 "LED" H 5050 1600 50  0000 C CNN
-F 2 "LED-3MM" H 5050 1700 50  0000 C CNN
-	1    5050 1700
+P 5050 1450
+F 0 "D85" H 5050 1550 50  0000 C CNN
+F 1 "LED" H 5050 1350 50  0000 C CNN
+F 2 "LED-3MM" H 5050 1450 50  0000 C CNN
+	1    5050 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D29
 U 1 1 4F2171A8
-P 3050 1700
-F 0 "D29" H 3050 1800 50  0000 C CNN
-F 1 "LED" H 3050 1600 50  0000 C CNN
-F 2 "LED-3MM" H 3050 1700 50  0000 C CNN
-	1    3050 1700
+P 3050 1450
+F 0 "D29" H 3050 1550 50  0000 C CNN
+F 1 "LED" H 3050 1350 50  0000 C CNN
+F 2 "LED-3MM" H 3050 1450 50  0000 C CNN
+	1    3050 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D30
 U 1 1 4F2171A7
-P 3050 2000
-F 0 "D30" H 3050 2100 50  0000 C CNN
-F 1 "LED" H 3050 1900 50  0000 C CNN
-F 2 "LED-3MM" H 3050 2000 50  0000 C CNN
-	1    3050 2000
+P 3050 1750
+F 0 "D30" H 3050 1850 50  0000 C CNN
+F 1 "LED" H 3050 1650 50  0000 C CNN
+F 2 "LED-3MM" H 3050 1750 50  0000 C CNN
+	1    3050 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D31
 U 1 1 4F2171A5
-P 3050 2300
-F 0 "D31" H 3050 2400 50  0000 C CNN
-F 1 "LED" H 3050 2200 50  0000 C CNN
-F 2 "LED-3MM" H 3050 2300 50  0000 C CNN
-	1    3050 2300
+P 3050 2050
+F 0 "D31" H 3050 2150 50  0000 C CNN
+F 1 "LED" H 3050 1950 50  0000 C CNN
+F 2 "LED-3MM" H 3050 2050 50  0000 C CNN
+	1    3050 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D33
 U 1 1 4F2171A4
-P 3050 2900
-F 0 "D33" H 3050 3000 50  0000 C CNN
-F 1 "LED" H 3050 2800 50  0000 C CNN
-F 2 "LED-3MM" H 3050 2900 50  0000 C CNN
-	1    3050 2900
+P 3050 2650
+F 0 "D33" H 3050 2750 50  0000 C CNN
+F 1 "LED" H 3050 2550 50  0000 C CNN
+F 2 "LED-3MM" H 3050 2650 50  0000 C CNN
+	1    3050 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D32
 U 1 1 4F2171A3
-P 3050 2600
-F 0 "D32" H 3050 2700 50  0000 C CNN
-F 1 "LED" H 3050 2500 50  0000 C CNN
-F 2 "LED-3MM" H 3050 2600 50  0000 C CNN
-	1    3050 2600
+P 3050 2350
+F 0 "D32" H 3050 2450 50  0000 C CNN
+F 1 "LED" H 3050 2250 50  0000 C CNN
+F 2 "LED-3MM" H 3050 2350 50  0000 C CNN
+	1    3050 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D34
 U 1 1 4F2171A2
-P 3050 3200
-F 0 "D34" H 3050 3300 50  0000 C CNN
-F 1 "LED" H 3050 3100 50  0000 C CNN
-F 2 "LED-3MM" H 3050 3200 50  0000 C CNN
-	1    3050 3200
+P 3050 2950
+F 0 "D34" H 3050 3050 50  0000 C CNN
+F 1 "LED" H 3050 2850 50  0000 C CNN
+F 2 "LED-3MM" H 3050 2950 50  0000 C CNN
+	1    3050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D35
 U 1 1 4F2171A1
-P 3050 3500
-F 0 "D35" H 3050 3600 50  0000 C CNN
-F 1 "LED" H 3050 3400 50  0000 C CNN
-F 2 "LED-3MM" H 3050 3500 50  0000 C CNN
-	1    3050 3500
+P 3050 3250
+F 0 "D35" H 3050 3350 50  0000 C CNN
+F 1 "LED" H 3050 3150 50  0000 C CNN
+F 2 "LED-3MM" H 3050 3250 50  0000 C CNN
+	1    3050 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
+L GND #PWR035
 U 1 1 4F2171A0
-P 3250 3700
-F 0 "#PWR043" H 3250 3700 30  0001 C CNN
-F 1 "GND" H 3250 3630 30  0001 C CNN
-	1    3250 3700
+P 3250 3450
+F 0 "#PWR035" H 3250 3450 30  0001 C CNN
+F 1 "GND" H 3250 3380 30  0001 C CNN
+	1    3250 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR044
+L GND #PWR036
 U 1 1 4F21719F
-P 3750 3700
-F 0 "#PWR044" H 3750 3700 30  0001 C CNN
-F 1 "GND" H 3750 3630 30  0001 C CNN
-	1    3750 3700
+P 3750 3450
+F 0 "#PWR036" H 3750 3450 30  0001 C CNN
+F 1 "GND" H 3750 3380 30  0001 C CNN
+	1    3750 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D49
 U 1 1 4F21719E
-P 3550 3500
-F 0 "D49" H 3550 3600 50  0000 C CNN
-F 1 "LED" H 3550 3400 50  0000 C CNN
-F 2 "LED-3MM" H 3550 3500 50  0000 C CNN
-	1    3550 3500
+P 3550 3250
+F 0 "D49" H 3550 3350 50  0000 C CNN
+F 1 "LED" H 3550 3150 50  0000 C CNN
+F 2 "LED-3MM" H 3550 3250 50  0000 C CNN
+	1    3550 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D48
 U 1 1 4F21719D
-P 3550 3200
-F 0 "D48" H 3550 3300 50  0000 C CNN
-F 1 "LED" H 3550 3100 50  0000 C CNN
-F 2 "LED-3MM" H 3550 3200 50  0000 C CNN
-	1    3550 3200
+P 3550 2950
+F 0 "D48" H 3550 3050 50  0000 C CNN
+F 1 "LED" H 3550 2850 50  0000 C CNN
+F 2 "LED-3MM" H 3550 2950 50  0000 C CNN
+	1    3550 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D46
 U 1 1 4F21719C
-P 3550 2600
-F 0 "D46" H 3550 2700 50  0000 C CNN
-F 1 "LED" H 3550 2500 50  0000 C CNN
-F 2 "LED-3MM" H 3550 2600 50  0000 C CNN
-	1    3550 2600
+P 3550 2350
+F 0 "D46" H 3550 2450 50  0000 C CNN
+F 1 "LED" H 3550 2250 50  0000 C CNN
+F 2 "LED-3MM" H 3550 2350 50  0000 C CNN
+	1    3550 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D47
 U 1 1 4F21719B
-P 3550 2900
-F 0 "D47" H 3550 3000 50  0000 C CNN
-F 1 "LED" H 3550 2800 50  0000 C CNN
-F 2 "LED-3MM" H 3550 2900 50  0000 C CNN
-	1    3550 2900
+P 3550 2650
+F 0 "D47" H 3550 2750 50  0000 C CNN
+F 1 "LED" H 3550 2550 50  0000 C CNN
+F 2 "LED-3MM" H 3550 2650 50  0000 C CNN
+	1    3550 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D45
 U 1 1 4F21719A
-P 3550 2300
-F 0 "D45" H 3550 2400 50  0000 C CNN
-F 1 "LED" H 3550 2200 50  0000 C CNN
-F 2 "LED-3MM" H 3550 2300 50  0000 C CNN
-	1    3550 2300
+P 3550 2050
+F 0 "D45" H 3550 2150 50  0000 C CNN
+F 1 "LED" H 3550 1950 50  0000 C CNN
+F 2 "LED-3MM" H 3550 2050 50  0000 C CNN
+	1    3550 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D44
 U 1 1 4F217198
-P 3550 2000
-F 0 "D44" H 3550 2100 50  0000 C CNN
-F 1 "LED" H 3550 1900 50  0000 C CNN
-F 2 "LED-3MM" H 3550 2000 50  0000 C CNN
-	1    3550 2000
+P 3550 1750
+F 0 "D44" H 3550 1850 50  0000 C CNN
+F 1 "LED" H 3550 1650 50  0000 C CNN
+F 2 "LED-3MM" H 3550 1750 50  0000 C CNN
+	1    3550 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D43
 U 1 1 4F217197
-P 3550 1700
-F 0 "D43" H 3550 1800 50  0000 C CNN
-F 1 "LED" H 3550 1600 50  0000 C CNN
-F 2 "LED-3MM" H 3550 1700 50  0000 C CNN
-	1    3550 1700
+P 3550 1450
+F 0 "D43" H 3550 1550 50  0000 C CNN
+F 1 "LED" H 3550 1350 50  0000 C CNN
+F 2 "LED-3MM" H 3550 1450 50  0000 C CNN
+	1    3550 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D15
 U 1 1 4F217194
-P 2550 1700
-F 0 "D15" H 2550 1800 50  0000 C CNN
-F 1 "LED" H 2550 1600 50  0000 C CNN
-F 2 "LED-3MM" H 2550 1700 50  0000 C CNN
-	1    2550 1700
+P 2550 1450
+F 0 "D15" H 2550 1550 50  0000 C CNN
+F 1 "LED" H 2550 1350 50  0000 C CNN
+F 2 "LED-3MM" H 2550 1450 50  0000 C CNN
+	1    2550 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D16
 U 1 1 4F217193
-P 2550 2000
-F 0 "D16" H 2550 2100 50  0000 C CNN
-F 1 "LED" H 2550 1900 50  0000 C CNN
-F 2 "LED-3MM" H 2550 2000 50  0000 C CNN
-	1    2550 2000
+P 2550 1750
+F 0 "D16" H 2550 1850 50  0000 C CNN
+F 1 "LED" H 2550 1650 50  0000 C CNN
+F 2 "LED-3MM" H 2550 1750 50  0000 C CNN
+	1    2550 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D17
 U 1 1 4F217191
-P 2550 2300
-F 0 "D17" H 2550 2400 50  0000 C CNN
-F 1 "LED" H 2550 2200 50  0000 C CNN
-F 2 "LED-3MM" H 2550 2300 50  0000 C CNN
-	1    2550 2300
+P 2550 2050
+F 0 "D17" H 2550 2150 50  0000 C CNN
+F 1 "LED" H 2550 1950 50  0000 C CNN
+F 2 "LED-3MM" H 2550 2050 50  0000 C CNN
+	1    2550 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D19
 U 1 1 4F217190
-P 2550 2900
-F 0 "D19" H 2550 3000 50  0000 C CNN
-F 1 "LED" H 2550 2800 50  0000 C CNN
-F 2 "LED-3MM" H 2550 2900 50  0000 C CNN
-	1    2550 2900
+P 2550 2650
+F 0 "D19" H 2550 2750 50  0000 C CNN
+F 1 "LED" H 2550 2550 50  0000 C CNN
+F 2 "LED-3MM" H 2550 2650 50  0000 C CNN
+	1    2550 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D18
 U 1 1 4F21718F
-P 2550 2600
-F 0 "D18" H 2550 2700 50  0000 C CNN
-F 1 "LED" H 2550 2500 50  0000 C CNN
-F 2 "LED-3MM" H 2550 2600 50  0000 C CNN
-	1    2550 2600
+P 2550 2350
+F 0 "D18" H 2550 2450 50  0000 C CNN
+F 1 "LED" H 2550 2250 50  0000 C CNN
+F 2 "LED-3MM" H 2550 2350 50  0000 C CNN
+	1    2550 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D20
 U 1 1 4F21718E
-P 2550 3200
-F 0 "D20" H 2550 3300 50  0000 C CNN
-F 1 "LED" H 2550 3100 50  0000 C CNN
-F 2 "LED-3MM" H 2550 3200 50  0000 C CNN
-	1    2550 3200
+P 2550 2950
+F 0 "D20" H 2550 3050 50  0000 C CNN
+F 1 "LED" H 2550 2850 50  0000 C CNN
+F 2 "LED-3MM" H 2550 2950 50  0000 C CNN
+	1    2550 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D21
 U 1 1 4F21718D
-P 2550 3500
-F 0 "D21" H 2550 3600 50  0000 C CNN
-F 1 "LED" H 2550 3400 50  0000 C CNN
-F 2 "LED-3MM" H 2550 3500 50  0000 C CNN
-	1    2550 3500
+P 2550 3250
+F 0 "D21" H 2550 3350 50  0000 C CNN
+F 1 "LED" H 2550 3150 50  0000 C CNN
+F 2 "LED-3MM" H 2550 3250 50  0000 C CNN
+	1    2550 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR045
+L GND #PWR037
 U 1 1 4F21718C
-P 2750 3700
-F 0 "#PWR045" H 2750 3700 30  0001 C CNN
-F 1 "GND" H 2750 3630 30  0001 C CNN
-	1    2750 3700
+P 2750 3450
+F 0 "#PWR037" H 2750 3450 30  0001 C CNN
+F 1 "GND" H 2750 3380 30  0001 C CNN
+	1    2750 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR046
+L GND #PWR038
 U 1 1 4F217174
-P 2250 3700
-F 0 "#PWR046" H 2250 3700 30  0001 C CNN
-F 1 "GND" H 2250 3630 30  0001 C CNN
-	1    2250 3700
+P 2250 3450
+F 0 "#PWR038" H 2250 3450 30  0001 C CNN
+F 1 "GND" H 2250 3380 30  0001 C CNN
+	1    2250 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D7
 U 1 1 4F21716F
-P 2050 3500
-F 0 "D7" H 2050 3600 50  0000 C CNN
-F 1 "LED" H 2050 3400 50  0000 C CNN
-F 2 "LED-3MM" H 2050 3500 50  0000 C CNN
-	1    2050 3500
+P 2050 3250
+F 0 "D7" H 2050 3350 50  0000 C CNN
+F 1 "LED" H 2050 3150 50  0000 C CNN
+F 2 "LED-3MM" H 2050 3250 50  0000 C CNN
+	1    2050 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D6
 U 1 1 4F21716E
-P 2050 3200
-F 0 "D6" H 2050 3300 50  0000 C CNN
-F 1 "LED" H 2050 3100 50  0000 C CNN
-F 2 "LED-3MM" H 2050 3200 50  0000 C CNN
-	1    2050 3200
+P 2050 2950
+F 0 "D6" H 2050 3050 50  0000 C CNN
+F 1 "LED" H 2050 2850 50  0000 C CNN
+F 2 "LED-3MM" H 2050 2950 50  0000 C CNN
+	1    2050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D4
 U 1 1 4F217168
-P 2050 2600
-F 0 "D4" H 2050 2700 50  0000 C CNN
-F 1 "LED" H 2050 2500 50  0000 C CNN
-F 2 "LED-3MM" H 2050 2600 50  0000 C CNN
-	1    2050 2600
+P 2050 2350
+F 0 "D4" H 2050 2450 50  0000 C CNN
+F 1 "LED" H 2050 2250 50  0000 C CNN
+F 2 "LED-3MM" H 2050 2350 50  0000 C CNN
+	1    2050 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D5
 U 1 1 4F217167
-P 2050 2900
-F 0 "D5" H 2050 3000 50  0000 C CNN
-F 1 "LED" H 2050 2800 50  0000 C CNN
-F 2 "LED-3MM" H 2050 2900 50  0000 C CNN
-	1    2050 2900
+P 2050 2650
+F 0 "D5" H 2050 2750 50  0000 C CNN
+F 1 "LED" H 2050 2550 50  0000 C CNN
+F 2 "LED-3MM" H 2050 2650 50  0000 C CNN
+	1    2050 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D3
 U 1 1 4F217160
-P 2050 2300
-F 0 "D3" H 2050 2400 50  0000 C CNN
-F 1 "LED" H 2050 2200 50  0000 C CNN
-F 2 "LED-3MM" H 2050 2300 50  0000 C CNN
-	1    2050 2300
+P 2050 2050
+F 0 "D3" H 2050 2150 50  0000 C CNN
+F 1 "LED" H 2050 1950 50  0000 C CNN
+F 2 "LED-3MM" H 2050 2050 50  0000 C CNN
+	1    2050 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D2
 U 1 1 4F217112
-P 2050 2000
-F 0 "D2" H 2050 2100 50  0000 C CNN
-F 1 "LED" H 2050 1900 50  0000 C CNN
-F 2 "LED-3MM" H 2050 2000 50  0000 C CNN
-	1    2050 2000
+P 2050 1750
+F 0 "D2" H 2050 1850 50  0000 C CNN
+F 1 "LED" H 2050 1650 50  0000 C CNN
+F 2 "LED-3MM" H 2050 1750 50  0000 C CNN
+	1    2050 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D1
 U 1 1 4F21710B
-P 2050 1700
-F 0 "D1" H 2050 1800 50  0000 C CNN
-F 1 "LED" H 2050 1600 50  0000 C CNN
-F 2 "LED-3MM" H 2050 1700 50  0000 C CNN
-	1    2050 1700
+P 2050 1450
+F 0 "D1" H 2050 1550 50  0000 C CNN
+F 1 "LED" H 2050 1350 50  0000 C CNN
+F 2 "LED-3MM" H 2050 1450 50  0000 C CNN
+	1    2050 1450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

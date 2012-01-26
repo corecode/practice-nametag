@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jan 2012 05:09:47 PM CET
+EESchema Schematic File Version 2  date Thu 26 Jan 2012 07:31:12 PM CET
 LIBS:74hc595
 LIBS:power
 LIBS:device

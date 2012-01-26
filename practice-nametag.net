@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 26 Jan 2012 05:09:52 PM CET
+# EESchema Netlist Version 1.1 created  Thu 26 Jan 2012 07:25:33 PM CET
 (
  ( /4F1ED5E7 PIN_ARRAY_3X1  JP2 JUMPER3 {Lib=JUMPER3}
   (    1 N-000032 )
@@ -200,16 +200,16 @@
   (    3 N-000016 )
  )
  ( /4F2170E9/4F21733F LEDLINK  P20 CONN_2 {Lib=CONN_2}
-  (    1 N-000057 )
-  (    2 N-000057 )
+  (    1 N-000055 )
+  (    2 N-000055 )
  )
  ( /4F2170E9/4F21733E LEDLINK  P22 CONN_2 {Lib=CONN_2}
   (    1 N-000044 )
   (    2 N-000044 )
  )
  ( /4F2170E9/4F21733D LEDLINK  P26 CONN_2 {Lib=CONN_2}
-  (    1 N-000045 )
-  (    2 N-000045 )
+  (    1 N-000042 )
+  (    2 N-000042 )
  )
  ( /4F2170E9/4F21733C LEDLINK  P24 CONN_2 {Lib=CONN_2}
   (    1 N-000043 )
@@ -228,99 +228,99 @@
   (    2 N-000035 )
  )
  ( /4F2170E9/4F217338 LEDLINK  P28 CONN_2 {Lib=CONN_2}
-  (    1 N-000041 )
-  (    2 N-000041 )
+  (    1 N-000040 )
+  (    2 N-000040 )
  )
  ( /4F2170E9/4F217333 LEDLINK  P40 CONN_2 {Lib=CONN_2}
-  (    1 N-000042 )
-  (    2 N-000042 )
+  (    1 N-000041 )
+  (    2 N-000041 )
  )
  ( /4F2170E9/4F217332 LEDLINK  P42 CONN_2 {Lib=CONN_2}
   (    1 N-000038 )
   (    2 N-000038 )
  )
  ( /4F2170E9/4F217331 LEDLINK  P38 CONN_2 {Lib=CONN_2}
-  (    1 N-000040 )
-  (    2 N-000040 )
+  (    1 N-000039 )
+  (    2 N-000039 )
  )
  ( /4F2170E9/4F217330 LEDLINK  P36 CONN_2 {Lib=CONN_2}
-  (    1 N-000051 )
-  (    2 N-000051 )
- )
- ( /4F2170E9/4F21732A LEDLINK  P35 CONN_2 {Lib=CONN_2}
-  (    1 N-000052 )
-  (    2 N-000052 )
- )
- ( /4F2170E9/4F217329 LEDLINK  P37 CONN_2 {Lib=CONN_2}
-  (    1 N-000050 )
-  (    2 N-000050 )
- )
- ( /4F2170E9/4F217328 LEDLINK  P41 CONN_2 {Lib=CONN_2}
-  (    1 N-000054 )
-  (    2 N-000054 )
- )
- ( /4F2170E9/4F217327 LEDLINK  P39 CONN_2 {Lib=CONN_2}
-  (    1 N-000056 )
-  (    2 N-000056 )
- )
- ( /4F2170E9/4F21731D LEDLINK  P27 CONN_2 {Lib=CONN_2}
-  (    1 N-000053 )
-  (    2 N-000053 )
- )
- ( /4F2170E9/4F21731C LEDLINK  P29 CONN_2 {Lib=CONN_2}
-  (    1 N-000047 )
-  (    2 N-000047 )
- )
- ( /4F2170E9/4F21731B LEDLINK  P33 CONN_2 {Lib=CONN_2}
-  (    1 N-000060 )
-  (    2 N-000060 )
- )
- ( /4F2170E9/4F21731A LEDLINK  P31 CONN_2 {Lib=CONN_2}
-  (    1 N-000058 )
-  (    2 N-000058 )
- )
- ( /4F2170E9/4F217313 LEDLINK  P23 CONN_2 {Lib=CONN_2}
-  (    1 N-000059 )
-  (    2 N-000059 )
- )
- ( /4F2170E9/4F217312 LEDLINK  P25 CONN_2 {Lib=CONN_2}
-  (    1 N-000048 )
-  (    2 N-000048 )
- )
- ( /4F2170E9/4F21730A LEDLINK  P21 CONN_2 {Lib=CONN_2}
   (    1 N-000049 )
   (    2 N-000049 )
  )
- ( /4F2170E9/4F2172D6 LEDLINK  P19 CONN_2 {Lib=CONN_2}
+ ( /4F2170E9/4F21732A LEDLINK  P35 CONN_2 {Lib=CONN_2}
+  (    1 N-000051 )
+  (    2 N-000051 )
+ )
+ ( /4F2170E9/4F217329 LEDLINK  P37 CONN_2 {Lib=CONN_2}
+  (    1 N-000048 )
+  (    2 N-000048 )
+ )
+ ( /4F2170E9/4F217328 LEDLINK  P41 CONN_2 {Lib=CONN_2}
+  (    1 N-000050 )
+  (    2 N-000050 )
+ )
+ ( /4F2170E9/4F217327 LEDLINK  P39 CONN_2 {Lib=CONN_2}
+  (    1 N-000054 )
+  (    2 N-000054 )
+ )
+ ( /4F2170E9/4F21731D LEDLINK  P27 CONN_2 {Lib=CONN_2}
+  (    1 N-000052 )
+  (    2 N-000052 )
+ )
+ ( /4F2170E9/4F21731C LEDLINK  P29 CONN_2 {Lib=CONN_2}
+  (    1 N-000053 )
+  (    2 N-000053 )
+ )
+ ( /4F2170E9/4F21731B LEDLINK  P33 CONN_2 {Lib=CONN_2}
   (    1 N-000046 )
   (    2 N-000046 )
  )
- ( /4F2170E9/4F2172A4 LED-3MM  D8 LED {Lib=LED}
+ ( /4F2170E9/4F21731A LEDLINK  P31 CONN_2 {Lib=CONN_2}
+  (    1 N-000045 )
+  (    2 N-000045 )
+ )
+ ( /4F2170E9/4F217313 LEDLINK  P23 CONN_2 {Lib=CONN_2}
   (    1 N-000057 )
+  (    2 N-000057 )
+ )
+ ( /4F2170E9/4F217312 LEDLINK  P25 CONN_2 {Lib=CONN_2}
+  (    1 N-000056 )
+  (    2 N-000056 )
+ )
+ ( /4F2170E9/4F21730A LEDLINK  P21 CONN_2 {Lib=CONN_2}
+  (    1 N-000058 )
+  (    2 N-000058 )
+ )
+ ( /4F2170E9/4F2172D6 LEDLINK  P19 CONN_2 {Lib=CONN_2}
+  (    1 N-000047 )
+  (    2 N-000047 )
+ )
+ ( /4F2170E9/4F2172A4 LED-3MM  D8 LED {Lib=LED}
+  (    1 N-000055 )
   (    2 GND )
  )
  ( /4F2170E9/4F2172A3 LED-3MM  D9 LED {Lib=LED}
-  (    1 N-000057 )
+  (    1 N-000055 )
   (    2 GND )
  )
  ( /4F2170E9/4F2172A1 LED-3MM  D10 LED {Lib=LED}
-  (    1 N-000057 )
+  (    1 N-000055 )
   (    2 GND )
  )
  ( /4F2170E9/4F2172A0 LED-3MM  D12 LED {Lib=LED}
-  (    1 N-000057 )
+  (    1 N-000055 )
   (    2 GND )
  )
  ( /4F2170E9/4F21729F LED-3MM  D11 LED {Lib=LED}
-  (    1 N-000057 )
+  (    1 N-000055 )
   (    2 GND )
  )
  ( /4F2170E9/4F21729E LED-3MM  D13 LED {Lib=LED}
-  (    1 N-000057 )
+  (    1 N-000055 )
   (    2 GND )
  )
  ( /4F2170E9/4F21729D LED-3MM  D14 LED {Lib=LED}
-  (    1 N-000057 )
+  (    1 N-000055 )
   (    2 GND )
  )
  ( /4F2170E9/4F21729A LED-3MM  D28 LED {Lib=LED}
@@ -352,31 +352,31 @@
   (    2 GND )
  )
  ( /4F2170E9/4F217292 LED-3MM  D50 LED {Lib=LED}
-  (    1 N-000045 )
+  (    1 N-000042 )
   (    2 GND )
  )
  ( /4F2170E9/4F217291 LED-3MM  D51 LED {Lib=LED}
-  (    1 N-000045 )
+  (    1 N-000042 )
   (    2 GND )
  )
  ( /4F2170E9/4F21728F LED-3MM  D52 LED {Lib=LED}
-  (    1 N-000045 )
+  (    1 N-000042 )
   (    2 GND )
  )
  ( /4F2170E9/4F21728E LED-3MM  D54 LED {Lib=LED}
-  (    1 N-000045 )
+  (    1 N-000042 )
   (    2 GND )
  )
  ( /4F2170E9/4F21728D LED-3MM  D53 LED {Lib=LED}
-  (    1 N-000045 )
+  (    1 N-000042 )
   (    2 GND )
  )
  ( /4F2170E9/4F21728C LED-3MM  D55 LED {Lib=LED}
-  (    1 N-000045 )
+  (    1 N-000042 )
   (    2 GND )
  )
  ( /4F2170E9/4F21728B LED-3MM  D56 LED {Lib=LED}
-  (    1 N-000045 )
+  (    1 N-000042 )
   (    2 GND )
  )
  ( /4F2170E9/4F217288 LED-3MM  D42 LED {Lib=LED}
@@ -492,479 +492,479 @@
   (    2 GND )
  )
  ( /4F2170E9/4F217264 LED-3MM  D70 LED {Lib=LED}
-  (    1 N-000041 )
+  (    1 N-000040 )
   (    2 GND )
  )
  ( /4F2170E9/4F217263 LED-3MM  D69 LED {Lib=LED}
-  (    1 N-000041 )
+  (    1 N-000040 )
   (    2 GND )
  )
  ( /4F2170E9/4F217262 LED-3MM  D67 LED {Lib=LED}
-  (    1 N-000041 )
+  (    1 N-000040 )
   (    2 GND )
  )
  ( /4F2170E9/4F217261 LED-3MM  D68 LED {Lib=LED}
-  (    1 N-000041 )
+  (    1 N-000040 )
   (    2 GND )
  )
  ( /4F2170E9/4F217260 LED-3MM  D66 LED {Lib=LED}
-  (    1 N-000041 )
+  (    1 N-000040 )
   (    2 GND )
  )
  ( /4F2170E9/4F21725E LED-3MM  D65 LED {Lib=LED}
-  (    1 N-000041 )
+  (    1 N-000040 )
   (    2 GND )
  )
  ( /4F2170E9/4F21725D LED-3MM  D64 LED {Lib=LED}
-  (    1 N-000041 )
+  (    1 N-000040 )
   (    2 GND )
  )
  ( /4F2170E9/4F217238 LED-3MM  D148 LED {Lib=LED}
-  (    1 N-000042 )
+  (    1 N-000041 )
   (    2 GND )
  )
  ( /4F2170E9/4F217237 LED-3MM  D149 LED {Lib=LED}
-  (    1 N-000042 )
+  (    1 N-000041 )
   (    2 GND )
  )
  ( /4F2170E9/4F217235 LED-3MM  D150 LED {Lib=LED}
-  (    1 N-000042 )
+  (    1 N-000041 )
   (    2 GND )
  )
  ( /4F2170E9/4F217234 LED-3MM  D152 LED {Lib=LED}
-  (    1 N-000042 )
+  (    1 N-000041 )
   (    2 GND )
  )
  ( /4F2170E9/4F217233 LED-3MM  D151 LED {Lib=LED}
-  (    1 N-000042 )
+  (    1 N-000041 )
   (    2 GND )
  )
  ( /4F2170E9/4F217232 LED-3MM  D153 LED {Lib=LED}
-  (    1 N-000042 )
+  (    1 N-000041 )
   (    2 GND )
  )
  ( /4F2170E9/4F217231 LED-3MM  D154 LED {Lib=LED}
-  (    1 N-000042 )
+  (    1 N-000041 )
   (    2 GND )
  )
  ( /4F2170E9/4F21722E LED-3MM  D168 LED {Lib=LED}
   (    1 N-000038 )
-  (    2 N-000039 )
+  (    2 GND )
  )
  ( /4F2170E9/4F21722D LED-3MM  D167 LED {Lib=LED}
   (    1 N-000038 )
-  (    2 N-000039 )
+  (    2 GND )
  )
  ( /4F2170E9/4F21722C LED-3MM  D165 LED {Lib=LED}
   (    1 N-000038 )
-  (    2 N-000039 )
+  (    2 GND )
  )
  ( /4F2170E9/4F21722B LED-3MM  D166 LED {Lib=LED}
   (    1 N-000038 )
-  (    2 N-000039 )
+  (    2 GND )
  )
  ( /4F2170E9/4F21722A LED-3MM  D164 LED {Lib=LED}
   (    1 N-000038 )
-  (    2 N-000039 )
+  (    2 GND )
  )
  ( /4F2170E9/4F217228 LED-3MM  D163 LED {Lib=LED}
   (    1 N-000038 )
-  (    2 N-000039 )
+  (    2 GND )
  )
  ( /4F2170E9/4F217227 LED-3MM  D162 LED {Lib=LED}
   (    1 N-000038 )
-  (    2 N-000039 )
+  (    2 GND )
  )
  ( /4F2170E9/4F217226 LED-3MM  D134 LED {Lib=LED}
-  (    1 N-000040 )
+  (    1 N-000039 )
   (    2 GND )
  )
  ( /4F2170E9/4F217225 LED-3MM  D135 LED {Lib=LED}
-  (    1 N-000040 )
+  (    1 N-000039 )
   (    2 GND )
  )
  ( /4F2170E9/4F217223 LED-3MM  D136 LED {Lib=LED}
-  (    1 N-000040 )
+  (    1 N-000039 )
   (    2 GND )
  )
  ( /4F2170E9/4F217222 LED-3MM  D138 LED {Lib=LED}
-  (    1 N-000040 )
+  (    1 N-000039 )
   (    2 GND )
  )
  ( /4F2170E9/4F217221 LED-3MM  D137 LED {Lib=LED}
-  (    1 N-000040 )
+  (    1 N-000039 )
   (    2 GND )
  )
  ( /4F2170E9/4F217220 LED-3MM  D139 LED {Lib=LED}
-  (    1 N-000040 )
+  (    1 N-000039 )
   (    2 GND )
  )
  ( /4F2170E9/4F21721F LED-3MM  D140 LED {Lib=LED}
-  (    1 N-000040 )
+  (    1 N-000039 )
   (    2 GND )
  )
  ( /4F2170E9/4F21721C LED-3MM  D126 LED {Lib=LED}
-  (    1 N-000051 )
+  (    1 N-000049 )
   (    2 GND )
  )
  ( /4F2170E9/4F21721B LED-3MM  D125 LED {Lib=LED}
-  (    1 N-000051 )
+  (    1 N-000049 )
   (    2 GND )
  )
  ( /4F2170E9/4F21721A LED-3MM  D123 LED {Lib=LED}
-  (    1 N-000051 )
+  (    1 N-000049 )
   (    2 GND )
  )
  ( /4F2170E9/4F217219 LED-3MM  D124 LED {Lib=LED}
-  (    1 N-000051 )
+  (    1 N-000049 )
   (    2 GND )
  )
  ( /4F2170E9/4F217218 LED-3MM  D122 LED {Lib=LED}
-  (    1 N-000051 )
+  (    1 N-000049 )
   (    2 GND )
  )
  ( /4F2170E9/4F217216 LED-3MM  D121 LED {Lib=LED}
-  (    1 N-000051 )
+  (    1 N-000049 )
   (    2 GND )
  )
  ( /4F2170E9/4F217215 LED-3MM  D120 LED {Lib=LED}
-  (    1 N-000051 )
+  (    1 N-000049 )
   (    2 GND )
  )
  ( /4F2170E9/4F217214 LED-3MM  D113 LED {Lib=LED}
-  (    1 N-000052 )
+  (    1 N-000051 )
   (    2 GND )
  )
  ( /4F2170E9/4F217213 LED-3MM  D114 LED {Lib=LED}
-  (    1 N-000052 )
+  (    1 N-000051 )
   (    2 GND )
  )
  ( /4F2170E9/4F217211 LED-3MM  D115 LED {Lib=LED}
-  (    1 N-000052 )
+  (    1 N-000051 )
   (    2 GND )
  )
  ( /4F2170E9/4F217210 LED-3MM  D117 LED {Lib=LED}
-  (    1 N-000052 )
+  (    1 N-000051 )
   (    2 GND )
  )
  ( /4F2170E9/4F21720F LED-3MM  D116 LED {Lib=LED}
-  (    1 N-000052 )
+  (    1 N-000051 )
   (    2 GND )
  )
  ( /4F2170E9/4F21720E LED-3MM  D118 LED {Lib=LED}
-  (    1 N-000052 )
+  (    1 N-000051 )
   (    2 GND )
  )
  ( /4F2170E9/4F21720D LED-3MM  D119 LED {Lib=LED}
-  (    1 N-000052 )
+  (    1 N-000051 )
   (    2 GND )
  )
  ( /4F2170E9/4F21720A LED-3MM  D133 LED {Lib=LED}
-  (    1 N-000050 )
+  (    1 N-000048 )
   (    2 GND )
  )
  ( /4F2170E9/4F217209 LED-3MM  D132 LED {Lib=LED}
-  (    1 N-000050 )
+  (    1 N-000048 )
   (    2 GND )
  )
  ( /4F2170E9/4F217208 LED-3MM  D130 LED {Lib=LED}
-  (    1 N-000050 )
+  (    1 N-000048 )
   (    2 GND )
  )
  ( /4F2170E9/4F217207 LED-3MM  D131 LED {Lib=LED}
-  (    1 N-000050 )
+  (    1 N-000048 )
   (    2 GND )
  )
  ( /4F2170E9/4F217206 LED-3MM  D129 LED {Lib=LED}
-  (    1 N-000050 )
+  (    1 N-000048 )
   (    2 GND )
  )
  ( /4F2170E9/4F217204 LED-3MM  D128 LED {Lib=LED}
-  (    1 N-000050 )
+  (    1 N-000048 )
   (    2 GND )
  )
  ( /4F2170E9/4F217203 LED-3MM  D127 LED {Lib=LED}
-  (    1 N-000050 )
+  (    1 N-000048 )
   (    2 GND )
  )
  ( /4F2170E9/4F217202 LED-3MM  D155 LED {Lib=LED}
-  (    1 N-000054 )
-  (    2 N-000055 )
+  (    1 N-000050 )
+  (    2 GND )
  )
  ( /4F2170E9/4F217201 LED-3MM  D156 LED {Lib=LED}
-  (    1 N-000054 )
-  (    2 N-000055 )
+  (    1 N-000050 )
+  (    2 GND )
  )
  ( /4F2170E9/4F2171FF LED-3MM  D157 LED {Lib=LED}
-  (    1 N-000054 )
-  (    2 N-000055 )
+  (    1 N-000050 )
+  (    2 GND )
  )
  ( /4F2170E9/4F2171FE LED-3MM  D159 LED {Lib=LED}
-  (    1 N-000054 )
-  (    2 N-000055 )
+  (    1 N-000050 )
+  (    2 GND )
  )
  ( /4F2170E9/4F2171FD LED-3MM  D158 LED {Lib=LED}
-  (    1 N-000054 )
-  (    2 N-000055 )
+  (    1 N-000050 )
+  (    2 GND )
  )
  ( /4F2170E9/4F2171FC LED-3MM  D160 LED {Lib=LED}
-  (    1 N-000054 )
-  (    2 N-000055 )
+  (    1 N-000050 )
+  (    2 GND )
  )
  ( /4F2170E9/4F2171FB LED-3MM  D161 LED {Lib=LED}
-  (    1 N-000054 )
-  (    2 N-000055 )
+  (    1 N-000050 )
+  (    2 GND )
  )
  ( /4F2170E9/4F2171F8 LED-3MM  D147 LED {Lib=LED}
-  (    1 N-000056 )
+  (    1 N-000054 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171F7 LED-3MM  D146 LED {Lib=LED}
-  (    1 N-000056 )
+  (    1 N-000054 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171F6 LED-3MM  D144 LED {Lib=LED}
-  (    1 N-000056 )
+  (    1 N-000054 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171F5 LED-3MM  D145 LED {Lib=LED}
-  (    1 N-000056 )
+  (    1 N-000054 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171F4 LED-3MM  D143 LED {Lib=LED}
-  (    1 N-000056 )
+  (    1 N-000054 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171F2 LED-3MM  D142 LED {Lib=LED}
-  (    1 N-000056 )
+  (    1 N-000054 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171F1 LED-3MM  D141 LED {Lib=LED}
-  (    1 N-000056 )
+  (    1 N-000054 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171CC LED-3MM  D57 LED {Lib=LED}
-  (    1 N-000053 )
+  (    1 N-000052 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171CB LED-3MM  D58 LED {Lib=LED}
-  (    1 N-000053 )
+  (    1 N-000052 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171C9 LED-3MM  D59 LED {Lib=LED}
-  (    1 N-000053 )
+  (    1 N-000052 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171C8 LED-3MM  D61 LED {Lib=LED}
-  (    1 N-000053 )
+  (    1 N-000052 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171C7 LED-3MM  D60 LED {Lib=LED}
-  (    1 N-000053 )
+  (    1 N-000052 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171C6 LED-3MM  D62 LED {Lib=LED}
-  (    1 N-000053 )
+  (    1 N-000052 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171C5 LED-3MM  D63 LED {Lib=LED}
-  (    1 N-000053 )
+  (    1 N-000052 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171C2 LED-3MM  D77 LED {Lib=LED}
-  (    1 N-000047 )
+  (    1 N-000053 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171C1 LED-3MM  D76 LED {Lib=LED}
-  (    1 N-000047 )
+  (    1 N-000053 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171C0 LED-3MM  D74 LED {Lib=LED}
-  (    1 N-000047 )
+  (    1 N-000053 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171BF LED-3MM  D75 LED {Lib=LED}
-  (    1 N-000047 )
+  (    1 N-000053 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171BE LED-3MM  D73 LED {Lib=LED}
-  (    1 N-000047 )
+  (    1 N-000053 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171BC LED-3MM  D72 LED {Lib=LED}
-  (    1 N-000047 )
+  (    1 N-000053 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171BB LED-3MM  D71 LED {Lib=LED}
-  (    1 N-000047 )
+  (    1 N-000053 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171BA LED-3MM  D99 LED {Lib=LED}
-  (    1 N-000060 )
+  (    1 N-000046 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171B9 LED-3MM  D100 LED {Lib=LED}
-  (    1 N-000060 )
+  (    1 N-000046 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171B7 LED-3MM  D101 LED {Lib=LED}
-  (    1 N-000060 )
+  (    1 N-000046 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171B6 LED-3MM  D103 LED {Lib=LED}
-  (    1 N-000060 )
+  (    1 N-000046 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171B5 LED-3MM  D102 LED {Lib=LED}
-  (    1 N-000060 )
+  (    1 N-000046 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171B4 LED-3MM  D104 LED {Lib=LED}
-  (    1 N-000060 )
+  (    1 N-000046 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171B3 LED-3MM  D105 LED {Lib=LED}
-  (    1 N-000060 )
+  (    1 N-000046 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171B0 LED-3MM  D91 LED {Lib=LED}
-  (    1 N-000058 )
+  (    1 N-000045 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171AF LED-3MM  D90 LED {Lib=LED}
-  (    1 N-000058 )
+  (    1 N-000045 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171AE LED-3MM  D88 LED {Lib=LED}
-  (    1 N-000058 )
+  (    1 N-000045 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171AD LED-3MM  D89 LED {Lib=LED}
-  (    1 N-000058 )
+  (    1 N-000045 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171AC LED-3MM  D87 LED {Lib=LED}
-  (    1 N-000058 )
+  (    1 N-000045 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171AA LED-3MM  D86 LED {Lib=LED}
-  (    1 N-000058 )
+  (    1 N-000045 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171A9 LED-3MM  D85 LED {Lib=LED}
-  (    1 N-000058 )
+  (    1 N-000045 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171A8 LED-3MM  D29 LED {Lib=LED}
-  (    1 N-000059 )
+  (    1 N-000057 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171A7 LED-3MM  D30 LED {Lib=LED}
-  (    1 N-000059 )
+  (    1 N-000057 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171A5 LED-3MM  D31 LED {Lib=LED}
-  (    1 N-000059 )
+  (    1 N-000057 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171A4 LED-3MM  D33 LED {Lib=LED}
-  (    1 N-000059 )
+  (    1 N-000057 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171A3 LED-3MM  D32 LED {Lib=LED}
-  (    1 N-000059 )
+  (    1 N-000057 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171A2 LED-3MM  D34 LED {Lib=LED}
-  (    1 N-000059 )
+  (    1 N-000057 )
   (    2 GND )
  )
  ( /4F2170E9/4F2171A1 LED-3MM  D35 LED {Lib=LED}
-  (    1 N-000059 )
+  (    1 N-000057 )
   (    2 GND )
  )
  ( /4F2170E9/4F21719E LED-3MM  D49 LED {Lib=LED}
-  (    1 N-000048 )
+  (    1 N-000056 )
   (    2 GND )
  )
  ( /4F2170E9/4F21719D LED-3MM  D48 LED {Lib=LED}
-  (    1 N-000048 )
+  (    1 N-000056 )
   (    2 GND )
  )
  ( /4F2170E9/4F21719C LED-3MM  D46 LED {Lib=LED}
-  (    1 N-000048 )
+  (    1 N-000056 )
   (    2 GND )
  )
  ( /4F2170E9/4F21719B LED-3MM  D47 LED {Lib=LED}
-  (    1 N-000048 )
+  (    1 N-000056 )
   (    2 GND )
  )
  ( /4F2170E9/4F21719A LED-3MM  D45 LED {Lib=LED}
-  (    1 N-000048 )
+  (    1 N-000056 )
   (    2 GND )
  )
  ( /4F2170E9/4F217198 LED-3MM  D44 LED {Lib=LED}
-  (    1 N-000048 )
+  (    1 N-000056 )
   (    2 GND )
  )
  ( /4F2170E9/4F217197 LED-3MM  D43 LED {Lib=LED}
-  (    1 N-000048 )
+  (    1 N-000056 )
   (    2 GND )
  )
  ( /4F2170E9/4F217194 LED-3MM  D15 LED {Lib=LED}
-  (    1 N-000049 )
+  (    1 N-000058 )
   (    2 GND )
  )
  ( /4F2170E9/4F217193 LED-3MM  D16 LED {Lib=LED}
-  (    1 N-000049 )
+  (    1 N-000058 )
   (    2 GND )
  )
  ( /4F2170E9/4F217191 LED-3MM  D17 LED {Lib=LED}
-  (    1 N-000049 )
+  (    1 N-000058 )
   (    2 GND )
  )
  ( /4F2170E9/4F217190 LED-3MM  D19 LED {Lib=LED}
-  (    1 N-000049 )
+  (    1 N-000058 )
   (    2 GND )
  )
  ( /4F2170E9/4F21718F LED-3MM  D18 LED {Lib=LED}
-  (    1 N-000049 )
+  (    1 N-000058 )
   (    2 GND )
  )
  ( /4F2170E9/4F21718E LED-3MM  D20 LED {Lib=LED}
-  (    1 N-000049 )
+  (    1 N-000058 )
   (    2 GND )
  )
  ( /4F2170E9/4F21718D LED-3MM  D21 LED {Lib=LED}
-  (    1 N-000049 )
+  (    1 N-000058 )
   (    2 GND )
  )
  ( /4F2170E9/4F21716F LED-3MM  D7 LED {Lib=LED}
-  (    1 N-000046 )
+  (    1 N-000047 )
   (    2 GND )
  )
  ( /4F2170E9/4F21716E LED-3MM  D6 LED {Lib=LED}
-  (    1 N-000046 )
+  (    1 N-000047 )
   (    2 GND )
  )
  ( /4F2170E9/4F217168 LED-3MM  D4 LED {Lib=LED}
-  (    1 N-000046 )
+  (    1 N-000047 )
   (    2 GND )
  )
  ( /4F2170E9/4F217167 LED-3MM  D5 LED {Lib=LED}
-  (    1 N-000046 )
+  (    1 N-000047 )
   (    2 GND )
  )
  ( /4F2170E9/4F217160 LED-3MM  D3 LED {Lib=LED}
-  (    1 N-000046 )
+  (    1 N-000047 )
   (    2 GND )
  )
  ( /4F2170E9/4F217112 LED-3MM  D2 LED {Lib=LED}
-  (    1 N-000046 )
+  (    1 N-000047 )
   (    2 GND )
  )
  ( /4F2170E9/4F21710B LED-3MM  D1 LED {Lib=LED}
-  (    1 N-000046 )
+  (    1 N-000047 )
   (    2 GND )
  )
 )
@@ -2604,15 +2604,15 @@ $endfootprintlist
 }
 { Pin List by Nets
 Net 1 "VCC" "VCC"
- JP1 2
+ C3 1
  SW1 1
  U1 16
  R1 1
+ JP1 2
  JP3 1
- C3 1
- R4 1
  RV1 3
  RV2 3
+ R4 1
  R6 1
 Net 2 "" ""
  U1 4
@@ -2624,21 +2624,21 @@ Net 3 "FEEDBACK" "FEEDBACK"
  SW1 2
  R5 1
 Net 4 "" ""
- P15 1
- R14 1
  U1 6
+ R14 1
+ P15 1
 Net 5 "" ""
+ U1 2
  P11 1
  R10 1
- U1 2
 Net 6 "" ""
+ P10 1
  U1 1
  R9 1
- P10 1
 Net 7 "" ""
- U1 15
- R8 1
  P9 1
+ R8 1
+ U1 15
 Net 8 "" ""
  P2 1
  R9 2
@@ -2646,8 +2646,8 @@ Net 9 "" ""
  P5 1
  R12 2
 Net 10 "" ""
- R13 2
  P6 1
+ R13 2
 Net 11 "" ""
  R15 2
  P8 1
@@ -2655,11 +2655,11 @@ Net 12 "" ""
  R14 2
  P7 1
 Net 13 "" ""
- P3 1
  R10 2
+ P3 1
 Net 14 "" ""
- P4 1
  R11 2
+ P4 1
 Net 15 "" ""
  R8 2
  P1 1
@@ -2668,57 +2668,52 @@ Net 16 "" ""
  R1 2
  C1 1
 Net 17 "" ""
- R7 1
  JP2 2
+ R7 1
 Net 18 "GND" "GND"
- D119 2
+ D140 2
+ D125 2
+ D3 2
+ D123 2
+ D126 2
+ D130 2
+ D131 2
+ D128 2
+ D127 2
+ D129 2
+ D147 2
+ D161 2
+ D155 2
+ D156 2
+ D157 2
+ D159 2
+ D158 2
+ D160 2
+ D139 2
+ D76 2
+ D146 2
+ D144 2
+ D145 2
+ D143 2
+ D58 2
+ D122 2
+ D121 2
+ D120 2
+ D113 2
+ D114 2
+ D60 2
+ D142 2
+ D141 2
+ D57 2
+ D124 2
  D59 2
  D61 2
  D62 2
  D63 2
  D77 2
- D57 2
- D76 2
- D118 2
- D116 2
- D117 2
- D133 2
- D16 2
- D15 2
- D147 2
- D20 2
- D120 2
- D124 2
- D127 2
- D128 2
- D126 2
- D125 2
- D123 2
- D122 2
- D121 2
- D58 2
- D113 2
- D114 2
- D115 2
- D129 2
- D131 2
- D60 2
- D142 2
- D130 2
- D132 2
- D141 2
- D140 2
- D52 2
- D28 2
- D27 2
- D25 2
- D26 2
- D92 2
- D24 2
- D23 2
- D22 2
- D50 2
+ D29 2
  D51 2
+ D52 2
  D91 2
  D90 2
  D88 2
@@ -2726,35 +2721,8 @@ Net 18 "GND" "GND"
  D87 2
  D86 2
  D85 2
- D29 2
- D53 2
- D55 2
- D56 2
+ D50 2
  D30 2
- D42 2
- D54 2
- D41 2
- D39 2
- D40 2
- D38 2
- D37 2
- D36 2
- D2 2
- D21 2
- D17 2
- D7 2
- D6 2
- D4 2
- D5 2
- D3 2
- D35 2
- D49 2
- D48 2
- D46 2
- D47 2
- D45 2
- D44 2
- D34 2
  D31 2
  D33 2
  D32 2
@@ -2765,75 +2733,121 @@ Net 18 "GND" "GND"
  D72 2
  D71 2
  D99 2
+ D26 2
+ D41 2
+ D39 2
+ D40 2
+ D38 2
+ D37 2
+ D36 2
+ D34 2
+ D14 2
+ D28 2
+ D27 2
+ D25 2
+ D24 2
+ D23 2
+ D22 2
+ D15 2
+ D49 2
+ D48 2
+ D46 2
+ D47 2
+ D45 2
+ D44 2
  D43 2
+ D35 2
+ D16 2
+ D133 2
+ D117 2
+ D116 2
+ D118 2
+ D119 2
+ D115 2
  D101 2
  D103 2
- D102 2
  D1 2
  D104 2
  D105 2
  D19 2
  D18 2
- D144 2
- D145 2
- D143 2
- D146 2
- D154 2
- BT1 2
- D110 2
- D109 2
- D111 2
- U1 8
- Q2 1
- D112 2
- D98 2
- D97 2
- D95 2
- D68 2
- D66 2
- D67 2
- D149 2
- D65 2
- D137 2
- D64 2
- D148 2
- D138 2
- D108 2
- D136 2
- C3 2
- D150 2
- Q1 1
- D135 2
- D152 2
- D134 2
- D151 2
- D153 2
- D84 2
- D70 2
- Q3 1
- D79 2
- D80 2
- D83 2
- D81 2
- D69 2
- D14 2
- D107 2
- D82 2
- D106 2
- D78 2
- D8 2
+ D20 2
+ D21 2
+ D132 2
+ D17 2
+ D7 2
+ D6 2
+ D4 2
+ D5 2
+ D56 2
+ D2 2
  D96 2
- D9 2
- D10 2
- D94 2
- D12 2
+ Q2 1
+ D98 2
  D93 2
- D139 2
+ D94 2
+ D92 2
+ D154 2
+ D95 2
+ D153 2
+ D151 2
+ D97 2
+ D10 2
+ BT1 2
+ D9 2
+ Q1 1
+ D8 2
+ D152 2
+ C3 2
+ D70 2
+ D102 2
+ D167 2
+ D68 2
+ D165 2
+ D67 2
+ D166 2
+ D164 2
+ D163 2
+ D168 2
+ D137 2
+ D138 2
+ D162 2
+ D136 2
+ D135 2
+ D134 2
+ D150 2
+ D149 2
+ D69 2
+ D148 2
+ D112 2
+ D64 2
+ D111 2
+ D109 2
+ D65 2
+ D110 2
+ D66 2
+ D78 2
+ D108 2
+ Q3 1
+ D80 2
+ D79 2
+ D82 2
+ D42 2
+ D54 2
+ D53 2
+ D55 2
+ U1 8
+ D12 2
+ D84 2
  D11 2
  D13 2
+ D83 2
+ D81 2
+ D107 2
+ D106 2
 Net 19 "" ""
- JP2 3
  Q3 2
+ JP2 3
 Net 20 "FEEDBACK_IN" "FEEDBACK_IN"
  P18 1
  R7 2
@@ -2842,311 +2856,295 @@ Net 21 "" ""
  JP4 1
 Net 22 "" ""
  Q2 2
- C1 2
  R2 2
+ C1 2
 Net 23 "" ""
- R3 2
  Q1 2
  C2 2
+ R3 2
 Net 24 "" ""
- RV1 1
  R2 1
  RV1 2
+ RV1 1
 Net 25 "" ""
- U1 9
  P17 1
+ U1 9
 Net 26 "" ""
- RV2 2
  RV2 1
+ RV2 2
  R3 1
 Net 27 "" ""
  JP5 2
  U1 13
 Net 28 "" ""
- U1 10
  JP4 3
+ U1 10
 Net 29 "" ""
  U1 7
  P16 1
  R15 1
 Net 30 "" ""
  U1 5
- R13 1
  P14 1
+ R13 1
 Net 31 "" ""
- U1 3
  P12 1
  R11 1
+ U1 3
 Net 32 "" ""
- R5 2
- JP2 1
  Q3 3
+ R5 2
  R6 2
+ JP2 1
 Net 33 "CLK" "CLK"
  C2 1
+ U1 11
+ JP5 1
+ U1 12
  R4 2
  Q2 3
- U1 11
- U1 12
- JP5 1
 Net 34 "" ""
  JP1 1
  BT1 1
 Net 35 "" ""
- D82 1
- D80 1
  D84 1
- D83 1
- D81 1
- P30 1
- D78 1
- P30 2
  D79 1
+ P30 1
+ D80 1
+ P30 2
+ D82 1
+ D78 1
+ D81 1
+ D83 1
 Net 36 "" ""
- D94 1
- P32 1
  P32 2
- D98 1
- D97 1
- D93 1
- D95 1
+ P32 1
  D92 1
+ D93 1
+ D94 1
  D96 1
+ D95 1
+ D97 1
+ D98 1
 Net 37 "" ""
- D107 1
  D106 1
- P34 1
- P34 2
- D108 1
  D110 1
- D109 1
- D111 1
+ D107 1
  D112 1
+ D111 1
+ D109 1
+ D108 1
+ P34 2
+ P34 1
 Net 38 "" ""
- P42 2
- P42 1
- D164 1
- D163 1
- D162 1
- D168 1
- D166 1
  D165 1
  D167 1
+ D166 1
+ D164 1
+ D163 1
+ D168 1
+ D162 1
+ P42 2
+ P42 1
 Net 39 "" ""
- D165 2
- D168 2
- D167 2
- D166 2
- D162 2
- D164 2
- D163 2
-Net 40 "" ""
- D135 1
- D136 1
  P38 2
- D138 1
+ P38 1
+ D135 1
  D137 1
+ D138 1
  D139 1
  D140 1
- P38 1
  D134 1
-Net 41 "" ""
+ D136 1
+Net 40 "" ""
+ D70 1
  P28 1
  P28 2
- D70 1
- D69 1
- D67 1
  D66 1
- D64 1
- D65 1
  D68 1
-Net 42 "" ""
+ D64 1
+ D67 1
+ D65 1
+ D69 1
+Net 41 "" ""
+ D149 1
  D154 1
  D153 1
  D151 1
  D152 1
  D150 1
- D149 1
  D148 1
  P40 2
  P40 1
-Net 43 "" ""
- D38 1
- D40 1
- D42 1
- D39 1
- D37 1
- D36 1
- P24 2
- P24 1
- D41 1
-Net 44 "" ""
- P22 1
- P22 2
- D24 1
- D28 1
- D22 1
- D23 1
- D26 1
- D25 1
- D27 1
-Net 45 "" ""
- D50 1
+Net 42 "" ""
  P26 1
  P26 2
  D56 1
- D55 1
- D53 1
+ D50 1
  D51 1
  D52 1
  D54 1
-Net 46 "" ""
- D2 1
- D1 1
- D6 1
- D3 1
- D5 1
- P19 2
- P19 1
- D4 1
- D7 1
-Net 47 "" ""
- D71 1
- D72 1
- D73 1
- D75 1
- D74 1
- P29 1
- P29 2
- D77 1
- D76 1
-Net 48 "" ""
- D45 1
- P25 1
- D46 1
- D49 1
- D48 1
- D44 1
- D43 1
- D47 1
- P25 2
-Net 49 "" ""
- D18 1
- D20 1
- D21 1
- D17 1
- D19 1
- P21 1
- P21 2
- D16 1
- D15 1
-Net 50 "" ""
- D127 1
- D133 1
- D132 1
- D130 1
- D131 1
- D129 1
- D128 1
- P37 1
- P37 2
-Net 51 "" ""
- D126 1
- D123 1
- D124 1
- D122 1
- D121 1
- D125 1
- D120 1
- P36 1
- P36 2
-Net 52 "" ""
- D118 1
- D119 1
- D117 1
- D116 1
- P35 1
- P35 2
- D113 1
- D114 1
- D115 1
-Net 53 "" ""
- P27 2
- D58 1
- D57 1
- P27 1
- D61 1
- D60 1
- D59 1
- D63 1
- D62 1
-Net 54 "" ""
- P41 1
- P41 2
- D155 1
- D161 1
- D160 1
- D156 1
- D158 1
- D157 1
- D159 1
-Net 55 "" ""
- D159 2
- D161 2
- D155 2
- D156 2
- D157 2
- D158 2
- D160 2
-Net 56 "" ""
- D141 1
- D142 1
- D147 1
- D146 1
- D144 1
- P39 1
- P39 2
- D145 1
- D143 1
-Net 57 "" ""
- D11 1
- D8 1
- D14 1
- D13 1
- P20 1
- D9 1
- D10 1
- D12 1
- P20 2
-Net 58 "" ""
- P31 1
+ D53 1
+ D55 1
+Net 43 "" ""
+ P24 2
+ P24 1
+ D42 1
+ D41 1
+ D39 1
+ D40 1
+ D38 1
+ D37 1
+ D36 1
+Net 44 "" ""
+ D28 1
+ P22 2
+ P22 1
+ D25 1
+ D26 1
+ D24 1
+ D23 1
+ D22 1
+ D27 1
+Net 45 "" ""
+ D87 1
  P31 2
  D86 1
+ P31 1
+ D89 1
+ D88 1
  D90 1
- D87 1
  D91 1
  D85 1
- D88 1
- D89 1
-Net 59 "" ""
- D32 1
- D35 1
- D34 1
- D33 1
- D31 1
- D30 1
- D29 1
- P23 1
- P23 2
-Net 60 "" ""
- D104 1
+Net 46 "" ""
  P33 2
  P33 1
  D105 1
+ D104 1
  D102 1
  D103 1
  D101 1
  D100 1
  D99 1
+Net 47 "" ""
+ D1 1
+ D6 1
+ D2 1
+ D3 1
+ D5 1
+ D4 1
+ P19 2
+ D7 1
+ P19 1
+Net 48 "" ""
+ D130 1
+ D132 1
+ D133 1
+ D131 1
+ P37 2
+ D129 1
+ D128 1
+ D127 1
+ P37 1
+Net 49 "" ""
+ D124 1
+ D126 1
+ D125 1
+ D123 1
+ D120 1
+ D121 1
+ P36 1
+ P36 2
+ D122 1
+Net 50 "" ""
+ D156 1
+ P41 2
+ D161 1
+ D160 1
+ D158 1
+ D159 1
+ D157 1
+ D155 1
+ P41 1
+Net 51 "" ""
+ P35 1
+ D117 1
+ D116 1
+ P35 2
+ D115 1
+ D114 1
+ D113 1
+ D119 1
+ D118 1
+Net 52 "" ""
+ P27 1
+ D63 1
+ D62 1
+ D60 1
+ D61 1
+ D59 1
+ D58 1
+ D57 1
+ P27 2
+Net 53 "" ""
+ D72 1
+ D75 1
+ D71 1
+ D73 1
+ P29 1
+ D74 1
+ D77 1
+ D76 1
+ P29 2
+Net 54 "" ""
+ D143 1
+ D145 1
+ D144 1
+ D146 1
+ D147 1
+ D142 1
+ D141 1
+ P39 2
+ P39 1
+Net 55 "" ""
+ P20 2
+ D11 1
+ D13 1
+ D9 1
+ P20 1
+ D14 1
+ D8 1
+ D10 1
+ D12 1
+Net 56 "" ""
+ P25 1
+ D44 1
+ D47 1
+ D43 1
+ D49 1
+ D48 1
+ D46 1
+ D45 1
+ P25 2
+Net 57 "" ""
+ D34 1
+ D35 1
+ D30 1
+ D29 1
+ D31 1
+ P23 2
+ P23 1
+ D33 1
+ D32 1
+Net 58 "" ""
+ D19 1
+ P21 2
+ D15 1
+ D18 1
+ P21 1
+ D16 1
+ D20 1
+ D21 1
+ D17 1
 }
 #End
